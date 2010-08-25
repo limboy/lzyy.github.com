@@ -70,6 +70,8 @@ h1 a:hover {
 }
 div#wrapper {
 	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
 	-moz-box-shadow:0 1px 0 #FFFFFF;
 	background-color:#EEEEEE;
 	color:#222222;
@@ -82,9 +84,11 @@ div#wrapper {
 }
 div#content img, div#content object {
 	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
 	-moz-box-shadow:0 1px 0 #FFFFFF;
 	border:5px solid #222222;
-	width:440px;
+	/*width:680px;*/
 }
 div#header {
 	font-size:13px;
@@ -174,6 +178,8 @@ code, pre {
 }
 pre {
 	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
 	-moz-box-shadow:0 -1px 0 #444444;
 	background-color:#222222;
 	color:#FFFFFF;
@@ -187,12 +193,14 @@ pre {
 }
 div.notice {
 	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
 	-moz-box-shadow:0 -1px 0 #FFFDDD;
 	background-color:#FFFBBB;
 	margin:0 0 5px -40px;
 	padding:20px;
 	text-shadow:0 1px 0 #DDDAAA;
-	width:490px;
+	width:740px;
 }
 em {
 	font-style:italic;
