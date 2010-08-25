@@ -2,28 +2,31 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-		<title>无网不剩</title>
+		<title>{{ page.title }} - 无网不剩</title>
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
 	</head>
 
 	<body>
 		<div id="wrapper">
 			<div id="header">
-				<h1><a href="#">无网不剩</a></h1>
+				<h1><a href="/">无网不剩</a></h1>
 				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Link</a></li>
-					<li><a href="#">Twitter</a></li>
+					<li><a href="/about.html">About</a></li>
+					<li><a href="/link.html">Link</a></li>
+					<li><a href="http://wiki.leezhong.com">Wiki</a></li>
+					<li><a href="http://twitter.com">Twitter</a></li>
 				</ul>
 			</div>
 			<br />
 			{{ content }}
 			<div id="footer">
-				<a id="feed" href="#"><img src="image/feed.png"></a></a>
+				<a id="feed" href="http://feeds.feedburner.com/lzyy"><img src="image/feed.png"></a></a>
 				<hr />
 			</div>
 		</div>
+		<!--
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		-->
 	</body>
 </html>
 

@@ -78,7 +78,7 @@ div#wrapper {
 	margin:50px auto;
 	padding:20px;
 	text-shadow:0 1px 0 #FFFFFF;
-	width:500px;
+	width:700px;
 }
 div#content img, div#content object {
 	-moz-border-radius:5px 5px 5px 5px;
@@ -144,6 +144,9 @@ h2 {
 	font-size:38px;
 	line-height:150%;
 }
+.index h2 {
+	margin-bottom:50px;
+}
 h3 {
 	font-size:25px;
 }
@@ -179,7 +182,7 @@ pre {
 	padding:20px;
 	text-shadow:0 1px 0 #000000;
 	white-space:pre-wrap;
-	width:540px;
+	width:740px;
 	word-wrap:break-word;
 }
 div.notice {

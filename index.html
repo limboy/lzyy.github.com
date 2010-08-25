@@ -3,7 +3,9 @@ layout: default
 title: make the world a little better and easier
 ---
 
-<div id="content">
+<div id="content" class="index">
+	h2. {{ page.title }}
+
 	<ul class="posts">
 		{% for post in site.posts %}
 		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
