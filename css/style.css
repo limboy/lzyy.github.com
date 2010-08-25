@@ -87,7 +87,7 @@ div#content img, div#content object {
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-moz-box-shadow:0 1px 0 #FFFFFF;
-	border:5px solid #222222;
+	/*border:5px solid #222222;*/
 	/*width:680px;*/
 }
 div#header {
