@@ -126,6 +126,8 @@ ul.posts li .date {
 
 h1 {
 	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
 	-moz-box-shadow:0 1px 0 #FFFFFF;
 	background-color:#222222;
 	color:#FFFFFF;
