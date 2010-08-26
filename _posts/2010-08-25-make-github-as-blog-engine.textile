@@ -73,7 +73,7 @@ h4. other files/folders
 
 h3. jekyll的安装
 
-参考"安装页":http://wiki.github.com/mojombo/jekyll/install ，如果使用时提示"liquid requires RubyGems version >= 1.3.7"，可以在<a href="http://rubyforge.org/frs/?group_id=126">这里</a> 下载对应的文件，安装即可。
+参考<a href="http://wiki.github.com/mojombo/jekyll/install">安装页</a> ，如果使用时提示"liquid requires RubyGems version >= 1.3.7"，可以在<a href="http://rubyforge.org/frs/?group_id=126">这里</a> 下载对应的文件，安装即可。
 
 安装完之后，为了避免路径调用问题，可以在apache/nginx里给对应的文件夹(/path/to/_site)绑定一个本地域名，如"lc.foo.github.com"，在终端里输入"jekyll --pygments"，然后就可以用该域名访问本地博客了，如果一切正常，再提交到github
 
