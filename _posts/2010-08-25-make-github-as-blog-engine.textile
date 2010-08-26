@@ -3,8 +3,6 @@ layout: post
 title: 使用github作为博客引擎
 ---
 
-h2. {{ page.title }}
-
 p(date). 2010-08-26
 
 在介绍之前，先普及一下基础知识，大鸟们直接跳过。
