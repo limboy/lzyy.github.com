@@ -90,6 +90,10 @@ div#content img, div#content object {
 	/*border:5px solid #222222;*/
 	/*width:680px;*/
 }
+div#content li {
+	list-style:disc inside none;
+	margin-left:10px;
+}
 div#header {
 	font-size:13px;
 	margin:0 0 45px;
