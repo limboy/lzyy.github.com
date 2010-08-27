@@ -112,7 +112,7 @@ div#footer {
 div#footer a#feed {
 	float:right;
 }
-ul.posts li {
+div#content ul.posts li {
 	margin:10px 0 0;
 	font-size:18px;
 	list-style:none;
