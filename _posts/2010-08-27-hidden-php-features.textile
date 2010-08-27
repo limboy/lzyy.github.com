@@ -323,3 +323,26 @@ h4. 错误/异常处理
 set_error_handler / set_exception_handler
 {% endhighlight %}
 
+<br />
+
+h3. 网友提供
+
+h4. array_walk (via cloudchen)
+
+array_walk() 能让结构化数据的处理逻辑更清晰.
+实现接近js的传入函数as参数
+
+{% highlight php %}
+<?php
+function create_sth($walked_value, $key, $other_arg) {
+	//...
+}
+function delete_sth(& $walked_value, $key, $other_arg) {
+	//...
+}
+
+$contents = fetch_directory_contents($folder);
+
+array_walk($contents, 'create_sth', $other_arg);
+array_walk($contents, 'delete_sth', $other_arg); 
+{% endhighlight %}
