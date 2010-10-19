@@ -51,7 +51,6 @@ p, h2, h3, h4, h5, h6, ul {
 a {
 	color:#000000;
 	text-decoration:none;
-	font-weight:900;
 }
 a img {
 	vertical-align:middle;
@@ -114,8 +113,18 @@ div#footer a#feed {
 }
 div#content ul.posts li {
 	margin:10px 0 0;
-	font-size:18px;
+	font-size:14px;
 	list-style:none;
+}
+
+p.nav {
+	color:#000;
+	font-size:18px;
+	font-weight:bold;
+}
+
+p.nav + ul, p.nav + ul a, p.nav + div, p.nav + div a {
+	color:#333;
 }
 
 ul.posts li a {
