@@ -1,24 +1,59 @@
----
-layout: default
----
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>{{ page.title }} - 无网不剩</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-1281124-20']);
+		  _gaq.push(['_trackPageview']);
 
-<div id="content">
-	<a target="_blank" style="float:right;margin-top:15px" href="http://twitter.com/share?url=http://blog.leezhong.com{{ page.url }}&via=lzyy&text={{ page.title }}"><span class="balloon">retweet</span><img src="/image/tweet.png" /></a>
-	<h2>{{ page.title }}</h2>
-	{{ content }}
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
 
-	--EOF--
-	<p>若无特别说明，本站文章均为原创，转载请保留链接，谢谢</p>
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-	  /**
-	    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
-	    */
-	  (function() {
-	   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	   dsq.src = 'http://lzyyblog.disqus.com/embed.js';
-	   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	  })();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=lzyyblog">comments powered by Disqus.</a></noscript>
-</div>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<h1><a href="/">无网不剩</a></h1>
+			</div>
+			<br />
+			<div id="content">
+				<a target="_blank" style="float:right;margin-top:15px" href="http://twitter.com/share?url=http://blog.leezhong.com{{ page.url }}&via=lzyy&text={{ page.title }}"><span class="balloon">retweet</span><img src="/image/tweet.png" /></a>
+				<h2>{{ page.title }}</h2>
+				{{ content }}
+
+				--EOF--
+				<p>若无特别说明，本站文章均为原创，转载请保留链接，谢谢</p>
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+				  /**
+				    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+				    */
+				  (function() {
+				   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				   dsq.src = 'http://lzyyblog.disqus.com/embed.js';
+				   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				  })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=lzyyblog">comments powered by Disqus.</a></noscript>
+			</div>
+
+			<div id="footer">
+				<a id="feed" href="http://feeds.feedburner.com/lzyy"><img src="/image/feed.png"></a></a>
+				<span style="color:#aaa">make the world a little better and eaiser</span>
+				<hr />
+			</div>
+		</div>
+		<!--
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		-->
+	</body>
+</html>
+
