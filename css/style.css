@@ -121,10 +121,15 @@ p.nav {
 	color:#000;
 	font-size:18px;
 	font-weight:bold;
+	margin:30px 0 10px;
 }
 
 p.nav + ul, p.nav + ul a, p.nav + div, p.nav + div a {
 	color:#333;
+}
+
+p.nav + ul, p.nav + div {
+	margin:0;
 }
 
 ul.posts li a {
