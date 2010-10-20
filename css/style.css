@@ -136,6 +136,11 @@ ul.posts li a {
 	color:#333;
 }
 
+ul.index li {
+	list-style:circle inside none;
+	padding:0 0 5px 5px;
+}
+
 ul.posts li .date {
 	float:right;
 	color:#999;
