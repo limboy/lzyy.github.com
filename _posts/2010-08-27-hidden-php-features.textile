@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PHP特性小结
+category: blog
 ---
 
 p(date). 2010-08-27
