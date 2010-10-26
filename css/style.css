@@ -82,8 +82,12 @@ div#wrapper {
 	width:700px;
 }
 
-#content a{
+#content a {
 	font-weight:bold;
+}
+
+#content li a {
+	font-weight:normal;
 }
 
 div#content img, div#content object {
