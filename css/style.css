@@ -81,6 +81,11 @@ div#wrapper {
 	text-shadow:0 1px 0 #FFFFFF;
 	width:700px;
 }
+
+#content a{
+	font-weight:bold;
+}
+
 div#content img, div#content object {
 	-moz-border-radius:5px 5px 5px 5px;
 	-webkit-border-radius:5px;
