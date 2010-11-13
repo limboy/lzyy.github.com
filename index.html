@@ -26,6 +26,13 @@ title: 无网不剩
 		{% endfor %}
 	</ul>
 
+	<p class="nav">READINGS</p>
+	<ul class="posts">
+		{% for post in site.categories.reading %}
+		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+
 	<p class="nav">OS PROJECTS</p>
 	<ul class="posts">
 		{% for post in site.categories.project %}

@@ -204,7 +204,8 @@ ul.columns {
 }
 hr {
 	clear:both;
-	visibility:hidden;
+	border:0;
+	border-top:1px solid #999;
 }
 code, pre {
 	font-family:"Monaco","Courier New",monospace;
@@ -242,7 +243,7 @@ em {
 }
 blockquote {
 	font-style:italic;
-	padding:0 0 0 10px;
+	margin: 30px;
 }
 div#disqus_thread {
 	margin:50px 0 0;
