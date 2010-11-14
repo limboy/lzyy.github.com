@@ -1,0 +1,152 @@
+---
+layout: post
+title: 说说REST
+category: blog
+---
+
+随着网络的发展，网站在满足自身需要的同时，往往还有别的需求，如移动版、提供接口供第三方调用等等，这时传统的MVC就显得有点力不从心了，即使实现了，将来维护起来也会是个问题。而REST则非常好地解决了这个问题。
+
+拿基于浏览器的网站、移动版网站、iPad网站这三个来说，本质上都是对资源的二次封装。比如在浏览器里输入：http://www.douban.com/people/healdream，实际上执行了一个GET请求
+
+{% highlight console %}
+GET /people/healdream/ HTTP/1.1
+Host: www.douban.com
+{% endhighlight %}
+
+如果需要在手机里显示怎么办？如果要提供给第三方调用怎么办？如果是基于REST架构的话就很方便了，比如，执行了以上请求后，返回一段json结果，里面包含了用户healdream的相关信息，客户端所要做的就是如何展现这些信息，这样无论是网站改版，或者添加对新设备的支持，只要换个皮肤就行了。新版twitter就是完全基于自己的api进行开发的。
+
+h3. REST究竟是什么东东
+
+REST(Representational State Transfer)是Roy Fielding在他的博士论文中提出来的。他也是HTTP协议的制定者之一。REST是一种针对网络应用的设计和开发方式，可以降低开发的复杂性，提高系统的可伸缩性。
+
+h3. REST的特性
+
+h4. C/S架构
+
+客户端主动向服务端发起请求，服务端收到请求后，返回格式化的结果。
+
+h4. 无状态
+
+每个请求必须包含服务端所需的所有信息，不要指望从服务端"借"点数据。
+
+h4. 易扩展
+
+如果因为业务需要，要新添加几个资源，可以横向扩展，而不需要改变原来的结构。
+
+h4. 统一请求类型
+
+GET/POST/PUT/DELETE，实际中以GET和POST用的最多。
+
+h4. 资源
+
+服务端要提供资源供客户端调用，每个资源都有独立的URL。
+
+h4. 轻量级
+
+使用标准的http请求，各个语言几乎都支持，所以由丰富的客户端。
+
+h4. 方便添加中间层
+
+如代理/集群/缓存等等，对客户端而言它们是透明的。
+
+h4. 方便测试
+
+格式化的数据更容易解析
+
+h3. DEMO
+
+以twitter为例(请自动切换到翻|墙模式)
+
+h4. 获取信息(GET)
+
+如果要获得某条tweet的信息，直接访问api即可，如 http://api.twitter.com/1/statuses/show/3657615682838528.json，将会返回如下结果
+
+{% highlight console %}
+{
+    place: null
+    geo: null
+    // ...
+    created_at: "Sun Nov 14 03:56:58 +0000 2010"
+    in_reply_to_status_id_str: null
+    
+    user: {
+        profile_image_url: http://a2.twimg.com/profile_images/259632038/DuanziLogoBig_normal.jpg
+        // ...
+        description: "官网：www.JokeCook.com | When that happens.当下那些事儿 | 欢迎回复@duanzi 投稿。"
+    }
+    truncated: false
+    id: 3657615682838528
+    in_reply_to_user_id_str: null
+    text: "Via @ruoxiaosu: 有时候吧，取消对一个人的关注，...via琦殿"
+}
+{% endhighlight %}
+
+省略了部分结果，可以看到是一个包含了很多信息的json，想怎样展现那就是客户端的事情了。
+
+h4. 提交信息(POST)
+
+这个就要复杂一点了，因为涉及到用户验证，前面说过了，REST是无状态的。也就是说，服务端不知道你到底有没有登录，除非出示证件。是的，每次请求都得出示。服务端验证通过后，查询到用户id，保存POST数据，返回提交结果。
+
+{% highlight console %}
+POST /1/statuses/update.json
+HOST api.twitter.com
+
+status=blahblah...&oauth_consumer_key=GDdmIQH6jhtm...&oauth_nonce=oElnnMTQIZvqvlfXM56aB...
+{% endhighlight %}
+
+可以看到除了status，还有oauth_consumer_key和oauth_nonce(还有其他oauth相关的参数)，这些就是用来进行身份验证的，如果验证通过了，tweet就会被正常发布，同时返回该tweet的相关信息。
+
+顺便说说用户验证，一般有三种验证方式：Basic Auth/Digest Auth/OAuth(XAuth)，就安全性来说OAuth是最高的，用户无须输入密码，但部署起来难度也最大。Basic Auth安全性最低，部署起来也最方便，用户只需提供用户名和密码即可，但如果第三方记录了这些信息，那就... Digest Auth的安全性和部署成本介于两者之间。
+
+其他更新内容和删除内容也类似，都是先进行用户验证，再进行权限验证，最后返回执行结果。
+
+h3. REST的原则
+
+h4. 抽象出所有可供调用的资源，越精确越好
+
+如果一个事物可以抽象成资源，那它就是RESTful，可以通过URL进行调用。
+
+h4. 为每个资源提供一个URL，且资源应该是名词而不是动词
+
+如，下面这个url是不建议采用的
+
+bq. http://www.twitter.com/getUser/10
+
+应该改为这样
+
+bq. http://www.twitter.com/user/10
+
+h4. 将资源分类
+
+{% highlight console %}
+Tweets resources
+	- status/show/:id
+	- status/update
+	- status/destroy/:id
+	- ...
+Timeline resources
+	- status/public_timeline
+	...
+User resources
+...
+{% endhighlight %}
+
+h4. 所有GET请求都不应该影响数据库内容
+
+GET顾名思义，就是用来获取某个资源，如果要修改，则应该执行POST/PUT/DELETE。千万不要因为偷懒，而给GET留下后门。
+
+h4. 返回结果不一定是单独的内容，可以包含相关链接
+
+有时候，这是一种双输的局面：用户不想要那么多的数据，服务端又多了不必要的运算。只要包含可以获取信息的链接即可。
+
+h4. 明确返回格式
+
+如json/xml/html等等，不过目前来看json基本是主流。
+
+h3. 与MVC的关系
+
+REST是一种架构风格，可以理解为面向资源编程。与传统的MVC有很大的不同，<a href="http://en.wikipedia.org/wiki/Model–View–Controller">MVC</a>最初是为桌面软件的开发而设计的，后来被搬到了web开发，通过路由将url映射到controller的某个action，与资源没什么关系，但资源其实是web的基础。目前也有<a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">不少</a>基于/支持REST的框架，有兴趣的话不妨尝试一下。也可以看一下<a href="http://www.peej.co.uk/articles/rmr-architecture.html">这篇文章</a>
+
+h3. 总结
+
+REST概念从提出到现在已经有10年了，越来越趋于成熟。它是为http而生的，尤其是最近的移动互联网热潮，一定会让REST有更大的施展空间。
