@@ -1,7 +1,7 @@
 ---
 layout: post
 title: php的多进程
-category: blog
+category: tech
 ---
 
 p(date). 2010-08-27

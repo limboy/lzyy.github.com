@@ -1,7 +1,7 @@
 ---
 layout: post
 title: php程序员是否该学习python
-category: blog
+category: tech
 ---
 
 其实标题可以变为"xx程序员是否该学习yy"，xx和yy可以是任何编程语言，而答案总是"应该"。因为我本身跟php打了不少年的交道，同时python也学习了一段时间，所以就把这两种语言串起来了。

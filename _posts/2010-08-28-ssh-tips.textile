@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SSH小技巧
-category: blog
+category: tech
 ---
 
 p(date). 2010-08-28

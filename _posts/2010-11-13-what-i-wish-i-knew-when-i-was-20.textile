@@ -1,9 +1,7 @@
 ---
 layout: post
 title: What I Wish I Knew When I Was 20
-categories:
-  - blog
-  - reading
+category: reading
 ---
 
 周末抽空把"What I Wish I Knew When I Was 20"大致看了一遍。因为是英文模糊版，所以稍微有点吃力。

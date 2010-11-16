@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 嵌套评论的一个数据库设计技巧
-category: blog
+category: tech
 ---
 
 p(date). 2010-08-27

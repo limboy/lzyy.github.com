@@ -1,9 +1,7 @@
 ---
 layout: post
 title: 写了一款文档生成工具
-categories:
-  - blog
-  - project
+category: project
 ---
 
 作为一个程序员，经常会跟文档打交道，我找了一圈，没找着简单好用的，于是就自己写了一个
