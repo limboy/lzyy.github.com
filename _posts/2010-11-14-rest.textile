@@ -163,6 +163,7 @@ class Controller_Post extends Controller {
 
 h3. 总结
 
+* REST和MVC的关系就好像Div和Table的关系，在web标准没推广前，都是使用Table布局，Table原本是用来做数据展示的，不知是哪一位天才发现对Table进行各种改造后，可以用作前端展示，于是就这么流传开了。
 * REST是一种架构风格，不是标准。但使用了很多标准：http/url/mime等等。
 * REST概念从提出到现在已经有10年了，越来越趋于成熟。它是为http而生的，而MVC最开始是用来开发桌面软件的。
 * 如果你的网站有提供API的打算，推荐使用REST架构，开始可能会麻烦一点，但将来会发现这些付出是值得的。
