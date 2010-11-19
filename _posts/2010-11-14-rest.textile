@@ -4,17 +4,6 @@ title: 说说REST
 category: tech
 ---
 
-随着网络的发展，网站在满足自身需要的同时，往往还有别的需求，如移动版、提供接口供第三方调用等等，这时传统的MVC就显得有点力不从心了，即使实现了，将来维护起来也会是个问题。而REST则非常好地解决了这个问题。
-
-拿基于浏览器的网站、移动版网站、iPad网站这三个来说，本质上都是对资源的二次封装。比如在浏览器里输入：http://www.douban.com/people/healdream，实际上执行了一个GET请求
-
-{% highlight console %}
-GET /people/healdream/ HTTP/1.1
-Host: www.douban.com
-{% endhighlight %}
-
-如果需要在手机里显示怎么办？如果要提供给第三方调用怎么办？如果是基于REST架构的话就很方便了，比如，执行了以上请求后，返回一段json结果，里面包含了用户healdream的相关信息，客户端所要做的就是如何展现这些信息，这样无论是网站改版，或者添加对新设备的支持，只要换个皮肤就行了。新版twitter就是完全基于自己的api进行开发的。
-
 h3. REST究竟是什么东东
 
 REST(Representational State Transfer)是Roy Fielding在他的博士论文中提出来的。他也是HTTP协议的制定者之一。REST是一种针对网络应用的设计和开发方式，可以降低开发的复杂性，提高系统的可伸缩性。
@@ -143,10 +132,37 @@ h4. 明确返回格式
 
 如json/xml/html等等，不过目前来看json基本是主流。
 
-h3. 与MVC的关系
+h3. 如何使用REST
 
-REST是一种架构风格，可以理解为面向资源编程。与传统的MVC有很大的不同，<a href="http://en.wikipedia.org/wiki/Model–View–Controller">MVC</a>最初是为桌面软件的开发而设计的，后来被搬到了web开发，通过路由将url映射到controller的某个action，与资源没什么关系，但资源其实是web的基础。目前也有<a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">不少</a>基于/支持REST的框架，有兴趣的话不妨尝试一下。也可以看一下<a href="http://www.peej.co.uk/articles/rmr-architecture.html">这篇文章</a>
+REST不仅仅是一种崭新的架构，它带来的更是一种全新的Web开发过程中的思维方式：通过URL来设计系统结构。在REST中，所有的URL都对应着资源，只要URL的设计是良好的，那么其呈现的系统结构也就是良好的。这点和TDD (Test Driven Development)很相似，他是通过测试用例来设计系统的接口，每一个测试用例都表示一系列用户的需求。开发人员不应该一开始就编写功能，而是先细分资源。对资源抽象地越精确，对REST的应用来说就更好，这个和传统的MVC中基于Action的思想差别很大。设计良好的URL， 不但对于开发人员来说可以更明确的认识系统结构，对使用者来说也方便记忆和识别资源，因为URL足够简单和有意义。
+
+REST对开发者友好。Amazon和Ebay的service结果显示：60%的用户使用REST。提供REST服务，开发者可以很容易通过各种语言各种平台来开发一个app，手机/ipad/网站/cli等等，这也是web2.0的一大特征，想想如果flickr/twitter/delicious没有开放简洁易用的api，其火爆程度肯定大打折扣。
+
+使用REST还有一个好处是，可以避免Controller直接操作数据。假如是MVC模式，Controller很可能途省事，直接把ORM拿过来就开始进行数据操作了，如
+
+{% highlight php %}
+<?php
+class Controller_Post extends Controller {
+	public function actionAdd() {
+		if (Validate::check($_POST)) {
+			$post = ORM::factory('post');
+			$post->title = $_POST['title'];
+			$post->content = $_POST['content'];
+			//...
+			$post->save();
+		}
+	}
+}
+{% endhighlight %}
+
+如果有一天保存的操作改了，如加了一个status字段，那就很糟糕了。
+
+实际使用中，可能会发现不是所有的需求都可以抽象为资源，这时可以混用MVC/MVVM。尽可能地抽象成资源，对其他需求使用MVC/MVVM开发。
+
+目前已经有<a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">不少</a>基于/支持REST的框架，有兴趣的话不妨尝试一下。也可以看一下<a href="http://www.peej.co.uk/articles/rmr-architecture.html">这篇文章</a>
 
 h3. 总结
 
-REST概念从提出到现在已经有10年了，越来越趋于成熟。它是为http而生的，尤其是最近的移动互联网热潮，一定会让REST有更大的施展空间。
+* REST是一种架构风格，不是标准。但使用了很多标准：http/url/mime等等。
+* REST概念从提出到现在已经有10年了，越来越趋于成熟。它是为http而生的，而MVC最开始是用来开发桌面软件的。
+* 如果你的网站有提供API的打算，推荐使用REST架构，开始可能会麻烦一点，但将来会发现这些付出是值得的。
