@@ -22,16 +22,28 @@
 		<div id="wrapper">
 			<div id="header">
 				<h1><a href="/">无网不剩</a></h1>
-				<!--
 				<ul>
-					<li><a href="/about.html">About</a></li>
-					<li><a href="http://twitter.com">Twitter →</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#quotes">Quotes</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#links">Links</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
-				-->
 			</div>
 			<br />
 			{{ content }}
-			<p class="nav">QUOTES</p>
+
+			<p class="nav" id="about">ABOUT</p>
+			<ul class="index">
+				<li>84年生人，大学时误入网途，沉迷至今</li>
+				<li>07年毕业于大连理工大学，在大二时参加了国际马拉松，并跑完全程</li>
+				<li>擅长web开发，常有各种想法，并付诸实践</li>
+				<li>曾就职于时光网，现就职于凤凰网，从事公司内部框架开发</li>
+				<li>早年曾混迹于经典论坛，担任过Flash版版主</li>
+				<li>常用利器：php/nginx/mysql/ubuntu/python/jquery/vim/firefox/git/kohana</li>
+			</ul>
+
+			<p class="nav" id="quotes">QUOTES</p>
 			<ul class="index">
 				<li>whatever excites you, go do it; whatever scares you, go do it.<span style="color:#999"> - <a style="color:#999" href="http://sivers.org/scares-excites-do-it">Derek Sivers</a></span></li>
 				<li>there is no speed limit.<span style="color:#999"> - <a style="color:#999" href="http://sivers.org/kimo">Derek Sivers</a></span></li>
@@ -42,35 +54,22 @@
 				<li>每个人从出生开始就呆在自己挖的一个洞穴里，我们所见的世界只不过是被阳光抛到洞穴墙壁上的影像，而我们这些洞穴的居民却把它当作是真实的世界，因为我们没有见到过其他的东西。而真实的世界却是在洞穴之外，在有太阳的地方<span style="color:#999"> - 柏拉图 洞穴理论</span></li>
 			</ul>
 
-			<p class="nav">CURRENT PROJECTS</p>
+			<p class="nav" id="projects">PROJECTS</p>
 			<ul class="index">
 				<li><a href="http://xingzher.com">行者</a> <span style="color:#999">- 专为驴友打造的旅行社区</span></li>
-			</ul>
-
-			<p class="nav">PREVIOUS PROJECTS</p>
-			<ul class="index">
+				<li><a href="http://3gvg.leezhong.com">3gvg</a> <span style="color:#999">- 一个讨论大家喜爱的3G手机的地方</span></li>
 				<li><a href="http://www.yiyimama.com">1亿妈妈</a> <span style="color:#999">- 1亿妈妈改变孩子的未来</span></li>
 				<li><a href="http://blog.f508.com/">芬理希梦官方博客</a> <span style="color:#999">- 日本最佳原创设计品牌</span></li>
-				<li><a href="http://code.google.com/p/intext/downloads/list">intext</a> <span style="color:#999">- 一款简洁易用的wordpress主题 (<a href="http://www.alidba.net/">demo</a>)</span></li>
+				<!--<li><a href="http://code.google.com/p/intext/downloads/list">intext</a> <span style="color:#999">- 一款简洁易用的wordpress主题 (<a href="http://www.alidba.net/">demo</a>)</span></li>-->
 			</ul>
 
-			<p class="nav">ABOUT</p>
-			<ul class="index">
-				<li>84年生人，大学时误入网途，沉迷至今</li>
-				<li>07年毕业于大连理工大学，在大二时参加了国际马拉松，并跑完全程</li>
-				<li>擅长web开发，常有各种想法，并付诸实践</li>
-				<li>曾就职于时光网，现就职于凤凰网，从事公司内部框架开发</li>
-				<li>早年曾混迹于经典论坛，担任过Flash版版主</li>
-				<li>常用利器：php/nginx/mysql/ubuntu/python/jquery/vim/firefox/git/kohana</li>
-			</ul>
-
-			<p class="nav">LINKS</p>
+			<p class="nav" id="links">LINKS</p>
 			<div>
 				<a href="http://github.com/lzyy">github</a><span style="color:#999"> / </span>
 				<a href="http://twitter.com/lzyy">twitter</a>
 			</div>
 
-			<p class="nav">CONTACT</p>
+			<p class="nav" id="contact">CONTACT</p>
 			<div>healdream#gmail.com</div>
 
 			<div id="footer">
