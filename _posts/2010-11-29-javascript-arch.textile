@@ -200,3 +200,5 @@ var ListMediator = Mediator.extend({
 可以把模块想像成Model，Mediator想像成Controller，这样就实现了高内聚，低耦合。每一个单元(模块+Mediator)都可以单独使用，也可以被移除，而不影响现有架构。
 
 <a href="http://demo.leezhong.com/js-arch/">demo</a>
+
+<a href="https://github.com/lzyy/js-arch">source</a>
