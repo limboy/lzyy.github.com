@@ -183,6 +183,14 @@ h2 {
 	font-size:35px;
 	line-height:150%;
 }
+
+li ul {
+	margin:10px 0 10px 20px;
+}
+
+div#content li ul li {
+	list-style:circle inside none;
+}
 .index h2 {
 	margin-bottom:50px;
 }
