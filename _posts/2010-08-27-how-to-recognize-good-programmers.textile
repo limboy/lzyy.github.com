@@ -4,6 +4,8 @@ title: 如何辨别优秀的程序员
 category: translate
 ---
 
+p(date). 2010-08-27
+
 <a href="http://www.inter-sections.net/2007/11/13/how-to-recognise-a-good-programmer/">原文</a>
 
 这并不是想象的那么容易。工作经历并不能说明什么问题，因为优秀的程序员并非总是有“正式”的工作经验来说明他们有多优秀。事实上工作经历往往会误导。

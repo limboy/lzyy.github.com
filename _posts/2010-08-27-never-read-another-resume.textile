@@ -4,6 +4,8 @@ title: 不再查看简历
 category: translate
 ---
 
+p(date). 2010-08-27
+
 <a href="http://www.inc.com/magazine/20100601/never-read-another-resume_Printer_Friendly.html">原文</a>
 
 雇佣员工就像交朋友。好朋友能让你的生活丰富多彩。交友不慎会让你焦头烂额。跟谁一起工作比约谁一起出去重要得多，因为你跟同事相处的时间比跟朋友相处的时间要多。

@@ -47,5 +47,12 @@ title: 无网不剩
 		{% endfor %}
 	</ul>
 
+	<p class="nav">LIFE</p>
+	<ul class="posts">
+		{% for post in site.categories.life %}
+		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+
 </div>
 <p style="border-top:1px solid #bbb; margin:20px -20px"></p>

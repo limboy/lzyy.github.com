@@ -4,6 +4,8 @@ title: 说说REST
 category: tech
 ---
 
+p(date). 2010-11-14
+
 h3. REST究竟是什么东东
 
 REST(Representational State Transfer)是Roy Fielding在他的博士论文中提出来的。他也是HTTP协议的制定者之一。REST是一种针对网络应用的设计和开发方式，可以降低开发的复杂性，提高系统的可伸缩性。
