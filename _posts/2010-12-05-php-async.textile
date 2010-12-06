@@ -40,6 +40,7 @@ h3. proc_open/proc_close
 这个方法很有意思，先用proc_open运行一段后台程序，然后用proc_close来关闭proc_open，结果程序就在后台运行了，同时php也会继续执行下去
 
 {% highlight php %}
+<?php
 proc_close(proc_open ("ping www.baidu.com -c 10 > /path/to/output &", array(), $foo));
 {% endhighlight %}
 
