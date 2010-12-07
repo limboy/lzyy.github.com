@@ -91,4 +91,6 @@ h3. 日志内容
 2010/12/07 16:37:29 DEBUG [system.core] /projects/os/plog/demo/system/core.php?_profiler=1 """heal the world"""
 {% endhighlight %}
 
+h3. 下载
 
+<a href="https://github.com/lzyy/plog">https://github.com/lzyy/plog</a>
