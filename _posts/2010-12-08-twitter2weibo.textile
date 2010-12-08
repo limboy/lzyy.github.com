@@ -1,0 +1,33 @@
+---
+layout: post
+title: 同步twitter到新浪微博的php脚本(不需要twitter密码)
+category: project
+---
+
+p(date). 2010-12-08
+
+我不用新浪微博，有好友想要此功能，于是就上网看了下有没有现成的，果然有一个<a href="http://iamsure.org/archives/169">twitter2weibo的php脚本</a>，但打开一看还是基于Basic Auth的，自然不能用，只能自己写一个了。(发布新浪微博部分，借鉴了原先的twitter2weibo)
+
+h3. 使用说明
+
+* 打开config.php，在里面填入一组或多组信息(twitter_username/sina_email/sina_pwd)
+* 在当前目录下新建一个data文件夹，并设置为可写入
+* 设置cron为每3分钟执行一次脚本
+
+{% highlight console %}
+crontab -e
+*/3 * * * * php /path/to/twitter2weibo.php
+{% endhighlight %}
+
+可以先试运行一下看看是否正常
+
+h3. 新加的特性
+
+* 支持多用户(在config.php里配置)
+* 多线程同步(只支持linux)。如果是windows主机，可以去掉pcntl_fork方法，直接调用sync方法
+* 保存用户cookie，避免多次读取
+* 用户删除某条/某些tweet后，不会出现异常同步
+
+h3. 下载
+
+<a href="https://github.com/lzyy/twitter2weibo">https://github.com/lzyy/twitter2weibo</a>
