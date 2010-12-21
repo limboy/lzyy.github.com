@@ -119,4 +119,4 @@ h3. 扩展原则 (设计着眼未来，未来总比预想来得快)
 
 h3. Unix哲学一言以蔽之
 
-<img src="image/kiss.png" />
+<img src="/image/kiss.png" />
