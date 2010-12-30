@@ -84,7 +84,7 @@ h3. 绑定域名
 
 h3. 添加评论功能
 
-使用<a href="http://disgus.com">disgus</a> ，整个注册和使用流程还是挺清晰易懂的，这里就不多说了。
+使用<a href="http://disqus.com">disqus</a> ，整个注册和使用流程还是挺清晰易懂的，这里就不多说了。
 
 h3. 参考文章
 
