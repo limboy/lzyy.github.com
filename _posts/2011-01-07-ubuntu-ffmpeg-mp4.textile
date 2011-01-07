@@ -1,0 +1,49 @@
+---
+layout: post
+title: ubuntu下转换支持ipod/iphone格式的mp4视频文件
+category: tech
+---
+
+本来ubuntu下有强大的ffmpeg，转换视频不是什么问题，但要转换成支持ipod/iphone格式的H.264视频就有问题了，因为由于版权原因，ffmpeg默认没有安装libfaac库，但没有这个库又不行，所以就有了以下曲折的过程。
+
+h3. 添加medibuntu源
+
+medibuntu源提供了libfaac库，我们可以把这条源加到source.list里
+
+{% highlight console %}
+echo "deb http://packages.medibuntu.org/ lucid free non-free" | sudo tee -a /etc/apt/sources.list
+
+wget -q http://packages.medibuntu.org/medibuntu-key.gpg -O- | sudo apt-key add - && sudo apt-get update
+{% endhighlight %}
+
+h3. 安装ffmpeg
+
+ubuntu的源里有ffmpeg，不过没有enable libfaac，所以我们只能自行编译。在编译之前还需要先安装所需的库文件
+
+{% highlight console %}
+sudo apt-get install libfaac0 libfaac-dev libmp3lame0 libmp3lame-dev libxvidcore4 libxvidcore-dev libx264-85 libx264-dev
+{% endhighlight %}
+
+由于ffmpeg官网被墙，导致无法下载，所以我把源文件下载到了我的vps上。
+
+{% highlight console %}
+wget http://50.16.209.44/download/ffmpeg-0.6.1.tar.gz
+tar xvzf ffmpeg-0.6.1.tar.gz
+cd ffmpeg-0.6.1.tar.gz
+./configure --enable-libfaac --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-gpl --enable-nonfree
+make
+sudo make install
+{% endhighlight %}
+
+h3. 安装mp4ize
+
+关于mp4ize的详细介绍<a href="http://thomer.com/howtos/ipod_video.html">在这</a>，其实就是一个ruby脚本，所以要运行这个脚本，需要先安装ruby。
+
+{% highlight console %}
+wget http://50.16.209.44/download/mp4ize
+chmod +x mp4ize
+# 会自动根据文件名生成movie1.mp4, movie2.mp4...
+./mp4ize --iphone movie1.avi movie2.asf movie3.mpg
+{% endhighlight %}
+
+至此整个过程算告一段落
