@@ -191,6 +191,11 @@ h2, h3, h4, h5, h6 {
 h2 {
 	font-size:35px;
 	line-height:150%;
+	margin-bottom:20px;
+}
+
+h4 {
+	margin:20px 0;
 }
 
 li ul {
@@ -313,7 +318,7 @@ span.balloon {
 	letter-spacing:1px;
 }
 
-#content {
+#content.index {
 	overflow:hidden;
 }
 
@@ -379,4 +384,6 @@ span.balloon {
 	letter-spacing:3px;
 }
 
-»
+#content .cnt p {
+	margin: 20px 0;
+}
