@@ -3,56 +3,11 @@ layout: default
 title: 无网不剩
 ---
 
-<div id="content" class="index">
-
-	<p class="nav">TECH</p>
-	<ul class="posts">
-		{% for post in site.categories.tech %}
-		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
+<ul class="posts">
+		{% for post in site.posts %}
+		<li><p class="date" cate="{{ post.categories }}">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
 		{% endfor %}
-	</ul>
-
-	<p class="nav">OS PROJECTS</p>
-	<ul class="posts">
-		{% for post in site.categories.project %}
-		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-
-	<p class="nav">THINKING</p>
-	<ul class="posts">
-		{% for post in site.categories.thinking %}
-		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-
-	<p class="nav">TRANSLATES</p>
-	<ul class="posts">
-		{% for post in site.categories.translate %}
-		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-
-	<p class="nav">READINGS</p>
-	<ul class="posts">
-		{% for post in site.categories.reading %}
-		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-
-	<p class="nav">MOVIES</p>
-	<ul class="posts">
-		{% for post in site.categories.movie %}
-		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-
-	<p class="nav">LIFE</p>
-	<ul class="posts">
-		{% for post in site.categories.life %}
-		<li><p class="date">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
+</ul>
 
 </div>
-<p style="border-top:1px solid #bbb; margin:20px -20px"></p>
+<!--<p style="border-top:1px solid #bbb; margin:20px -20px"></p>-->

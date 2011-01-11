@@ -25,7 +25,7 @@
 				<div id="sidebar">
 					<ul>
 						<li>
-							<a href="#">ARTICLES</a>
+							<a href="/">ARTICLES</a>
 							<ul>
 								{% for category in site.categories %}
 								<li><a href="/{{ category[0]  }}.html"> {{ category[0]  }}</a></li>
@@ -42,14 +42,10 @@
 				</div>
 				
 				<div id="main">
-				{{ content }}
+					{{ content }}
 				</div>
 
-				<div id="footer">
-					<a id="feed" href="http://feeds.feedburner.com/lzyy"><img src="/image/feed.png"></a></a>
-					<span style="color:#bbb;font-size:12px">make the world a little better and eaiser</span>
-					<p style="clear:both"></p>
-				</div>
 	</body>
 </html>
+
 

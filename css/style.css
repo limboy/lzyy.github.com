@@ -46,7 +46,7 @@ h2, h3, h4, h5, h6 {
 	color:#333333;
 }
 p, h2, h3, h4, h5, h6, ul {
-	margin:20px 0;
+	margin:0;
 }
 a {
 	color:#000000;
@@ -76,7 +76,7 @@ div#wrapper {
 	color:#222222;
 	font-size:14px;
 	line-height:190%;
-	margin:50px auto;
+	margin:0 auto 50px;
 	padding:20px;
 	text-shadow:0 1px 0 #FFFFFF;
 	width:700px;
@@ -86,8 +86,15 @@ div#wrapper {
 	font-weight:bold;
 }
 
-#content li a {
+#content .posts li a {
 	font-weight:normal;
+	padding:5px;
+}
+
+#content .posts li a:hover {
+	background:#ddd;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
 
 div#content img, div#content object {
@@ -121,7 +128,7 @@ div#footer a#feed {
 	float:right;
 }
 div#content ul.posts li {
-	margin:10px 0 0;
+	margin:7px 0 0;
 	font-size:14px;
 	list-style:none;
 }
@@ -157,6 +164,7 @@ ul.posts li .date {
 	margin:0;
 }
 
+/*
 h1 {
 	-moz-border-radius:5px 5px 5px 5px;
 	-webkit-border-radius:5px;
@@ -175,6 +183,7 @@ h1 a {
 	color:#FFFFFF;
 	font-weight:400;
 }
+*/
 h2, h3, h4, h5, h6 {
 	font-weight:900;
 	line-height:100%;
@@ -291,3 +300,83 @@ span.balloon {
 	text-shadow:0 1px 0 #000000;
 }
 
+#sidebar {
+	float:left;
+	margin-left:-20px;
+	text-transform:uppercase;
+}
+
+#sidebar ul {
+	list-style:none;
+	margin: 2px 0;
+	text-align:right;
+	letter-spacing:1px;
+}
+
+#content {
+	overflow:hidden;
+}
+
+#content #sidebar li {
+	list-style:none;
+	font-size:14px;
+}
+
+#content #sidebar li a {
+	font-weight:bold;
+	color:#444;
+	padding:3px;
+}
+
+#content #sidebar li a:hover {
+	background:#ddd;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border:0;
+}
+
+#content #sidebar li ul li{
+	color:#999;
+	line-height:22px;
+}
+
+#content #sidebar li ul li a{
+	color:#999;
+	font-size:12px;
+}
+
+#main {
+	margin-left:50px;
+	float:left;
+	width:560px;
+}
+
+#main .posts {
+	margin-top:-5px;
+}
+
+#main h1 {
+	color: #444444;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px 0 18px;
+    padding: 5px;
+	-moz-border-radius:5px;
+	-webki-border-radius:5px;
+	border-radius:5px;
+	background:#ddd;
+}
+
+#logo {
+	width:740px;
+	margin:20px auto;
+}
+
+#logo h1 a{
+	font-weight:bold;
+	font-size:35px;
+	color:#fff;
+	letter-spacing:3px;
+}
+
+»
