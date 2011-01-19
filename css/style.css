@@ -107,7 +107,7 @@ div#content img, div#content object {
 }
 div#content li {
 	list-style:disc inside none;
-	margin-left:10px;
+	margin:5px 5px 5px 15px;
 }
 div#header {
 	font-size:13px;
