@@ -107,6 +107,10 @@ div#content img, div#content object {
 }
 div#content li {
 	list-style:disc inside none;
+	margin-left:10px;
+}
+
+div#content .cnt li {
 	margin:5px 5px 5px 15px;
 }
 div#header {
