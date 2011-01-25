@@ -1,0 +1,95 @@
+---
+layout: post
+title: 通过iframe实现跨域通信
+category: tech
+---
+
+iframe还是很强大的，不仅能实现同域通信，还可以跨域通信，甚至跨协议通信(如file/http)，如果再结合jsonp，那就有很多种玩法了。不过有几条原则需要记住：
+
+# 当前层级中的任何Window都可以获取其他Window(iframe也是一个Window)
+# 只有同域Window才可以互相操作
+# 当前层级下的任何Window可以设置其他Window的location，即使是不同的域
+# 当你改变url的hashtag(#后面的东东)时，页面不会刷新
+
+举例来说，有这么个页面
+
+{% highlight html %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<!-- 不同域的iframe页面 -->
+		<iframe src="http://www.domain.com/foo" name="foo" id="foo"></iframe>
+		<iframe src="http://www.domain.com/bar" name="bar" id="bar"></iframe>
+	</body>
+</html>
+
+{% endhighlight %}
+
+*可以在当前页面设置proxy iframe的location(原则1,3,4)*
+
+{% highlight javascript %}
+// 添加了一个hashtag，这样该iframe就不会刷新
+$('#foo').attr('src', 'http://www.domain.com/foo#tag');
+{% endhighlight %}
+
+*iframe foo操作iframe bar(原则1,2)*
+
+{% highlight javascript %}
+// in http://www.domain.com/foo
+$(parent.frames['bar'].document).find('#someid').html('message from foo');
+{% endhighlight %}
+
+
+所以跨域通信其实很简单，在iframe和主页里都不断地检测hashtag有没有变化，一旦有变化，就做出相应的改变。
+
+{% highlight javascript %}
+setInterval(function() {
+	var hashVal = window.location.hash.substr(1);
+	document.body.style.backgroundColor = hashVal;
+}, 1000); 
+{% endhighlight %}
+
+这么做的问题就是，需要不断地去检测hashtag是否改变，效率有点低，如果能通过原生的监听来实现，就会更加高效和优雅。这里就涉及到另一个iframe特性：可以设置其他iframe的大小，即使是不同域的。而页面的resize事件是可以监听的，所以就有了下面这个模型。
+
+<img src="/image/crossdomain.png" />
+
+主页面先把消息附加到hashtag，然后改变一个隐藏的(或者页面外的)iframe的size。这个iframe会监听resize事件，同时捕获到hashtag。捕获到hashtag后(也就是所需的数据)，再对hashtag做进一步的处理。处理完后把数据传到主页内的一个iframe，或者直接操作该iframe。这样就比较优雅地完成了跨域操作。
+
+h3. demo
+
+将以下代码拷贝到本地的一个html文件，然后双击在浏览器中打开，看看能不能查单词。(ajax无法跨协议，这是iframe比ajax强大的地方)
+
+{% highlight html %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('#btn').click(function(){
+					$proxy = $('#proxy');
+					var src = $proxy.attr('src').split('#')[0];
+					$proxy.attr('src', src + '#' + $('input[name=it]').val());
+					$proxy.css('width', $proxy.width()+1+'px');
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+
+		<input type="text" name="it"> <button id="btn">Translate</button>
+		<p></p>
+		<iframe src="http://demo.leezhong.com/crossdomain/proxy.html" name="proxy" id="proxy" style="position:absolute; top:-10px; width:1px; height:1px"></iframe>
+		<iframe src="http://demo.leezhong.com/crossdomain/show.html" name="show" id="show" style="width:60%;height:300px"></iframe>
+	</body>
+</html>
+{% endhighlight %}
+
+更多玩法，可以参考这篇文章: <a href="Cross-Domain Communication with IFrames">Cross-Domain Communication with IFrames</a>
