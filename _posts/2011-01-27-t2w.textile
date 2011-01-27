@@ -1,0 +1,17 @@
+---
+layout: post
+title: 同步Twitter到新浪微博的在线服务
+category: project
+---
+
+受<a href="http://twitter.com/xydudu">DuDu</a>同学启发，做了这么一个服务，方便那些喜欢Twitter又不想放弃新浪微博的用户。
+
+地址： <a href="http://t2w.leezhong.com">t2w.leezhong.com</a>
+
+特性：
+
+* 使用OAuth连接到新浪微博，所以无须透露微博密码
+* 只需Twitter用户名，不需要密码
+* 连接成功后，会自动同步Tweets到新浪微博
+
+水平有限，bug难免，如果使用过程中出现任何意外情况，欢迎在此反馈，或在Twitter上<a href="http://twitter.com/lzyy">@lzyy</a>
