@@ -316,8 +316,9 @@ span.balloon {
 
 #sidebar {
 	float:left;
-	margin-left:-20px;
+	margin-left:-50px;
 	text-transform:uppercase;
+	width:20%;
 }
 
 #sidebar ul {
@@ -360,9 +361,8 @@ span.balloon {
 }
 
 #main {
-	margin-left:40px;
-	float:left;
-	width:560px;
+	float:right;
+	width:80%;
 }
 
 #main .posts {
