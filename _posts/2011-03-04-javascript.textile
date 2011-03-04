@@ -1,0 +1,329 @@
+---
+layout: post
+title: javascript大杂烩
+category: tech
+---
+
+花了点时间学习了下js基础，跟大家分享一下，有不到之处，欢迎指出 :)
+
+h3. 关于对象
+
+h4. 对象的创建
+
+{% highlight javascript %}
+var newObj = new Object();
+// var newObj = {};
+newObj['someValue'] = 'val';
+{% endhighlight %}
+
+h4. 一切皆对象
+
+{% highlight javascript %}
+[1,2] instanceof Object // true
+{1:2, 3:4} instanceof Object //true
+{% endhighlight %}
+
+但也有些特殊的对象，如3, 'str', true等等，但如果用instanceof测试的话，会发现
+
+{% highlight javascript %}
+'foo' instanceof Object // false
+3 instanceof Object // false
+true instanceof Object // false
+{% endhighlight %}
+
+但它们真的也是对象
+
+{% highlight javascript %}
+'foo'.constructor == String // true
+true.constructor == Boolean // true
+3.constructor == Number // true
+{% endhighlight %}
+
+还有一个理由
+
+{% highlight javascript %}
+Number.prototype.times = function(func) {
+   for(var index = 1; index <= this; index++) {
+      func(index);
+   }
+};
+(5).times(print);
+// 5 .times(print); //also works
+// 加上括号是为了避免出现解析错误(js引擎会以为是小数点)
+{% endhighlight %}
+
+就连函数也是一个对象
+
+{% highlight javascript %}
+var fn = function(){}
+fn.foo = 'hello world'
+fn.bar = function()
+{
+	alert(this.foo);
+}
+{% endhighlight %}
+
+h4. 对象的初始化
+
+{% highlight javascript %}
+function User(first, last){
+    this.name = first + " " + last;
+}
+var user = new User("John", "Resig");
+// var user = User('John', 'Resig');
+{% endhighlight %}
+
+一个function，可以看成是一个Class，也可以看成是一个正常的函数，这就麻烦了，因为无论加不加上new这个关键字，function都能正常运行，虽然结果会不一样。
+
+如果看成Class，使用new关键字初始化，那么function里的this指向当前的function。如果不使用new关键字，则function里的this默认指向Window
+
+有两种解决方法，一个是将Class function的首字母大写，如User，这样就能清楚地知道哪些function是Class。但这样还是避免不了写程序时粗心，忘了加new关键字。
+
+另一种方法就是不是用new关键字，在function里自动判断，保证返回的一定是当前对象
+
+{% highlight javascript %}
+function User(first, last){
+  if ( this instanceof User ) {
+    this.name = first + " " + last;
+  } else
+    return new User(first, last);
+}
+{% endhighlight %}
+
+更通用的方法是创建一个makeClass方法
+
+{% highlight javascript %}
+// makeClass - By John Resig (MIT Licensed)
+function makeClass(){
+  return function(args){
+    if ( this instanceof arguments.callee ) {
+      if ( typeof this.init == "function" )
+        this.init.apply( this, args.callee ? args : arguments );
+    } else
+      return new arguments.callee( arguments );
+  };
+}
+{% endhighlight %}
+
+因为函数名未知，所以使用了arguments.callee来实现。
+
+makeClass的使用
+
+{% highlight javascript %}
+var User = makeClass();
+User.prototype.init = function(first, last){
+  this.name = first + " " + last;
+};
+var user = User("John", "Resig");
+user.name
+// => "John Resig" 
+{% endhighlight %}
+
+h4. 对象的继承
+
+每个function都有一个特殊的变量"prototype"，当实例化对象时，这个变量上的各个属性也会被附加到对象上
+
+{% highlight javascript %}
+function Car(model, year, miles)
+{
+	this.model = model;
+	this.year = year;
+	this.miles = miles;
+}
+
+Car.prototype = {
+	info: function() {
+		return this.model + this.year + this.miles
+	}
+}
+
+var car = new Car('Benz', 3, 1500);
+alert(car.info());
+
+{% endhighlight %}
+
+如果不使用new关键字，prototype就失效了
+
+prototype属性也有一个特殊的属性"constructor"，通过它我们就能实现继承了
+
+{% highlight javascript %}
+Object.prototype.inObj = 1;
+ 
+function A()
+{
+	this.inA = 2;
+}
+ 
+A.prototype.inAProto = 3;
+ 
+B.prototype = new A;            // Hook up A into B's prototype chain
+B.prototype.constructor = B;
+function B()
+{
+	this.inB = 4;
+}
+ 
+B.prototype.inBProto = 5;
+ 
+x = new B;
+{% endhighlight %}
+
+h3. 闭包与模块化
+
+闭包是一种现象，通常是因为一个function返回了一个内部的function，如
+
+{% highlight javascript %}
+function f1() {
+	n = 2011;
+	return function f2() {
+		alert(n); // 2011
+	}
+}
+{% endhighlight %}
+
+可以看到内部function f2成功地得到了f1的local变量，又因为n被f2使用，所以变量n就常驻内存了
+从这个角度上说，如果把f1看成一个class，n就变成了私有变量，而f2成为了公共方法，所以就有了模块化的概念
+
+{% highlight javascript %}
+var myNamespace = (function(){
+  var myPrivateVar = 0;
+  var myPrivateMethod = function(someText){
+      console.log(someText);
+  }
+
+  return {
+      myPublicVar: "foo",
+      myPublicFunction: function(bar){
+          myPrivateVar++;
+          myPrivateMethod(bar);
+      }
+  }
+})();
+{% endhighlight %}
+
+h3. 其他
+
+h4. 避免命名污染的方法
+
+{% highlight javascript %}
+// self executing
+// if you want some var global accessable, put "window." ahead
+(function() {
+  var myVar = 2;
+  alert(myVar);
+  window.globalVar = 3;
+})();
+{% endhighlight %}
+
+h4. 强大的prototype
+
+{% highlight javascript %}
+Array.prototype.contains = function(value) {  
+    for (var i = 0; i < this.length; i++) {  
+        if (this[i] == value) return true;  
+    }  
+    return false;  
+}
+
+var stringArray = ["foo", "bar", "foobar"];
+stringArray.contains("foobar");
+{% endhighlight %}
+
+h4. 方便的"+"
+
+{% highlight javascript %}
+// Quick hex to dec conversion:
++"0xFF";              // -> 255
+
+// Get a timestamp for now, the equivalent of `new Date().getTime()`:
++new Date();
+
+// Safer parsing than parseFloat()/parseInt()
+parseInt("1,000");    // -> 1, not 1000
++"1,000";             // -> NaN, much better for testing user input
+parseInt("010");      // -> 8, because of the octal literal prefix
++"010";               // -> 10, `Number()` doesn't parse octal literals 
+
+// A use case for this would be rare, but still useful in cases
+// for shortening something like if (someVar === null) someVar = 0;
++null;                // -> 0;
+
+// Boolean to integer
++true;                // -> 1;
++false;               // -> 0;
+
+// Other useful tidbits:
++"1e10";              // -> 10000000000
++"1e-4";              // -> 0.0001
++"-12";               // -> -12
+{% endhighlight %}
+
+注意：如果是字符串与数字相加的话，结果还是字符串，如"hello" + 3，结果为"hello3"
+
+h4. 通过[]来获取/设置Object的属性
+
+{% highlight javascript %}
+a = {}
+a['class'] = 'hello'; // access reversed property
+a['have space'] = 'world'; // has space
+a['.class .subclass'] = 'value'; // can have .
+{% endhighlight %}
+
+h4. String的split和replace可以包含正则
+
+{% highlight javascript %}
+"hello world   with  spaces".split(/\s+/g);
+//returns an array: ["hello", "world", "with", "spaces"]
+
+var i = 1;
+"foo bar baz ".replace(/\s+/g, function() {return i++});
+//returns "foo1bar2baz3"
+{% endhighlight %}
+
+h4. 函数定义式与函数表达式
+
+{% highlight javascript %}
+alert(typeof eve); //结果:function
+alert(typeof walle); //结果:undefined
+function eve() { //函数定义式
+  alert('I am Laruence');
+};
+var walle = function() { //函数表达式
+}
+alert(typeof walle); //结果:function
+{% endhighlight %}
+
+对于函数定义式，会将函数定义提前，而对于函数表达式，只有在执行过程中才会计算
+
+h4. 作用域
+
+对于下面的demo
+
+{% highlight javascript %}
+var name = 'laruence';
+function echo() {
+     alert(name);
+     var name = 'eve';
+     alert(name);
+     alert(age);
+}
+echo();
+{% endhighlight %}
+
+输出结果为
+
+{% highlight javascript %}
+undefined
+eve
+[ReferenceError]
+{% endhighlight %}
+
+原因是js在执行函数之前，会有一个预编译的过程，这个过程中会把局部变量提取出来，放到scope chain中，value都为undefined(不包括传递过来的参数)，所以在执行echo函数时，name的值在设置为"eve"前，为undefined
+
+参考：
+* <a href="http://ejohn.org/blog/simple-class-instantiation/">simple class instantiation/</a>
+* <a href="http://stackoverflow.com/q/61088/94962">hidden features of javascript</a>
+* <a href="http://mckoss.com/jscript/object.htm">Object Oriented Programming in JavaScript</a>
+* <a href="http://yuiblog.com/blog/2007/06/12/module-pattern/">module pattern</a>
+* <a href="http://www.laruence.com/2009/05/28/863.html">javascript的作用域原理</a>
+
