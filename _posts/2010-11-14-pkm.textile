@@ -1,9 +1,7 @@
 ---
 layout: post
 title: 写了一款个人知识管理(PKM)工具
-categories:
-  - blog
-  - project
+category: project
 ---
 
 p(date). 2010-11-14

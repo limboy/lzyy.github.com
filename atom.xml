@@ -14,7 +14,7 @@ layout: nil
    <email>healdream@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.posts limit:20 %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://blog.leezhong.com{{ post.url }}"/>
