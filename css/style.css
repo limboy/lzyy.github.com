@@ -128,7 +128,7 @@ div#header li {
 div#footer {
 	margin:50px 0 0;
 }
-div#footer a#feed {
+div#footer #feed {
 	float:right;
 }
 div#content ul.posts li {
@@ -396,3 +396,27 @@ span.balloon {
 #content .cnt p {
 	margin: 20px 0;
 }
+
+#feed .badget {
+	line-height:100%;
+	border:1px solid #999;
+	background:#ddd;
+	font-size:11px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	margin-left:8px;
+	float:left;
+}
+
+#feed .service {
+	margin-right:2px;
+	display:inline-block;
+	border-right:1px solid #999;
+	padding:4px;
+}
+
+#feed .info {
+	padding:0 4px 0 0;
+}
+
