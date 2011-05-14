@@ -8,6 +8,6 @@ category: project
 
 目前该应用的功能还很简单，就是你给出一段台词，让用户猜这段台词是哪部电影的。更多的后续功能正在悄悄开发中，欢迎使用和反馈 :)
 
-应用地址：<a href="http://iguess.leezhong.com">http://iguess.leezhong.com</a>
+应用地址：<a href="http://www.iguess.me">iguess.me</a>
 
 PS: Mobile Friendly
