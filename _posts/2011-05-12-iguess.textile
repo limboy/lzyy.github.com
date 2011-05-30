@@ -10,7 +10,7 @@ category: project
 
 应用地址：<a href="http://iguess.leezhong.com">iguess.leezhong.com</a>
 
-PS: Mobile Friendly
+-PS: Mobile Friendly-
 
 h3. 11/05/14
 
@@ -19,3 +19,7 @@ h3. 11/05/14
 h3. 11/05/17
 
 开源: <a href="https://github.com/lzyy/iguess">https://github.com/lzyy/iguess</a>
+
+h3. 11/05/29
+
+用PHP重写了整个应用，放在自己的VPS上
