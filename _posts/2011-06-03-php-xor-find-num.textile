@@ -38,7 +38,7 @@ h3. PHP的实现
 {% highlight php %}
 <?php 
 // 起始长度
-$length = 1000;
+$length = 10;
 
 $arr = $arr_copy = range(1, $length);
 // 将要被移除的两个数
@@ -109,7 +109,7 @@ function divide_by_pos($pos)
 	foreach($arr as $val)
 	{
 		$rs = $val&$b;
-		if($rs % 2 == 0 && $rs !=0)
+		if($rs == 0)
 		{
 			$arr_0[] = $val;
 		}
@@ -122,7 +122,7 @@ function divide_by_pos($pos)
 	foreach($arr_copy as $val)
 	{
 		$rs = $val&$b;
-		if($rs % 2 == 0 && $rs !=0)
+		if($rs == 0)
 		{
 			$arr_copy_0[] = $val;
 		}
