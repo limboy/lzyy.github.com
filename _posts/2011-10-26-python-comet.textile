@@ -23,3 +23,27 @@ category: tech
 匆忙完成了初步的代码，还有不少需要优化的地方，有些功能也还没加上（如私信的实时通知）。接下来的一段时间内会逐步完善，如果有更好的idea，欢迎沟通 :)
 
 代码地址：<a href="https://github.com/lzyy/chat">https://github.com/lzyy/chat</a>
+
+如果使用过程中遇到什么问题，或有好的建议可以在<a href="https://github.com/lzyy/chat/issues">这里</a>反馈
+
+h3. version 0.1
+
+h4. intro
+
+某天晚上打球回来，到家已将近11点，洗完澡，代码敲到2点左右倒下，天还没亮就被猫叫醒，醒来后就一直想如何改进这个聊天室，觉得能在一个页面实时看到每个聊天室的内容，还是很酷的，于是就按着这个想法实现了。
+
+PS: 如果不是全新安装，需要执行 bin/python scripts/clear_key.py 来清除redis cache
+
+h4. changelog
+
+* 可以自定义昵称
+* 调整了聊天页的内容和样式
+* 添加了home页（显示所有的聊天室，并实时更新每个聊天室的内容）
+* 使用coffee-script重写了js部分
+
+h4. screenshot
+
+<img src="/image/comet_home_0.1.png" />
+
+
+<img src="/image/comet_room_0.1.gif" />
