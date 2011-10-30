@@ -26,6 +26,13 @@ category: tech
 
 如果使用过程中遇到什么问题，或有好的建议可以在<a href="https://github.com/lzyy/chat/issues">这里</a>反馈
 
+h3. version 0.1.1
+
+* 调整了添加聊天室的体验
+* 更快的聊天内容显示速度
+* 可以删除自己创建的聊天室
+* bugfixes
+
 h3. version 0.1
 
 h4. intro
@@ -40,6 +47,7 @@ h4. changelog
 * 调整了聊天页的内容和样式
 * 添加了home页（显示所有的聊天室，并实时更新每个聊天室的内容）
 * 使用coffee-script重写了js部分
+* bugfixes
 
 h4. screenshot
 
