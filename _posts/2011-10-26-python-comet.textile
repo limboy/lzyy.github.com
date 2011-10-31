@@ -26,6 +26,12 @@ category: tech
 
 如果使用过程中遇到什么问题，或有好的建议可以在<a href="https://github.com/lzyy/chat/issues">这里</a>反馈
 
+h3. version 0.2
+
+* 调整了实时的策略，抛弃pubsub模式，使用zset+timestamp。同时修正了在聊天内容频繁发送时会丢部分信息的bug
+* 添加了管理员角色（目前只能用于删除聊天室）
+* 修正重复名的bug（无法完全避免，只能在登录时验证）
+
 h3. version 0.1.1
 
 * 调整了添加聊天室的体验
