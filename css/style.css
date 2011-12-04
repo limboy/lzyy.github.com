@@ -420,3 +420,10 @@ span.balloon {
 	padding:0 4px 0 0;
 }
 
+div#disqus_thread li{
+	list-style:none;
+}
+
+div#disqus_thread li ul li {
+	list-style:none;
+}
