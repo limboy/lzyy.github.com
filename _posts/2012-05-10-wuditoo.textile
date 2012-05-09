@@ -1,0 +1,86 @@
+---
+layout: post
+title: 开源一个照片社区 - 无敌兔
+category: project
+---
+
+无敌兔是我在去年就开始酝酿的一个网站，直到最近才算基本开发完毕(初期功能)。最初是期望做成用户上传照片的高质量摄影社区。在与现实的几番搏斗过后，转变思路，从上传照片到收集照片，以发现美为目标的照片收藏/分享社区。题外话完毕，下面干点正事。
+
+源文件地址：[https://github.com/lzyy/wuditoo](https://github.com/lzyy/wuditoo)，推荐在非windows环境下安装。
+
+h3. 使用前的准备工作
+
+h4. 安装相关工具
+
+确保已经安装nginx, redis, mysql, python(2.6+), imagemagick。
+
+h4. 修改hosts文件
+
+在hosts文件里加入
+
+{% highlight python %}
+127.0.0.1 lc.wuditoo.com
+127.0.0.1 photo.lc.wuditoo.com
+127.0.0.1 avatar.lc.wuditoo.com
+{% endhighlight %}
+
+h3. 安装
+
+安装原文件前，先通过pip安装virtualenvwrapper
+
+h4. 下载安装源文件
+
+{% highlight python %}
+mkvirtualenv wuditoo
+cd ~/Projects
+git clone git://github.com/lzyy/wuditoo.git
+cd wuditoo
+pip install -r requirements.txt
+./script/setup.py
+{% endhighlight %}
+
+h4. 修改nginx的配置文件
+
+{% highlight python %}
+http {
+    ...
+	include /path/to/wuditoo/etc/nginx/dev.conf;
+}
+{% endhighlight %}
+
+这里的路径与wuditoo路径相匹配。
+
+h4. 配置MySQL
+
+先在数据库里创建一个名为wuditoo的数据库，然后把data/sql/wuditoo_init.sql导入到数据库
+
+修改etc/supervisord/dev.conf里[program:www]项的command，里面有db_master_url和db_slave_url。
+
+h4. 启动服务
+
+经过上面的这些配置后，应该可以正常启动服务了，启动方式如下：
+
+{% highlight python %}
+# start
+supervisord -c etc/supervisord/dev.conf
+
+# control
+supervisorctl -c etc/supervisord/dev.conf
+{% endhighlight %}
+
+如果不出意外的话，打开浏览器，输入"http://lc.wuditoo.com"就可以访问了。
+
+因为是邀请注册，所以需要执行
+
+{% highlight python %}
+./script/gen_invite_key.py
+{% endhighlight %}
+
+如果出错的话，需要附带参数--db_master_url和--db_slave_url。执行完后，会输出一段uri，把这段uri附加在域名后面，回车，应该就能看到注册页面了。
+
+h3. 几点说明
+
+* 框架使用了tornado
+* 使用了自己开发的ORM：<a href="https://github.com/lzyy/thing">Thing</a>
+* 前端使用了history.js，html5浏览器下的体验更加友好
+* 需要邀请码的话，可以发到我的邮箱
