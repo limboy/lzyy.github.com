@@ -4,9 +4,9 @@ title: 开源一个照片社区 - 无敌兔
 category: project
 ---
 
-无敌兔是我在去年就开始酝酿的一个网站，直到最近才算基本开发完毕(初期功能)。最初是期望做成用户上传照片的高质量摄影社区。在与现实的几番搏斗过后，转变思路，从上传照片到收集照片，以发现美为目标的照片收藏/分享社区。题外话完毕，下面干点正事。
+<a href="http://wuditoo.com">无敌兔</a>是我在去年就开始酝酿的一个网站，直到最近才算基本开发完毕(初期功能)。最初是期望做成用户上传照片的高质量摄影社区。在与现实的几番搏斗过后，转变思路，从上传照片到收集照片，以发现美为目标的照片收藏/分享社区。题外话完毕，下面干点正事。
 
-源文件地址：[https://github.com/lzyy/wuditoo](https://github.com/lzyy/wuditoo)，推荐在非windows环境下安装。
+源文件地址：<a href="https://github.com/lzyy/wuditoo">https://github.com/lzyy/wuditoo</a>，推荐在非windows环境下安装。
 
 h3. 使用前的准备工作
 
@@ -26,25 +26,25 @@ h4. 修改hosts文件
 
 h3. 安装
 
-安装原文件前，先通过pip安装virtualenvwrapper
+安装源文件前，先通过pip安装virtualenvwrapper
 
 h4. 下载安装源文件
 
-{% highlight python %}
-mkvirtualenv wuditoo
-cd ~/Projects
-git clone git://github.com/lzyy/wuditoo.git
-cd wuditoo
-pip install -r requirements.txt
-./script/setup.py
+{% highlight bash %}
+$ mkvirtualenv wuditoo
+$ cd ~/Projects
+$ git clone git://github.com/lzyy/wuditoo.git
+$ cd wuditoo
+$ pip install -r requirements.txt
+$ ./script/setup.py
 {% endhighlight %}
 
 h4. 修改nginx的配置文件
 
-{% highlight python %}
+{% highlight nginx %}
 http {
     ...
-	include /path/to/wuditoo/etc/nginx/dev.conf;
+    include /path/to/wuditoo/etc/nginx/dev.conf;
 }
 {% endhighlight %}
 
@@ -52,7 +52,7 @@ http {
 
 h4. 配置MySQL
 
-先在数据库里创建一个名为wuditoo的数据库，然后把data/sql/wuditoo_init.sql导入到数据库
+先在数据库里创建一个名为wuditoo的数据库，然后把data/sql/wuditoo_init.sql导入到数据库。
 
 修改etc/supervisord/dev.conf里[program:www]项的command，里面有db_master_url和db_slave_url。
 
