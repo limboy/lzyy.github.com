@@ -37,8 +37,7 @@ html {
 body {
 	-moz-background-size:100% auto;
 	background-attachment:fixed;
-	background-color:#666;
-	/*background-image:url("../images/background.jpg");*/
+	background: #666 url(../image/bg.png);
 	background-position:center center;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -301,20 +300,19 @@ span#article_buttons {
 span#article_buttons a {
 	display:block;
 }
-a:hover span.balloon {
-	display:inline;
-}
 span.balloon {
-	-moz-border-radius:5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-moz-webkit-radius: 5px 5px 5px 5px;
+	border-radius: 5px;
 	-moz-box-shadow:0 -1px 0 #444444;
 	background-color:#222222;
 	color:#FFFFFF;
-	display:none;
+	display:inline-block;
 	font-size:10px;
 	font-weight:500;
 	line-height:16px;
 	margin:0 5px;
-	padding:3px 5px;
+	padding:2px 5px;
 	text-shadow:0 1px 0 #000000;
 }
 
@@ -383,6 +381,14 @@ span.balloon {
 	-webki-border-radius:5px;
 	border-radius:5px;
 	background:#ddd;
+}
+
+#tags {
+	float: right;
+	margin: 15px 0;
+	color: #999;
+	font-size: 13px;
+	font-weight: bold;
 }
 
 #logo {
