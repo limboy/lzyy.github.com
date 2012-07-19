@@ -111,9 +111,10 @@
 
 if(!$.cookie('badget-github'))
 {
-	url = 'http://leezhong.com/util/proxy/github.php';
+	url = 'https://api.github.com/legacy/user/search/lzyy';
 	$.getJSON(url+"?callback=?", function(data){
-		var text = data['user']['public_repo_count'] + ' / ' + data['user']['followers_count'];
+		//var text = data['users'][0]['public_repo_count'] + ' / ' + data['user']['followers_count'];
+		var text = data['data']['users'][0]['followers_count'];
 		$('#github').find('.info').text(text);
 		$.cookie('badget-github', text, {expires: 7} );
 	});
