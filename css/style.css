@@ -101,6 +101,7 @@ div#content img, div#content object {
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-moz-box-shadow:0 1px 0 #FFFFFF;
+	max-width: 700px;
 	/*border:5px solid #222222;*/
 	/*width:680px;*/
 }
@@ -243,6 +244,7 @@ hr {
 	clear:both;
 	border:0;
 	border-top:1px solid #999;
+	margin: 0 -20px;
 }
 code, pre {
 	font-family:"Monaco","Courier New",monospace;
