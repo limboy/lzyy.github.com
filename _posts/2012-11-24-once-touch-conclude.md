@@ -4,7 +4,7 @@ title: 开发Once Touch的一些感想和经验小结
 category: tech
 ---
 
-Once Touch是我开发的第一款iOS应用，这也延续了我每换一家公司就换一门语言的「优良」传统：ActionScript(时光网)->PHP(凤凰网)->Python(知乎)->Objective-C(Current)。希望这次是最后的转型。
+Once Touch是我开发的第一款iOS应用，这也延续了我每换一家公司就换一门语言的「优良」传统：ActionScript(时光网)->PHP(凤凰网)->Python(知乎)->Objective-C(Legend33)。希望这次是最后的转型。
 
 简单说说为什么选择iOS平台。主要有以下几个原因：
 
@@ -224,3 +224,9 @@ _zoomComponent.delegate = self;
 不过组合也是有副作用的，尤其是涉及到子模块，比如上面的BallComponent，需要重新定义一遍接口，而继承的话就没有这个问题。有一些公共的属性和方法也可以通过继承来实现，比如所有的Component都继承自BaseComponent。
 
 所以尽量多用组合，少用继承。
+
+一些我觉得还不错的资源：
+
+* [Scalable JavaScript Application Architecture](http://www.slideshare.net/nzakas/scalable-javascript-application-architecture)
+* [Prefer composition over inheritance?](http://stackoverflow.com/questions/49002/prefer-composition-over-inheritance)
+* [Where does this concept of “favor composition over inheritance” come from?](http://programmers.stackexchange.com/q/65179)
