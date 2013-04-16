@@ -21,7 +21,8 @@
 
 	<body>
 		<div id="logo">
-			<span id="tags">生命只有一次，你可能会用它来做些伟大的事情</span>
+			<!--<span id="tags">生命只有一次，你可能会用它来做些伟大的事情</span>-->
+			<a href="http://resume.leezhong.com" target="_blank"><span id="tags">目前找工作中，如果对我有兴趣，点此查看我的简历</span></a>
 			<h1><a href="/">无网不剩</a></h1></div>
 		<div id="wrapper">
 			<div id="content" class="index">
@@ -53,93 +54,25 @@
 						<div class="badget" id="github">
 							<a href="http://github.com/lzyy">
 							<span class="service">github</span>
-							<span class="info"> </span>
+							<span class="info">190+</span>
 							</a>
 						</div>
 						<div class="badget" id="twt">
 							<a href="http://twitter.com/lzyy">
 							<span class="service">twitter</span>
-							<span class="info">700+</span>
+							<span class="info">750+</span>
 							</a>
 						</div>
 						<div class="badget" id="feedburner">
 							<a href="http://feeds.feedburner.com/lzyy">
 							<span class="service">rss</span>
-							<span class="info">900+</span>
+							<span class="info">1000+</span>
 							</a>
 						</div>
 					</div>
 					<span style="color:#bbb;font-size:12px">make the world a little better and easier</span>
 					<p style="clear:both"></p>
 				</div>
-
-				<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-
-<script type="text/javascript">
-	jQuery.cookie = function (key, value, options) {
-    
-    // key and at least value given, set cookie...
-    if (arguments.length > 1 && String(value) !== "[object Object]") {
-        options = jQuery.extend({}, options);
-
-        if (value === null || value === undefined) {
-            options.expires = -1;
-        }
-
-        if (typeof options.expires === 'number') {
-            var days = options.expires, t = options.expires = new Date();
-            t.setDate(t.getDate() + days);
-        }
-        
-        value = String(value);
-        
-        return (document.cookie = [
-            encodeURIComponent(key), '=',
-            options.raw ? value : encodeURIComponent(value),
-            options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
-            options.path ? '; path=' + options.path : '',
-            options.domain ? '; domain=' + options.domain : '',
-            options.secure ? '; secure' : ''
-        ].join(''));
-    }
-
-    // key and possibly options given, get cookie...
-    options = value || {};
-    var result, decode = options.raw ? function (s) { return s; } : decodeURIComponent;
-    return (result = new RegExp('(?:^|; )' + encodeURIComponent(key) + '=([^;]*)').exec(document.cookie)) ? decode(result[1]) : null;
-};
-
-if(!$.cookie('badget-github'))
-{
-	url = 'https://api.github.com/legacy/user/search/lzyy';
-	$.getJSON(url+"?callback=?", function(data){
-		//var text = data['users'][0]['public_repo_count'] + ' / ' + data['user']['followers_count'];
-		var text = data['data']['users'][0]['followers_count'];
-		$('#github').find('.info').text(text);
-		$.cookie('badget-github', text, {expires: 7} );
-	});
-}
-else
-{
-	$('#github').find('.info').text($.cookie('badget-github'));
-}
-
-/*
-if(!$.cookie('badget-feedburner'))
-{
-	url = 'http://leezhong.com/util/proxy/feedburner.php';
-	$.getJSON(url+"?callback=?", function(data){
-		$('#feedburner').find('.info').text(data['count']);
-		$.cookie('badget-feedburner', data['count'], {expires: 7} );
-	});
-}
-else
-{
-	$('#feedburner').find('.info').text($.cookie('badget-feedburner'));
-}
-//*/
-</script>
-					
 	</body>
 </html>
 
