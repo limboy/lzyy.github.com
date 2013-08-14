@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How To Find What You Love To Do
-category: translate
+title: (译)How To Find What You Love To Do
+category: essay
 ---
 
 我们都知道要做自己喜欢的，但自己真正喜欢什么，却未必清楚。也很少有时间问问自己：这辈子究竟要做些什么？怎么做才无愧此生？生活就像一个没有设置break的while True循环，一旦开始就停不下来了。上班要忙上班的事，周末要聚会，看电影，玩游戏，逛街，把上班时的痛苦补回来，然后在不情愿中迎接下一个周一。这是自己想要的生活吗？

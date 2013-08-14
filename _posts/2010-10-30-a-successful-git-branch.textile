@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Git开发管理之道
-category: translate
+title: (译)Git开发管理之道
+category: tech
 ---
 
 p(date). 2010-10-30

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 如何辨别优秀的程序员
-category: translate
+title: (译)如何辨别优秀的程序员
+category: essay
 ---
 
 p(date). 2010-08-27

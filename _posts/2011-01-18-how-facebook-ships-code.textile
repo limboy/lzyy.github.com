@@ -1,7 +1,7 @@
 ---
 layout: post
-title: facebook是如何管理代码的
-category: translate
+title: (译)facebook是如何管理代码的
+category: tech
 ---
 
 <a href="http://framethink.wordpress.com/2011/01/17/how-facebook-ships-code/">原文在此</a>，看完之后，终于明白为什么优秀的工程师都去了/想去facebook，因为那里是工程师们的天堂。

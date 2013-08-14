@@ -1,0 +1,15 @@
+<div id="sidebar">
+	<ul>
+		<li>
+			<a href="/">ARTICLES</a>
+			<ul>
+				{% for category in site.categories %}
+				<li><a href="/category.html#{{category[0]}}"> {{ category[0]  }}</a></li>
+				{% endfor %}
+			</ul>
+		</li>
+		<li><a href="/quotes.html">QUOTES</a></li>
+		<li><a href="/about.html">ABOUT</a></li>
+	</ul>
+</div>
+

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《肖申克的救赎》的几点启示
-category: movie
+category: essay
 ---
 
 p(date). 2010-10-22

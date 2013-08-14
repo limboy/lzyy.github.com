@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 不再查看简历
-category: translate
+title: (译)不再查看简历
+category: essay
 ---
 
 p(date). 2010-08-27
