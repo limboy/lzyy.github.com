@@ -152,6 +152,14 @@ p.nav + ul, p.nav + div {
 	margin:0;
 }
 
+p code {
+	background: #eee;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 3px;
+	margin: 0 3px;
+}
+
 ul.posts li a {
 	color:#333;
 }
