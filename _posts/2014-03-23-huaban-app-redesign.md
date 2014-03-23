@@ -48,4 +48,4 @@ category: tech
 
 * 使用levelDB来做持久化，放弃CoreData。
 * 使用[类族(class cluster)](http://blog.leezhong.com/ios/2014/01/04/class-cluster.html)来实现结构和功能基本一样，但数据源不同的场景。
-
+* 无意中发现[Facebook](https://www.youtube.com/watch?v=OJ94KqmsxiI)也用了类似的架构，不过是通过workspace来实现的。
