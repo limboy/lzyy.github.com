@@ -91,3 +91,7 @@ injector = [injector withModule:[[ViewControllerAModule alloc] init]]; // [3]
 各个Section可以由不同的人负责，然后串到一起就行，也能一定程度地避免MVC(Mess View Controller)的出现。
 
 总体来说，这个lib还是挺靠谱的，已经维护了两年多，也有一些项目在用，对于提高开发成员的效率也会有不少的帮助，可以考虑尝试下。
+
+---- update (2014-04-30) ----
+
+写了个壁纸的demo，[https://github.com/lzyy/bizhi](https://github.com/lzyy/bizhi)
