@@ -118,7 +118,7 @@ self.shareButton.rac_command = [[RACCommand alloc] initWithEnabled:imageAvailabl
 	[super viewDidLoad];
 	// ...
     @weakify(self);
-    [RACObserve(self, viewModel.hasLiked) subscribeNex:^(id x){
+    [RACObserve(self, viewModel.hasLiked) subscribeNext:^(id x){
         @strongify(self);
         self.pinLikedCountLabel.text = self.viewModel.likedCount;
         self.likePinImageView.image = [UIImage imageNamed:self.viewModel.hasLiked ? @"pin_liked" : @"pin_like"];
