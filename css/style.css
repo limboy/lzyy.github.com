@@ -452,3 +452,9 @@ div#disqus_thread li{
 div#disqus_thread li ul li {
 	list-style:none;
 }
+
+#content p.via {
+	text-align:right;
+	color:#999;
+	margin-top: -20px;
+}
