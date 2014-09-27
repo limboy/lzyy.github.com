@@ -113,6 +113,7 @@ div#content img, div#content object {
 div#content li {
 	list-style:disc inside none;
 	margin-left:10px;
+	line-height:170%;
 }
 
 div#content .cnt li {
@@ -171,7 +172,7 @@ ul.posts li a {
 
 ul.index li {
 	list-style:circle inside none;
-	padding:0 0 5px 5px;
+	padding:0 0 10px 5px;
 }
 
 ul.posts li .date {
