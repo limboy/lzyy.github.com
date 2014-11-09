@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 开发新版花瓣iPhone客户端
-category: tech
+category: iOS
 ---
 
 花瓣主客户端已经有些日子没有更新了，这次的新版iPhone客户端会带来不少的变动和改进，于是索性重新开个项目，从头开始。虽还没开发完成，但有些东西还是想跟大家分享下。

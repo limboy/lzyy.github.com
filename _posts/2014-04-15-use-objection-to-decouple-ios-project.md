@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 使用objection来模块化开发iOS项目
-category: tech
+category: iOS
 ---
 
 [objection](https://github.com/atomicobject/objection) 是一个轻量级的依赖注入框架，受[Guice](https://code.google.com/p/google-guice/)的启发，[Google Wallet](http://www.google.com/wallet/) 也是使用的该项目。「依赖注入」是面向对象编程的一种设计模式，用来减少代码之间的耦合度。通常基于接口来实现，也就是说不需要new一个对象，而是通过相关的控制器来获取对象。2013年最火的PHP框架 [laravel](http://laravel.com) 就是其中的典型。
