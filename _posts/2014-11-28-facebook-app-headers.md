@@ -245,7 +245,7 @@ FBEntityCollection 跟 FBEntity 类似，不过多了 syncAll / memberClass / al
 }
 {% endhighlight %}
 
-也可以重定义 view 的类型，如 `@property (nonatomic) MyProfileView *view`，编译器会自动实例化一个 MyProfileView 的实例。
+可以同时重定义 view 的类型，如 `@property (nonatomic) MyProfileView *view`，让编译器明白 view 的类型已经变了。
 
 因为看到了不少 VC 中都有 `-loadView` 方法，所以推断可能使用了这项技术。
 
