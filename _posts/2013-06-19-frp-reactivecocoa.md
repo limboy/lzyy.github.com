@@ -44,7 +44,7 @@ FRP提供了一种信号机制来实现这样的效果，通过信号来记录�
 假如对象的某个属性想绑定某个消息，可以使用`RAC`这个宏，相当于给玻璃球套了一个水龙头。
 
 {% highlight objective-c %}
-RAC(self.submitButton.enabled) = [RACSignal combineLatest:@[self.usernameField.rac_textSignal, self.passwordField.rac_textSignal] reduce:^id(NSString *userName, NSString *password) {
+RAC(self.submitButton, enabled) = [RACSignal combineLatest:@[self.usernameField.rac_textSignal, self.passwordField.rac_textSignal] reduce:^id(NSString *userName, NSString *password) {
 	return @(userName.length >= 6 && password.length >= 6);
 }];
 {% endhighlight %}
