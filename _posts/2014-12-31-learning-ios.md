@@ -81,6 +81,10 @@ category: iOS
 
 [iOS Programming: The Big Nerd Ranch Guide (4th Edition)](http://www.amazon.com/iOS-Programming-Ranch-Guide-Guides/dp/0321942051)，又是一本 BNR 的书，这本书的特点是通过 Demo 来引出知识点，然后提一些问题，并且会细说解题思路。看书的过程中，对于元学习能力的提升也会有一定帮助。
 
+--- update ---
+
+发现巧哥的 [iOS开发进阶](http://item.jd.com/11598468.html) 已经可以在京东买到了，虽然没有细看，但巧哥出品质量肯定有保障。
+
 #### 其他资源
 
 进入这个阶段后，可以去探索更大的世界了，现在的资源已经很丰富了，但还是要遵循「少而精」的原则。以下是我觉得挺不错的源
