@@ -42,9 +42,9 @@ title: About Me
 
 7月份在深圳架构师峰会上做了个[「RAC在花瓣客户端的实践」](http://www.infoq.com/cn/presentations/practice-of-reactivecocoa-in-huabanwang-client)的分享。
 
-#### 2014 - 
+#### 2014 - Current 蘑菇街
 
-在蘑菇街，负责iOS各平台的底层架构和业务的实现，也会做一些组内的分享。
+负责iOS客户端各平台的底层架构和业务的实现，也会做一些组内的分享。
 
 ### 更多说明
 
