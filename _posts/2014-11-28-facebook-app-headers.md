@@ -34,27 +34,27 @@ struct FBActionSheetButtonMetrics {
 
 {% highlight objc %}
 @interface People {}
-@property id <Veachle> veachle;
+@property id <Vehicle> vehicle;
 - (void)move;
 @end
 
 @implementation People
-- (id)initWithVeachle: (id <Veachle>)veachle {
+- (id)initWithVehicle: (id <Vehicle>)vehicle {
 	if (self = [super init]) {
-		self.veachle = veachle;
+		self.vehicle = vehicle;
 	}
 	return self;
 }
 
 - (void)move {
-	[self.veachle move];
+	[self.vehicle move];
 }
 @end
 {% endhighlight %}
 
 如果有很多类似 move 这样需要交给外部的 object 来做的方法，就会显得冗余，尽管如此，比起继承来还是更方便维护的。
 
-使用组合的话，一般会使用「依赖注入」，比如这里的 Veachle，并不需要特别指出是 Bike 还是 Car，只要有 move 方法就可以，这样就可以很方便地替换，对于 People 来说不需要做任何改动。在 Objective-C 里是通过 protocol 来实现的。
+使用组合的话，一般会使用「依赖注入」，比如这里的 Vehicle，并不需要特别指出是 Bike 还是 Car，只要有 move 方法就可以，这样就可以很方便地替换，对于 People 来说不需要做任何改动。在 Objective-C 里是通过 protocol 来实现的。
 
 所以 Facebook 定义了一大堆的接口，包括 Delegate, DataSource 和 Protocol，ViewController 有 Protocol，也有 Delegate(如 FBMediaGalleryViewControllerDelegate)，View / Cell 也有 Delegate(如 FBMediaGalleryViewDelegate)，还有各种零零碎碎的 Protocol，如 FBDiscoveryCardProtocol, FBEventProtocol等。
 
