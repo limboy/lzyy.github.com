@@ -10,7 +10,7 @@ Git的强大是众所周知的，本文要分享的是关于"使用Git的分支�
 
 这篇文章我想介绍一下一年前就提到过的我所有项目(工作/私有)都在使用的开发模式，经过事实验证，确实非常可行。很早就想写了，一直没腾出时间。我不会涉及项目的细节，只是谈谈分支的使用策略和发布管理。
 
-<img src="http://nvie.com/img/2009/12/Screen-shot-2009-12-24-at-11.32.03.png" />
+<img src="http://nvie.com/img/git-model@2x.png" />
 
 上图是使用Git这个版本控制工具来管理所有源码的。
 
@@ -26,7 +26,7 @@ h3. 分布式但集中化
 
 我们要使用的仓库是一个"中心库"，当然这个中心库只是被认为是这样(因为Git是分布式的，从技术层面上来说是没有中心库的)，我们将把这个仓库叫做"origin"，因为Git用户都熟悉这个名字。
 
-<img src="http://nvie.com/img/2010/01/centr-decentr.png" />
+<img src="http://nvie.com/img/centr-decentr@2x.png" />
 
 每个开发者pull和push到origin，但除了中心化的push-pull关系外，每个开发者还可以从其他开发者那pull changes。比如说，对于一个比较大的新特性，在把代码提交到origin之前，很可能会安排2个或多个开发者。上图中有几个小团队：Alice和Bob，Alice和David，Clair和David。
 
@@ -41,7 +41,7 @@ h3. main分支
 
 origin上的master分支，Git用户应该很熟悉，跟master并行的有一个develop分支
 
-<img src="http://nvie.com/img/2009/12/bm002.png" />
+<img src="http://nvie.com/img/main-branches@2x.png" />
 
 我们把origin/master作为主要分支，源码的HEAD总是表示production-ready(可随时部署)状态。而origin/develop上的代码是为下一次的代码发布准备的。每日构建也是基于此分支。
 
@@ -62,6 +62,8 @@ h3. 支持(supporting)分支
 每个分支都有各自的作用，并且有严格的规定，如：只能从哪个分支上去新开分支，只能合并到那个分支。这个待会细说。
 
 h3. Feature branches
+
+<img src="http://nvie.com/img/fb@2x.png" />
 
 继承分支: develop
 合并分支：develop
@@ -93,7 +95,7 @@ $ git push origin develop
 
 --no-ff (译者注：no fast foward)标签，使得每一次的合并都创建一个新的commit记录。即使这个commit只是fast-foward，这样可以避免丢失信息
 
-<img src="http://nvie.com/img/2010/01/merge-without-ff.png" />
+<img src="http://nvie.com/img/merge-without-ff@2x.png" />
 
 不幸的是，我没有找到让--no-ff成为commit默认参数的方法(译者注：修改.consolerc?)，但确实应该提供一个方法。
 
@@ -166,6 +168,8 @@ h3. Hotfix branch
 Hotfix branch和Release branch有几分相似，都是为了新的production release而准备的。比如运行过程中发现了bug，就必须快速解决，这时就可以创建一个Hotfix branch，解决完后合并到master分支上。好处是开发人员可以继续工作，有专人来负责搞定这个bug。
 
 h4. 创建Hotfix branch
+
+<img src="http://nvie.com/img/hotfix-branches@2x.png" />
 
 Hotfix是从master分支上创建的。假如当前运行版本是1.2，然后发现有bug，但是develop还在开发中，不太稳定，这时就可以新开一个Hotfix branch，然后开始解决问题。
 
