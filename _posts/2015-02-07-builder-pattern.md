@@ -140,7 +140,7 @@ self.collectionView = [MGJFlowCollectionView collectionViewWithBuilder:^(MGJFlow
 }];
 {% endhighlight %}
 
-这样就能通过简单的配置来生成一个水平的或垂直的有各个 Item 的 ScrollView 了。
+这样就能通过简单的配置来生成一个水平的或垂直的 collectionView 了。
 
 使用 Builder Pattern 还有一个好处，就是可以将零散的配置统一起来。比如要创建一个 CollectionView，我们需要设置 layout，还要设置 layout 的一些属性，还要设置 DataSource / Delegate 等，现在可以在一个地方统一设置，可读性上也会好一些。
 
