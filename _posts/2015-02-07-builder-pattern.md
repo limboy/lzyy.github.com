@@ -57,12 +57,12 @@ PFXiPhone6 *iPhone6 = [PFXiPhone6 createWithBuilder:^(PFXiPhone6Builder *builder
 }];
 {% endhighlight %}
 
-是不是看起来舒服多了。builder 只是在 block 范围内起作用，不会影响当前 context 的变量。这个 `-[createWithBuilder:]` 的代码如下
+是不是看起来舒服多了。builder 只是在 block 范围内起作用，不会影响当前 context 的变量。这个 `+[createWithBuilder:]` 的代码如下
 
 {% highlight objc %}
-- (instancetype)createWithBuilder:(BuilderBlock)block {
++ (instancetype)createWithBuilder:(BuilderBlock)block {
 	NSParameterAssert(block);
-	PFXiPhone6Builder *builder = [PFXiPhone6Builder alloc] init];
+	PFXiPhone6Builder *builder = [[PFXiPhone6Builder alloc] init];
 	block(builder);
 	return [builder build];
 }
