@@ -98,9 +98,9 @@ PFXiPhone6 *iPhone6 = [PFXiPhone6 createWithBuilder:^(PFXiPhone6Builder *builder
 	NSAssert(self.place, @"发行区别忘了填哦");
 
 	PFXiPhone6 *iphone6 = [[PFXiPhone6 alloc] init];
-	iPhone6.storage = builder.storage;
-	iPhone6.color = builder.color;
-	iPhone6.place = builder.place;
+	iPhone6.storage = self.storage;
+	iPhone6.color = self.color;
+	iPhone6.place = self.place;
 
 	return iPhone6;
 }
