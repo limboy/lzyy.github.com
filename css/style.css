@@ -1,4 +1,4 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
 	margin:0;
 	padding:0;
 }
@@ -6,7 +6,7 @@ table {
 	border-collapse:collapse;
 	border-spacing:0;
 }
-fieldset,img { 
+fieldset,img {
 	border:0;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
@@ -291,12 +291,17 @@ div.notice {
 	text-shadow:0 1px 0 #DDDAAA;
 	width:740px;
 }
+cite {
+	font-style: italic;
+    color: #999999;
+}
 em {
 	font-style:italic;
 }
 blockquote {
-	font-style:italic;
-	margin: 30px;
+	margin: 20px;
+    border-left: 4px solid #ccc;
+    padding: 0 20px;
 }
 div#disqus_thread {
 	margin:50px 0 0;
