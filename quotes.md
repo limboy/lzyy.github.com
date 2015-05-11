@@ -4,6 +4,15 @@ title: Quotes
 ---
 
 ### 15/05/11
+
+> [6:30]we show it everyday when it's incomplete. if everybody does it every day. then you get over the embarrassment. And when you get over the embarrassment, you're more creative.
+> 
+> [11:07]communication needs to be happen between anybody in the company at any time, peer to peer.
+>
+> <cite>[Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)</cite>
+
+[]()
+
 > In life, the best way to learn a skill, is to make a lot of pots.
 >
 > <cite>[What's the best way to learn something](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)</cite>
