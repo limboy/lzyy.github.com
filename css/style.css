@@ -116,6 +116,10 @@ div#content li {
 	line-height:170%;
 }
 
+div#content ol li {
+	list-style: decimal;
+}
+
 div#content .cnt li {
 	margin:5px 5px 5px 15px;
 }

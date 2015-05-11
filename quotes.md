@@ -3,6 +3,19 @@ layout: post
 title: Quotes
 ---
 
+### 15/05/11
+> In life, the best way to learn a skill, is to make a lot of pots.
+>
+> <cite>[What's the best way to learn something](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)</cite>
+
+[]()
+
+> 1. Choose the concept you want to understand.
+> 2. Pretend you're teaching the idea to someone else.
+> 3. if you get stuck, go back to the book.
+> 4. Simplify your language.
+>
+> <cite>[How to learn fast (Feynman technique)](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)</cite>
 
 ### Before 15/05/11
 
