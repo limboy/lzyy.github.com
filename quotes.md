@@ -3,10 +3,28 @@ layout: post
 title: Quotes
 ---
 
+### 15/05/15
+
+> [22:36] but the reality is, these successful movies -- as with all successful products -- have got thousands of ideas. It's just all sorts of things necessary to make it be successful. And you have to get most of them right to do it. And that's why you need a team that works well together.
+>
+> [24:51] They thought the audience lost the taste for 2D, and they just watch 3D. It was all nonsense. It has nothing to do with technology. It had to do with the story.
+>
+> [25:23] sometimes you see people do a remake of a movie. But you notice, they always remake good movies. And rarely do they beat the good movies. But the fact is there are thousands of movies out there that are actually 'great ideas', but they are poorly executed. They should be remaking bad movies.
+>
+> [28:40] A few things we learnd: One is constant review. The second is, it must be safe for people to tell the truth. Third is that communication should not mirror the orgnizational hierarchy. People and how they function is more important than ideas. And do not let success mask problems. Do a deep assessment.
+>
+> [33:19] Every product that we're making has got to be original, which implies that we can never repeat ourselves. So the secret is, we have to keep on digging deeper and deeper and knowing that we're always missing something that's important.
+>
+> [34:28] The falling takes place slow, but the collapse is quick. You have to do constant assessment. You have to look for the hard truths.
+>
+> [36:06] But this approach in thinking about it and always diving deeper and questioning, has led us to assemble the best people in the industry. It's the most extraordinary team I've worked with.
+>
+> <cite>[Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)</cite>
+
 ### 15/05/11
 
 > [6:30]we show it everyday when it's incomplete. if everybody does it every day. then you get over the embarrassment. And when you get over the embarrassment, you're more creative.
-> 
+>
 > [11:07]communication needs to be happen between anybody in the company at any time, peer to peer.
 >
 > <cite>[Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)</cite>
