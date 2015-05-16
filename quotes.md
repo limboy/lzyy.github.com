@@ -3,6 +3,12 @@ layout: post
 title: Quotes
 ---
 
+### 15/05/16
+
+> Writing is nature’s way of letting you know how sloppy your thinking is
+>
+> — Guindon (cartoon)
+
 ### 15/05/15
 
 > [22:36] but the reality is, these successful movies -- as with all successful products -- have got thousands of ideas. It's just all sorts of things necessary to make it be successful. And you have to get most of them right to do it. And that's why you need a team that works well together.
@@ -19,7 +25,7 @@ title: Quotes
 >
 > [36:06] But this approach in thinking about it and always diving deeper and questioning, has led us to assemble the best people in the industry. It's the most extraordinary team I've worked with.
 >
-> <cite>[Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)</cite>
+> — [Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)
 
 ### 15/05/11
 
@@ -27,13 +33,13 @@ title: Quotes
 >
 > [11:07]communication needs to be happen between anybody in the company at any time, peer to peer.
 >
-> <cite>[Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)</cite>
+> — [Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)
 
 []()
 
 > In life, the best way to learn a skill, is to make a lot of pots.
 >
-> <cite>[What's the best way to learn something](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)</cite>
+> — [What's the best way to learn something](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)
 
 []()
 
@@ -42,25 +48,25 @@ title: Quotes
 > 3. if you get stuck, go back to the book.
 > 4. Simplify your language.
 >
-> <cite>[How to learn fast (Feynman technique)](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)</cite>
+> — [How to learn fast (Feynman technique)](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)
 
 ### Before 15/05/11
 
 > your effort to remain what you are is what limits you.
 >
-> <cite>Puppet Master</cite>
+> — Puppet Master
 
 []()
 
 > make everything as simple as possible, but not simpler.
 >
-> <cite>Albert Einstein</cite>
+> — Albert Einstein
 
 []()
 
 > know exactly what you want.
 >
-> <cite>[Steve Pavlina](http://www.stevepavlina.com/articles/do-it-now.htm)</cite>
+> — [Steve Pavlina](http://www.stevepavlina.com/articles/do-it-now.htm)
 
 []()
 
@@ -74,13 +80,13 @@ title: Quotes
 
 > 每个人从出生开始就呆在自己挖的一个洞穴里，我们所见的世界只不过是被阳光抛到洞穴墙壁上的影像，而我们这些洞穴的居民却把它当作是真实的世界，因为我们没有见到过其他的东西。而真实的世界却是在洞穴之外，在有太阳的地方
 >
-> <cite>柏拉图 洞穴理论</cite>
+> — 柏拉图 洞穴理论
 
 []()
 
 > 大多数人误以为领袖就是那些「有很多追随者的人」，但真实世界的领袖根本不是那样，他们是一群坚持走自己的路，根本不理会後面有没有人跟随，甚至连头都懒得回的人。
 >
-> <cite>John Holt</cite>
+> — John Holt
 
 []()
 
@@ -90,7 +96,7 @@ title: Quotes
 
 > 一个人生命中最大的幸运，莫过于在他的人生中途，即在他年富力强的时候发现了自己的使命。
 >
-> <cite>斯蒂芬.茨威格</cite>
+> — 斯蒂芬.茨威格
 
 []()
 
