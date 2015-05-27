@@ -3,6 +3,12 @@ layout: post
 title: Quotes
 ---
 
+### 15/05/27
+
+> There are only two kinds of programming languages: those people always bitch about and those nobody uses.
+> 
+> — Bjarne Stroustrup
+
 ### 15/05/26
 
 > 伯克希尔历史上最严重的错误是坐失良机的错误。这样的错误可以分为两类：1. 什么也不做，沃伦称之为“吮吸我的大拇指”；2. 有些股票本来应该买很多，但是只买了一点。
