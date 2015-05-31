@@ -3,10 +3,37 @@ layout: post
 title: Quotes
 ---
 
+### 15/05/31
+> Leonardo's practiced orientation, penetrating intelligence, curiosity and independent sprint led him to question much of the accepted theory and dogma of his time.
+>
+> In his studies of geology, Leonardo walked the hills of Lombardy and held fossils in his hands. when he wanted to learn anatomy, he dissected more than thirty human bodies and countless animal corpses.
+>
+> He was in the habit of studying all classical and medieval authorities obtainable on the subjects in which he was interested.
+>
+> He viewed the work of others as "experience by proxy" to be studied carefully and critically and ultimately to be tested through his own experience.
+>
+> Learning to think like Leonardo requires the eye-opening work of questioning your own opinions, assumptions and beliefs. are your opinions and beliefs truly your own?
+>
+> Yet Leonardo reflected sadly that the average human "looks without seeing, listens without hearing, touches without feeling, eats without tasting, moves without physical awareness, inhales without awareness of fragrances and talks without thinking"
+>
+> "I have found in my own experience that it is of no small benefit when you lie in bed in the dark to go over again in the imagination of the outlines of the forms you have been studying or of other noteworthy things conceived by subtle speculation, and this is certainly a praiseworthy exercise and useful in impressing things on the memory."
+>
+> One of the best ways to cultivate the art of visualization is through the visualization of art. Choose any one of the masterpieces of your favorite artist - for example, Leonardo's The Last Supper or Van Gogh's Sunflowers. Hang a reproduction on your wall and study it for at least five minutes each day for a week. Then as you drift off to sleep each night aim to re-create the painting in your mind's eye. Visualize the details. Bring all your senses to this exercise.
+>
+> Leonardo emphasized that drawing was the foundation of painting and of learning how to see.
+>
+> Fine music is the most powerful toll for cultivating appreciation of sound and the subtleties of hearing.
+>
+> Study the science of art and the art of science.
+>
+> Mind mapping is an invaluable toll for simplifying complex tasks.
+>
+> Leonardo's incredible ability to learn and create was predicated on his cultivation of memory, what he called "learning by heart". After careful observation from multiple perspectives, Leonardo drew a visual image of his subject. Then, late at night or early in the morning, as he lay in bed. he would review and vivify the image in his mind's eye. Then he compared his mental image to his best drawing until he could hold the perfect image in his mind.
+
 ### 15/05/27
 
 > There are only two kinds of programming languages: those people always bitch about and those nobody uses.
-> 
+>
 > — Bjarne Stroustrup
 
 ### 15/05/26
