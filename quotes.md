@@ -30,6 +30,12 @@ title: Quotes
 >
 > Leonardo's incredible ability to learn and create was predicated on his cultivation of memory, what he called "learning by heart". After careful observation from multiple perspectives, Leonardo drew a visual image of his subject. Then, late at night or early in the morning, as he lay in bed. he would review and vivify the image in his mind's eye. Then he compared his mental image to his best drawing until he could hold the perfect image in his mind.
 >
+> He didn't need to organize them by category or create an outline, because he saw how everything connected to everything else.
+>
+> one secret of Leonardo's unparalleled creativity is his lifelong practice of combining and connecting disparate elements to form new patterns.
+>
+> Many of his inventions and designs arose from the playful, imaginary combinations he made of different natural forms.
+> 
 > — How to think like Leonardo da vinci
 
 ### 15/05/27
