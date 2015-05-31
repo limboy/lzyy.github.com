@@ -4,6 +4,27 @@ title: Quotes
 ---
 
 ### 15/05/31
+> She took subjects that would be interesting to the children and integrated real mathematics, science and art together for her curriculum.
+>
+> They need to go through many of the same processes of discovery in order to make new ideas their own.
+>
+> The Center of Why is Art.
+>
+> Artist can't not do their Art: this is their basic personality trait.
+>
+> The reason people have difficult drawing is not because they can't move their hands carefully, but because their brains are too eager to recognize objects in the world rather than the shapes made of light.
+>
+> We see things not as they are, but as we are. That is, whenever we're looking out into the world, we are always seeing ourselves, we are not really seeing what's out there. We have to learn very carefully how to see what's out there.
+>
+> You can't learn to see until you realize you are blind. Education is to help people realize they are blind and show them how to see a little.
+>
+> When I first understood this(lisp) as a student in the 60s I was quite overcome by the beauty and power of this way of looking at things. I thought of this as the Maxwell's Equation of computing! It had a huge effect on the way I thought about many things. To me, this is the essence of what a computer science should be!
+>
+> Cesare Pavese said: "To know the world, one must construct it". We can see that computing is a new kind of Romantic Art Form where we make our ideas as Art, and the understanding of these ideas is Art.
+>
+> Alan Kay - The Center of "Why?"
+
+### 15/05/30
 > Leonardo's practiced orientation, penetrating intelligence, curiosity and independent sprint led him to question much of the accepted theory and dogma of his time.
 >
 > In his studies of geology, Leonardo walked the hills of Lombardy and held fossils in his hands. when he wanted to learn anatomy, he dissected more than thirty human bodies and countless animal corpses.
@@ -35,7 +56,7 @@ title: Quotes
 > one secret of Leonardo's unparalleled creativity is his lifelong practice of combining and connecting disparate elements to form new patterns.
 >
 > Many of his inventions and designs arose from the playful, imaginary combinations he made of different natural forms.
-> 
+>
 > — How to think like Leonardo da vinci
 
 ### 15/05/27
