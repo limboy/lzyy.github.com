@@ -29,6 +29,8 @@ title: Quotes
 > Mind mapping is an invaluable toll for simplifying complex tasks.
 >
 > Leonardo's incredible ability to learn and create was predicated on his cultivation of memory, what he called "learning by heart". After careful observation from multiple perspectives, Leonardo drew a visual image of his subject. Then, late at night or early in the morning, as he lay in bed. he would review and vivify the image in his mind's eye. Then he compared his mental image to his best drawing until he could hold the perfect image in his mind.
+>
+> — How to think like Leonardo da vinci
 
 ### 15/05/27
 
