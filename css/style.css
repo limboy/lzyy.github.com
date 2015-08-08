@@ -165,8 +165,8 @@ p.nav + ul, p.nav + div {
 p code {
 	background: #eee;
 	border: 1px solid #ccc;
-	border-radius: 2px;
-	padding: 3px;
+	border-radius: 5px;
+	padding: 3px 6px;
 	margin: 0 3px;
 }
 
@@ -226,7 +226,7 @@ h4 {
 }
 
 h5 {
-	margin:10px 0;
+	margin:20px 0;
 }
 
 li ul {
@@ -294,6 +294,9 @@ div.notice {
 	padding:20px;
 	text-shadow:0 1px 0 #DDDAAA;
 	width:740px;
+}
+.highlight {
+	margin: 10px 0 20px 0;
 }
 cite {
 	font-style: italic;
