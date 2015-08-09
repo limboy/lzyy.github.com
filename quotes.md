@@ -6,23 +6,23 @@ title: Quotes
 ### 15/08/08
 > Do things with impact. Work with great people. Be ambitious. Don't get lost in bureaucracy. Don't waste time. Travel a lot.
 >
-> - dustin curtis
+> — dustin curtis
 
 []()
 
 > Surround yourself with people who inspire you is as important as being talented or working hard
 >
-> - Drew Houston
+> — Drew Houston
 
 ### 15/07/27
 > The noblest pleasure is the joy of understanding.
 >
-> - Da Vinci
+> — Da Vinci
 
 ### 15/06/16
 > 我所做的每一件事都有赖于我们人类的其他成员，以及他们的贡献和成就。我们很多人都想回馈社会，在历史的长河中再添一笔。我们只能用这种大多数人都掌握的方式去表达——因为我们不会写鲍勃・迪伦的歌或汤姆・斯托帕德的戏剧。我们试图用我们仅有的天分去表达我们深层的感受，去表达我们对前人所有贡献的感激，去为历史长河加上一点儿什么。那就是推动我的力量。
 >
-> - 乔布斯传
+> — 乔布斯传
 
 ### 15/06/13
 
