@@ -3,6 +3,11 @@ layout: post
 title: Quotes
 ---
 
+### 15/08/08
+> Do things with impact. Work with great people. Be ambitious. Don't get lost in bureaucracy. Don't waste time. Travel a lot.
+>
+> - dustin curtis
+
 ### 15/07/27
 > The noblest pleasure is the joy of understanding.
 >
