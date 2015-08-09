@@ -3,6 +3,17 @@ layout: post
 title: Quotes
 ---
 
+### 15/08/09
+> if you are only focusing, you are not making access or getting access to a lot of the different connections that are available for you. That's why going back and forth between modes can be so very important.
+>
+> Procrastination arises in a very interesting way. Studies have shown that if you look at something you don't like, the pain centers of your brain actually activate. So if you look at a book for a subject you don't like, you can actually feel a twinge, and we can see it in the brain. you have two different ways of handling it. The first way is you can work through it, like 20 minutes or so, and the pain will gradually disappear. But if you're like most people, what you'll do is you'll just kind of turn your attention away to something more pleasant, and guess what, you'll feel better immediately, right? so in some sense, procrastination can actually be a little bit like an addiction. you do it once, you do it twice, it's not that a big deal, you do it a lot of times, though, and it actually can be very very detrimental for your life.
+>
+> So what I'm going to do is cut right to the chase and say here's the most effective way to help you deal with procrastination, and it is simply to use the Pomodoro Technique. Because you are only focusing on the task and the time, and not the pain of "I must complete this task" it somehow makes it so much easier to do. Don't focus on the task, focus on the time.
+>
+> If you look at the cells, when you're awake, these metabolites will come out, and they'll go in between the junctions, and they kind of sit out there, and they're essentially toxins in your brain. So when you're awake, these toxins are gradually accumulating in your brain. And they affect your judgement. That's why when you stay awake a longer and longer time, it's more and more difficult to think clearly. when you go to sleep, they(cells) shrink, and because they shrink, what that does is that allow fluids to wash by the cells, and wash these metabolites out.
+>
+> — [Learning How to Learn](https://www.youtube.com/watch?v=vd2dtkMINIw)
+
 ### 15/08/08
 > Do things with impact. Work with great people. Be ambitious. Don't get lost in bureaucracy. Don't waste time. Travel a lot.
 >
@@ -43,7 +54,7 @@ title: Quotes
 > 通过使测试代码易于找到，可以就可以看到使用方法，同时也方便构建回归测试。
 >
 > 解开谜题的关键在于确定加给你的各种约束，并确定你确实拥有的自由度，要找到盒子。
-> 
+>
 >  * 有更容易的方法么？
 >  * 你是在设法解决真正的问题，还是被外围的技术问题转移了注意力？
 >  * 这件事情为什么是一个问题？
