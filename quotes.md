@@ -8,6 +8,12 @@ title: Quotes
 >
 > - dustin curtis
 
+[]()
+
+> Surround yourself with people who inspire you is as important as being talented or working hard
+>
+> - Drew Houston
+
 ### 15/07/27
 > The noblest pleasure is the joy of understanding.
 >
