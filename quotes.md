@@ -3,6 +3,23 @@ layout: post
 title: Quotes
 ---
 
+### 15/08/10
+> another very important aspect of sleep relates to neural synaptic growth. when you learn something and you go to sleep, that's when the new synaptic connections are forming. when you are learning something new, you don't want to cram at the last minute, you want to have many short learning periods, sleep, that's helping you build that neural scaffold that helps you learn so much better.
+>
+> there's two ways to allow these new neurons to grow and survive. One is you get exposed to new environments. That's why travel can be so good. That's where your learning can be effective. the other way of helping these neurons to survive that's just as powerful as learning is simply to exercise. Even simple walking can be very very effective.
+>
+> working memory is how you keep a brief thought in mind, there's maybe four slots in working memory, as something like an octopus of attention, that reaches through those slots of working memory and makes connections between different ideas. multitasking is like taking one of those tentacles away of your working memory. you get a little stupider when you're multitasking. So that's why careful focused attention is so incredibly important, especially when you are working on something that's rather difficult.
+>
+> The diffuse mode, it's a lot of connections, but they are much more random in how they take place. so how do you taking something from working memory to long term memory, which is more distributed around in your brain? The best way is through practice. So if you are learning something and you practice, those pattern get deeper and deeper. And that's how you can learn something and draw it. That's why sometimes you can learn something from a professor -- you even understand it. You've had that great stroke of insight. You walk away, don't look at it for a few days, and those little metabolic vampires just suck that patten away. And you can't really remember or understand what you have learned previously. So the best way to get patterns well-embedded in your long term memory is to practice through spaced repetition. A good way to think about this is just the analogy of a wall. If you're building a brick wall and you give yourself time between layers of mortar, it can set, and you can build a solid, sturdy wall. but if you don't, it's all kind of a jumble. And it doesn't turn into a really good structure that you can actually use.
+>
+> Tests are the best! Test yourself on everything, all the time. The same hour spent testing as opposed to that hour spent studying, you'll learn far more by taking a test. And use flashcards. If you talk to great poets, what great ports will tell you is memorize the poem, because you'll feel the passion and the power of the poem much more deeply. Now probably the most valuable technique when you're trying to really understand something difficult is simply recall. When you're reading material on a page, you read away, and your tendency is to underline it. But it's better to write it, because you're helping to neurally encode these ideas. And when you read the page, simply look away and see what you can recall. That, as it turns out, is very powerful in building your understanding of the material in a way that other techniques, including mind-mapping and re-reading, they are not really as good as recall.
+>
+> So another very import aspect is simply to study judiciously with other people, or talk about what you're trying to understand with other people. Explain in a way that a 10-year-old can understand. Richard Feynman used to go around and challenge top mathematicians in the world to explain in a simple way that their grandmother can understand, they could. So this means that no matter how difficult that problem is that you're working on, if you find a way to explain it simply, you'll be able to understand it much deeply.
+>
+> Try to find a way to get yourself into almost like a play, whatever you're trying to understand. we're often told, follow your passion. that is the key to everything, and your life will really be a better place for it. But some things, your passion develops about what you really good at. And somethings take much longer to get good at. So don't just follow your passion. Broaden your passions. And you lives will be greatly enriched.
+>
+> — [Learning How to Learn](https://www.youtube.com/watch?v=vd2dtkMINIw)
+
 ### 15/08/09
 > if you are only focusing, you are not making access or getting access to a lot of the different connections that are available for you. That's why going back and forth between modes can be so very important.
 >
