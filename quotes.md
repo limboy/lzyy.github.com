@@ -3,6 +3,11 @@ layout: post
 title: Quotes
 ---
 
+### 15/09/06
+> computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
+>
+> — Donald Knuth
+
 ### 15/09/04
 > 远程工作的关键是：独处以进行深度地思考。
 >
