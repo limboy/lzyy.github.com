@@ -3,10 +3,15 @@ layout: post
 title: Quotes
 ---
 
+### 15/10/07
+> The most impressive people I know spent their time head down getting shit done for a long long time
+>
+> — Sam Altman
+
 ### 15/09/15
 > when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.
 >
-> — Why The Lucky Stiff 
+> — Why The Lucky Stiff
 
 ### 15/09/06
 > computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
