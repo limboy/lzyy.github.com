@@ -3,6 +3,13 @@ layout: post
 title: Quotes
 ---
 
+### 15/11/06
+> 年轻的时候，如果不知道要做什么，又不想浪费时间的话，有两件事总是没错的。一，多赚钱，让物质更自由。二，多读书，让思想更自由。要想将来能过上自己想要的独立生活，这两者必不可少。所以，无论何时，多读书。
+
+[]()
+
+> When I was a child I ate a lot of food. Most of it is long gone and forgotten, but certainly some of it became my very bones and flesh. Think of reading as the same thing for the mind.
+
 ### 15/10/07
 > The most impressive people I know spent their time head down getting shit done for a long long time
 >
