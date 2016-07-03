@@ -86,9 +86,9 @@ PS:如果你之前的博客是基于wordpress/movable type/typo 4+，可以参�
 
 ### 参考文章
 
-"jekyll wiki":http://wiki.github.com/mojombo/jekyll/
-"github blog":http://github.com/blog/272-github-pages
-"publishing a blog with github and jekyll":http://blog.envylabs.com/2009/08/publishing-a-blog-with-github-pages-and-jekyll/
+* "jekyll wiki": [http://wiki.github.com/mojombo/jekyll/](http://wiki.github.com/mojombo/jekyll/)
+* "github blog": [http://github.com/blog/272-github-pages](http://github.com/blog/272-github-pages)
+* "publishing a blog with github and jekyll": [http://blog.envylabs.com/2009/08/publishing-a-blog-with-github-pages-and-jekyll/](http://blog.envylabs.com/2009/08/publishing-a-blog-with-github-pages-and-jekyll)
 
 ### 后记
 
