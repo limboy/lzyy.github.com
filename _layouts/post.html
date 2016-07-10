@@ -2,12 +2,9 @@
 <html>
 	{% include header.html %}
 	<body>
-		<div id="logo">
-			<span id="tags">Design / Tech / Create / Startup / Life</span>
-			<h1><a href="/">Limboy</a></h1></div>
-		<div id="wrapper">
+		{% include header_nav.html %}
+		<div class="wrapper">
 			<div id="content">
-				<a target="_blank" style="float:right;margin-top:15px" href="http://twitter.com/share?url=http://limboy.me{{ page.url }}&via=lzyy&text={{ page.title }}"><span class="balloon">retweet</span></a>
 				<h2>{{ page.title }}</h2>
 				<div class="cnt">
 					{{ content }}

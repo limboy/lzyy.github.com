@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ReactiveCocoa2实战
-category: iOS
+category: tech
 ---
 
 之前已经写过两篇关于ReactiveCocoa(以下简称RAC)的文章了，但主要也是在阐述基本的概念和使用，这篇文章将会从实战的角度来看看RAC到底解决了哪些问题，带来了哪些方便，以及遇到的一些坑。

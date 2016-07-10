@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 说说Core Foundation
-category: iOS
+category: tech
 ---
 
 先来说说「Core Foundation」（以下简称CF）的历史吧。当年乔布斯被自己创办的公司驱逐后，成立了「NeXT Computer」,其实做的还是老本行：卖电脑，但依旧不景气。好在NeXTSTEP系统表现还不错，亏损不至于太严重。正好此时苹果的市场份额大跌，急需一个新的操作系统，结果大家都知道了，乔布斯借此收购，重新回到了苹果。

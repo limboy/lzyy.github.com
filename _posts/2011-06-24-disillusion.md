@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 纪念L君
-category: life
+category: essay
 ---
 
 套用《纪念刘和珍君》的一段话：

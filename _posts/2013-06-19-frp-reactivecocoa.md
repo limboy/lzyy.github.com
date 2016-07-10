@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ReactiveCocoa与Functional Reactive Programming
-category: iOS
+category: tech
 ---
 
 ## 什么是Functional Reactive Programming

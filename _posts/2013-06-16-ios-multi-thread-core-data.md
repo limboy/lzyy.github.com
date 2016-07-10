@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 说说iOS的多线程Core Data
-category: iOS
+category: tech
 ---
 
 Core Data是iOS中很重要的一个部分，可以理解为基于SQLite(当然也可以是其他的Storage，如In-memory，只是SQLite比较常见)的一个ORM实现，所以有关系数据库的特性，又不用写SQL。顺便吐一下槽，官方说法是使用Core Data能减少50%-70%的代码量，但相信用过的人应该都心里明白，Core Data使用起来还是比较麻烦的，这也是为什么有不少的第三方类库来代替/二次包装Core Data。

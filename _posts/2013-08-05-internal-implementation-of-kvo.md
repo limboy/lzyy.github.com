@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (译)KVO的内部实现
-category: iOS
+category: tech
 ---
 
 09年的[一篇文章](http://www.mikeash.com/pyblog/friday-qa-2009-01-23.html)，比较深入地阐述了KVO的内部实现。

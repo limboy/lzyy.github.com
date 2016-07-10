@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 基于AFNetworking2.0和ReactiveCocoa2.1的iOS REST Client
-category: iOS
+category: tech
 ---
 
 在开发iOS App时经常会遇到跟后端REST API通信的情况。这就涉及到错误处理，NSDictionary与Model的映射，用户登录与登出，权限验证，Archive/UnArchive，Copy，AccessToken过期处理等等，如果没有很好地处理这些点，就容易出现代码复杂度增大，结构散乱，不方便后期维护的现象。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 说说ReactiveCocoa 2
-category: iOS
+category: tech
 ---
 
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)是[Github](https://github.com/blog/1107-reactivecocoa-for-a-better-world)开源的一款cocoa FRP 框架，我在[之前的文章](http://blog.leezhong.com/ios/2013/06/19/frp-reactivecocoa.html)里有过介绍(当时还是1.x版本，2.x版本有了新的变化，API也有部分不兼容) 这里再简单地提一下。

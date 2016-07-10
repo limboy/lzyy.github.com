@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 阅读源码的乐趣
-category: iOS
+category: tech
 ---
 
 阅读源码尤其是优秀的源码是一件很有乐趣的事情，可以拓宽视野，提高品位，锻炼思维，就像间接地在跟作者沟通一样。Quora 上有一个问题是：[TJ-Holowaychunk是如何学习编程的](http://www.quora.com/How-did-TJ-Holowaychuk-learn-to-program)，他的回答是

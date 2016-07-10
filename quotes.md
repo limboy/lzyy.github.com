@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Quotes
 ---
 
 ### 15/12/26
 > 也许选择自己想做的事，未必能得到你一开始想要得到的结果。
 > 但请永远珍惜能激发出你光和热的事物，因为他们才是你变优秀的源泉。
 
-[]()
+
 
 > 想要变得更强更优秀，有些时候，就是在于抛开你的害怕，放下你的完美主义，收敛你的精明，而只是简简单单地「去做」罢了
 
-[]()
+
 
 > 一个常常在进行着接近自己限度的斗争的人总是常常失败的，一个想探索自然奥秘的人也常常会失败，一个想改革社会的人更是常常失败。
 > 只有那些安于自己限度之内的生活的人才总是“胜利”，这种“胜利者”之所以长胜不败，只是因为他的对手是早已降伏的，或者说，他根本没有投入斗争。
@@ -22,7 +21,7 @@ title: Quotes
 ### 15/11/06
 > 年轻的时候，如果不知道要做什么，又不想浪费时间的话，有两件事总是没错的。一，多赚钱，让物质更自由。二，多读书，让思想更自由。要想将来能过上自己想要的独立生活，这两者必不可少。所以，无论何时，多读书。
 
-[]()
+
 
 > When I was a child I ate a lot of food. Most of it is long gone and forgotten, but certainly some of it became my very bones and flesh. Think of reading as the same thing for the mind.
 
@@ -92,7 +91,7 @@ title: Quotes
 >
 > — Rework
 
-[]()
+
 
 > 只有一条真理决定了一个软件程序员的成功还是失败。由于坚持这个真理，一个资深的程序员能在一天的时间里学会一门新的编程语言，而由于不坚持这条真理，一个初级的程序员用十年时间也只能挣到一份糊口的钱、永远是来实现别人的设计、永远不够优秀而得不到晋升的机会。这条真理让你看清了差的程序员和好的程序员的不同之处，好的程序员和伟大的程序员的不同之处，伟大的程序员和能通过自己的技术创造出一个亿万美元价值的程序帝国的超级程序员的不同之处。
 >
@@ -105,7 +104,7 @@ title: Quotes
 >
 > — [The Singular Secret of the Rockstar Programmer](http://www.codesimplicity.com/post/the-singular-secret-of-the-rockstar-programmer/)
 
-[]()
+
 
 > 培养幽默感，以建立更强大的隐喻。
 >
@@ -179,7 +178,7 @@ title: Quotes
 >
 > — 程序员思维修炼
 
-[]()
+
 
 > 以色列是这个世界上唯一一个这样的国家，在这个国家里每个权力人物 -- 包括总理和军队政要，都有一个所有人都可以叫的绰号。包括普通老百姓在内，谁都可以用绰号称呼他们。用米德维的话说，这就是以色列式的不拘礼节。
 >
@@ -250,7 +249,7 @@ title: Quotes
 >
 > — dustin curtis
 
-[]()
+
 
 > Surround yourself with people who inspire you is as important as being talented or working hard
 >
@@ -404,7 +403,7 @@ title: Quotes
 >
 > — Tim O'Reilly
 
-[]()
+
 
 > 我这辈子遇到的聪明人（来自各行各业的聪明人）没有不每天阅读的——没有，一个都没有。沃伦读书之多，我读书之多，可能会让你感到吃惊。我的孩子们都笑话我。他们觉得我是一本长了两条腿的书。”
 >
@@ -468,13 +467,13 @@ title: Quotes
 >
 > — [Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)
 
-[]()
+
 
 > In life, the best way to learn a skill, is to make a lot of pots.
 >
 > — [What's the best way to learn something](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)
 
-[]()
+
 
 > 1. Choose the concept you want to understand.
 > 2. Pretend you're teaching the idea to someone else.
@@ -489,68 +488,68 @@ title: Quotes
 >
 > — Puppet Master
 
-[]()
+
 
 > make everything as simple as possible, but not simpler.
 >
 > — Albert Einstein
 
-[]()
+
 
 > know exactly what you want.
 >
 > — [Steve Pavlina](http://www.stevepavlina.com/articles/do-it-now.htm)
 
-[]()
+
 
 > 许多事情，不是因为难以做到才让人们失去信心，而是人们失去了信心，事情才变得难以做到
 
-[]()
+
 
 > 我们觉得不快乐，是因为往往我们追求的不是“幸福”，而是“比别人幸福”
 
-[]()
+
 
 > 每个人从出生开始就呆在自己挖的一个洞穴里，我们所见的世界只不过是被阳光抛到洞穴墙壁上的影像，而我们这些洞穴的居民却把它当作是真实的世界，因为我们没有见到过其他的东西。而真实的世界却是在洞穴之外，在有太阳的地方
 >
 > — 柏拉图 洞穴理论
 
-[]()
+
 
 > 大多数人误以为领袖就是那些「有很多追随者的人」，但真实世界的领袖根本不是那样，他们是一群坚持走自己的路，根本不理会後面有没有人跟随，甚至连头都懒得回的人。
 >
 > — John Holt
 
-[]()
+
 
 > 在一个广场上，人挤人，你不知道方向在哪里，但如果你站得高一点，看得远一点，就知道周遭的种种拥挤对你来说其实毫无意义。
 
-[]()
+
 
 > 一个人生命中最大的幸运，莫过于在他的人生中途，即在他年富力强的时候发现了自己的使命。
 >
 > — 斯蒂芬.茨威格
 
-[]()
+
 
 > 不尝试着做些能力之外的事情，就永远无法成长。
 
-[]()
+
 
 > 一些人会按你说的做，但更多人都会按你做的做。
 
-[]()
+
 
 > 编程的乐趣：创造事物的乐趣；开发对他人有用的东西的快乐；将可以活动、相互啮合的零部件组装成类似迷宫的东西，这个过程体现出的令人神魂颠倒的魅力；面对不重复的任务，不断学习的乐趣；工作在如此易于驾驭的介质——纯粹的思维活动上的乐趣。
 
-[]()
+
 
 > 如果你想要造一艘船，先不要雇人去收集木头，也不要分配任务，而是去激发他们对海洋的渴望。
 
-[]()
+
 
 > 对所做的事理解越深，就会做得越好。
 
-[]()
+
 
 > 上士闻道，勤能习之；中士闻道，若存若亡；下士闻道，大笑之。

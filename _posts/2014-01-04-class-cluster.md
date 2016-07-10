@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 类簇在iOS开发中的应用
-category: iOS
+category: tech
 ---
 
 类簇(class cluster)是一种设计模式，在Foundation Framework中被广泛使用，举个简单的例子

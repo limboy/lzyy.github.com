@@ -35,10 +35,6 @@ html {
 	overflow-y:scroll;
 }
 body {
-	-moz-background-size:100% auto;
-	background-attachment:fixed;
-	background: #666 url(../image/bg.png);
-	background-position:center center;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h2, h3, h4, h5, h6 {
@@ -71,19 +67,57 @@ a:hover, a:hover span#eighty, a:hover span#beans {
 h1 a:hover {
 	color:#ddd;
 }
-div#wrapper {
-	-moz-border-radius:5px 5px 5px 5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-moz-box-shadow:0 1px 0 #FFFFFF;
-	background-color:#f4f4f4;
-	color:#111;
+
+#nav {
+	overflow: hidden;
+	background: #2f2f2f;
+	height: 46px;
+}
+
+#logo {
+	padding: 8px;
+	float: left;
+}
+
+#logo a {
+	display: block;
+	float: left;
+}
+
+#logo img {
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	line-height: 46px;
+	text-decoration:none;
+}
+
+#nav ul {
+	float: left;
+	line-height: 46px;
+}
+
+#nav li {
+	float: left;
+	padding: 0 20px;
+}
+
+#nav li a {
+	color: #fff;
+}
+
+div.wrapper {
+	overflow: hidden;
 	font-size:14px;
-	line-height:190%;
-	margin:0 auto 50px;
-	padding:20px;
-	/*text-shadow:0 1px 0 #FFFFFF;*/
-	width:700px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+#intro {
+	background: #f4f4f4;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 10px 0;
 }
 
 #content a {
@@ -92,13 +126,14 @@ div#wrapper {
 
 #content .posts li a {
 	font-weight:normal;
-	padding:5px;
+	text-overflow: ellipsis;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 #content .posts li a:hover {
-	background:#ddd;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
+	text-decoration: underline;
 }
 
 div#content img, div#content object {
@@ -106,7 +141,8 @@ div#content img, div#content object {
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-moz-box-shadow:0 1px 0 #FFFFFF;
-	max-width: 700px;
+	width: 100%;
+	height: 100%;
 	/*border:5px solid #222222;*/
 	/*width:680px;*/
 }
@@ -136,14 +172,14 @@ div#header li {
 	margin:0 0 0 20px;
 }
 div#footer {
-	margin:50px 0 0;
+	margin:25px 0 25px;
 }
 div#footer #feed {
 	float:right;
 }
 div#content ul.posts li {
 	margin:7px 0 0;
-	font-size:14px;
+	font-size:16px;
 	list-style:none;
 }
 
@@ -211,9 +247,10 @@ h2, h3, h4, h5, h6 {
 	line-height:100%;
 }
 h2 {
-	font-size:34px;
+	font-size: 24px;
 	line-height:150%;
 	margin-bottom:20px;
+	margin-top:20px;
 }
 
 #disqus_thread h3 {
@@ -240,11 +277,17 @@ div#content li ul li {
 	margin-bottom:50px;
 }
 .cnt h3 {
-	background:none repeat scroll 0 0 #DDDDDD;
-	font-size:25px;
-	margin:20px -20px;
+	background:none repeat scroll 0 0 #eee;
+	font-size:24px;
 	padding:10px 20px;
+	font-weight: normal;
 }
+
+#content {
+	font-size: 16px;
+	padding: 0 15px;
+}
+
 h4 {
 	font-size:20px;
 }
@@ -276,12 +319,10 @@ pre {
 	-moz-box-shadow:0 -1px 0 #444444;
 	background-color:#222222;
 	color:#DDDDDD;
-	font-size:13px;
-	margin:0 0 0 -40px;
+	font-size:14px;
 	padding:20px;
 	text-shadow:0 1px 0 #000000;
 	white-space:pre-wrap;
-	width:740px;
 	word-wrap:break-word;
 }
 div.notice {
@@ -344,55 +385,27 @@ span.balloon {
 	text-shadow:0 1px 0 #000000;
 }
 
-#sidebar {
-	float:left;
-	margin-left:-50px;
-	text-transform:uppercase;
-	width:20%;
+#subnav {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	height: 46px;
+	overflow: hidden;
 }
 
-#sidebar ul {
-	list-style:none;
-	margin: 2px 0;
-	text-align:right;
-	letter-spacing:1px;
+#subnav a {
+	display: block;
+	float: left;
+	line-height: 46px;
+	font-weight: normal;
+	padding: 0 20px;
 }
 
 #content.index {
 	overflow:hidden;
 }
 
-#content #sidebar li {
-	list-style:none;
-	font-size:14px;
-}
-
-#content #sidebar li a {
-	font-weight:bold;
-	color:#444;
-	padding:3px;
-}
-
-#content #sidebar li a:hover {
-	background:#ddd;
-	-moz-border-radius:2px;
-	-webkit-border-radius:2px;
-	border:0;
-}
-
-#content #sidebar li ul li{
-	color:#999;
-	line-height:22px;
-}
-
-#content #sidebar li ul li a{
-	color:#999;
-	font-size:12px;
-}
-
 #main {
-	float:right;
-	width:80%;
+	margin: 15px 0;
 }
 
 #main .posts {
@@ -419,20 +432,9 @@ span.balloon {
 	font-weight: bold;
 }
 
-#logo {
-	width:740px;
-	margin:20px auto;
-}
-
-#logo h1 a{
-	font-weight:bold;
-	font-size:35px;
-	color:#fff;
-	letter-spacing:3px;
-}
-
 #content .cnt p {
 	margin: 20px 0;
+	line-height: 1.6;
 }
 
 #feed .badget {

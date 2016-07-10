@@ -2,12 +2,9 @@
 <html>
 	{% include header.html %}
 	<body>
-		<div id="nav">
-			<div id="log"><a href="/"><img src="/image/logo.png" /></a></h1>
-		</div>
-		<div id="wrapper">
+		{% include header_nav.html %}
+		<div class="wrapper">
 			<div id="content" class="index">
-				{% include sidebar.html %}
 				<div id="main">
 				{{ content }}
 				</div>
@@ -16,4 +13,5 @@
 		</div>
 	</body>
 </html>
+
 

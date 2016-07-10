@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 简单说说iOS的图形和动画
-category: iOS
+category: tech
 ---
 
 ### Core Graphics

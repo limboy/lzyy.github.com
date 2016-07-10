@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Advanced NSOperations
-category: iOS
+category: tech
 ---
 
 ### 前言
