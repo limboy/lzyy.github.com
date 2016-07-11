@@ -191,7 +191,7 @@ p.nav {
 }
 
 p.nav + ul, p.nav + ul a, p.nav + div, p.nav + div a {
-	color:#333;
+	color:#000;
 }
 
 p.nav + ul, p.nav + div {
@@ -207,7 +207,7 @@ p code {
 }
 
 ul.posts li a {
-	color:#333;
+	color:#000;
 }
 
 ul.index li {
