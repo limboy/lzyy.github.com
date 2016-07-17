@@ -4,7 +4,9 @@ title: Doing
 ---
 
 ### 2016/07/10 - 2016/07/17
+
 #### 接受 DDI 培训
+
 第一天主要讲「授权」，授权可以解放管理者的时间，同时提升团队的战斗力，所以是一件双赢的事情。主要 focus 在如何找到合适的人。首先判断事情的难度、重要程度，然后通过能力、动力、意愿、发展来找到这个人，明确要达到的目标，以及可以给予的支持，可能的话，做一些主动辅导，然后要多给反馈，反馈的过程可以采用「互动精要」来进行。
 
 第二天主要讲「高质量决策」，跟大前研一的「思考的技术」有点类似。一共可以分为 7 个步骤，其中第一个步骤就很关键：「辨识问题/机会」。这个需要敏锐的观察力，最好在问题升级到重要紧急之前就发现并解决掉。接下来是「搜集信息」，这个过程要做到尽可能全，减少个人经验/情感的干扰，如[人机料法环（又称 5M1E 分析法）](http://wiki.mbalib.com/wiki/5M1E%E5%88%86%E6%9E%90%E6%B3%95)。再就是「诠释信息」，通过比较、联系、变化、趋势找出不同信息之间的关联。这几部都是分析阶段，接下来就要到判断阶段了，首先是通过头脑风暴等方式尽可能多地产生备选方案，然后就是评估方案与风险（可以通过「风险/回报」、「影响/投入矩阵」、「T型表」、「准则评估表」等方式来评估），最后就是选择方案，有了方案后，接下来就是执行层面的事情了。总结一下就是
@@ -14,17 +16,21 @@ title: Doing
 ```
 
 #### 阅读与写作
+
 由于连续两天的脱产培训，导致晚上积累了很多事情，早起的计划也自动失效，又临近 KPI 和 稳定性项目，接下来的三天也没能掰回来（细想了下，时间其实是有的，只是太碎片化了，而且有不少时间在玩「皇室战争」）。
 
 比较深刻的感悟是「**凡事预则立，不预则废**」。PRE 晋升面试，主管需要有两分钟的介绍，感觉很简单以至于觉得不需要花时间准备，导致现场卡了好几次壳，好在是预演。之后花了 15 - 20 分钟来准备台词，演练了好几遍，才过关。
 
 #### 其他摘录
+
 ##### [Invisible Talent](https://shift.newco.co/invisible-talent-409a085bee9c#.qwlwd0do5) 
+
 这篇文章是一个黑人女大学生对 Facebook 发表的[技术人才缺少多样性](http://on.wsj.com/29S0mWh) 的回应，主要观点是 Facebook 并不 care 这些，因为这些人才一直都有，而他们懒得去发现，其中提到的一段话，挺有共鸣
 
 > Most of tech recruiting is currently not built to look for great talent. I’m not interested in ping-pong, beer, or whatever other gimmick used to attract new grads. The fact that I don’t like those things shouldn’t mean I’m not a “culture fit”. I don’t want to work in tech to fool around, I want to create amazing things and learn from other smart people. That is the culture fit you should be looking for.
 
 ##### [Gitlab Handbook](https://about.gitlab.com/handbook/)
+
 Gitlab 开源了他们的 Handbook，里面的内容非常丰富，大到公司的价值观，小到出差时的报销，一应俱全。更难得的是这份文档在持续地更新，而且不是老板订的，而是员工一起撰写的。
 
 ![](/image/14687361326908.jpg)
@@ -40,6 +46,7 @@ gitlab 的员工目前已经超过 90 人，而且基本都是远程办公，所
 更多讨论可以在 [HN](https://news.ycombinator.com/item?id=12091638) 上看到，比如有人反馈 GL 的薪水太低等，说到这块，Buffer 也有自己的一套[透明的薪水体系](https://buffer.com/salary)，也是根据地域的不同而会有差异。
 
 ##### [战斗民族养成记](https://movie.douban.com/subject/26775543/)
+
 被媳妇儿安利了一部俄剧（喜剧），一开始我当然是拒绝的，但后来就一发不可收拾，直接把已经出的追完了。
 
 ![](/image/14687376429206.jpg)
