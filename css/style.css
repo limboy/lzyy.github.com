@@ -36,6 +36,7 @@ html {
 }
 body {
 	font-family:Helvetica, Arial, "Hiragino Sans GB", sans-serif;
+	-webkit-text-size-adjust: none; /* 禁止 Safari 自动调整字体，会影响到代码段的表现 */
 	background: #f4f4f4;
 	color: rgba(0, 0, 0, 0.8);
 }
