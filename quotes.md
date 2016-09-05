@@ -2,6 +2,16 @@
 layout: post
 ---
 
+### 16/09/05
+> Real reason we open sourced everything: it's easier to search the internet than it was to search our internal wiki
+> 
+> via [twitter](https://twitter.com/bcantrill/status/770728188573954048)
+
+> How to be a 10x engineer: help ten other engineers be twice as good.
+> 
+> via [twitter](https://twitter.com/peterseibel/status/512615519934230528)
+
+
 ### 15/12/26
 > 也许选择自己想做的事，未必能得到你一开始想要得到的结果。
 > 但请永远珍惜能激发出你光和热的事物，因为他们才是你变优秀的源泉。
@@ -553,3 +563,5 @@ layout: post
 
 
 > 上士闻道，勤能习之；中士闻道，若存若亡；下士闻道，大笑之。
+
+
