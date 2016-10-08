@@ -4,22 +4,22 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>无网不剩</title>
- <link href="http://blog.leezhong.com/atom.xml" rel="self"/>
- <link href="http://blog.leezhong.com/"/>
+ <title>limboy's HQ</title>
+ <link href="http://limboy.me/atom.xml" rel="self"/>
+ <link href="http://limboy.me/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://blog.leezhong.com/</id>
+ <id>http://limboy.me/</id>
  <author>
-   <name>lzyy</name>
-   <email>healdream@gmail.com</email>
+   <name>limboy</name>
+   <email>limboy.me@gmail.com</email>
  </author>
 
  {% for post in site.posts limit:20 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://blog.leezhong.com{{ post.url }}"/>
+   <link href="http://limboy.me{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://blog.leezhong.com{{ post.id }}</id>
+   <id>http://limboy.me{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
