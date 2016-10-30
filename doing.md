@@ -3,6 +3,25 @@ layout: post
 title: Doing
 ---
 
+### 2016/10/22 - 2016/10/30
+体验了一个新工具：[Notion](https://www.notion.so)，在 [ProductHunt](https://www.producthunt.com/posts/notion-1-0-web-mac-app) 上人气很高，那天在看 HN 的[这个帖子](https://news.ycombinator.com/item?id=12794292)时，有提到它，正好之前也有粗略感受过，就再次下载下来用了下。首次加载会比较慢，应该跟网络和初始化有关，等就绪之后会好很多，而且还支持离线模式（不过不能插图）。它的野心比较大，想要合并 ToDoList、Wiki、项目管理等功能，老实说，做得还真是不错，而且产品也确实用心。[这是](https://www.notion.so/What-s-New-157765353f2c4705bd45474e5ba8b46c)他们的官方更新通知，就是基于 notion 自己的平台写的。那天玩它玩到了凌晨 3 点，要不是因为有更方便的 MWeb，可能知识／日程／Todo 管理真就搬到这个平台上了。
+
+再来说说 [MWeb](http://www.mweb.im/)，这也是我用了挺长时间的一个笔记工具，包括现在写博客也是用它。因为用顺手了，把 Todo 也搬到了上面，那些「专业」的 Todo 工具用起来总是不太舒服。作者是个国人，也是花了不少时间在做这个工具，同类产品中几乎是最好的，对比过 Ulysess、Typora、MacDown 等等工具，还是最喜欢它。貌似作者最近更新频度有点降下来了，也好，想明白了再添加 Feature 也不迟。目前基本没什么槽点，就是 Tab 管理稍微弱了点。
+
+这几天在各种整理，然后就发现少了一个媒体管理工具，使用 File System 来做的话，还是不够方便，毕竟要在各个文件夹之间切换也是蛮麻烦的，然后就发现了这个工具：[Pixave](http://www.littlehj.com/)，Ember 死得早，同类产品中应该是最好的了，还有一款 alternative [Inboard](http://inboardapp.com/?ref=producthunt) 也不错，功能上比较类似，但碍于 icon 无法接受就放弃了。
+
+这几天一直在看一部韩剧：[未生](https://movie.douban.com/subject/25870057/)，职场剧，很细致，总是能戳动内心的某个地方。看了这个[幕后故事](https://movie.douban.com/review/7193539/)后，更加心生敬意。
+
+本周的关键字：「集中注意力」。Facebook 的 Julia Zhuo 说: 
+
+> makers should aim to have at least six chunks of three-plus hours of uninterrupted work time on their calendar every week. This averages out to one three-hour block every day.
+
+我对自己的定位是 maker，但每天三小时无干扰的 make 时间还是很难腾出来，想想办法一定要解决。
+
+还有一个关键字是「热爱」。无论做什么，好像都无法达到热爱的程度，这也是在知乎上有人提到「爆裂鼓手」后，对我的触动。热爱是需要勇气和精力的，上班时间长了，慢慢也就淡化了，这或许是当初排斥上班的一个原因。
+
+在看「七堂极简物理课」，讲到了爱因斯坦、玻尔等伟大的物理学家，以及他们的一些发现，不枯燥有故事感，作为入门读物确实很不错。
+
 ### 2016/09/26 - 2016/10/21
 对七米在群里分享的关于「伪工作者」感触颇深：
 
