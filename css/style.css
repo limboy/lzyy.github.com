@@ -163,7 +163,7 @@ div#content img, div#content object {
 	/*width:680px;*/
 }
 div#content li {
-	list-style:disc inside none;
+	list-style:disc;
 	margin-left:10px;
 	line-height:170%;
 }
@@ -173,7 +173,7 @@ div#content ol li {
 }
 
 div#content .cnt li {
-	margin:5px 5px 5px 15px;
+	margin:5px 5px 5px 30px;
 }
 div#header {
 	font-size:13px;
@@ -294,9 +294,11 @@ li ul {
 	margin:10px 0 10px 20px;
 }
 
-div#content li ul li {
-	list-style:circle inside none;
+div#content .cnt li ul li {
+	list-style:circle;
+	margin-left: 15px;
 }
+
 .index h2 {
 	margin-bottom:50px;
 }
@@ -306,6 +308,19 @@ div#content li ul li {
     color: #574c4c;
     padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
+}
+
+#content .cnt h3 {
+	background: #eee;
+	padding: 15px;
+	margin: 20px -15px;
+	border: 0;
+	color: #000;
+}
+
+#content .cnt h4 {
+	font-size: 1.2em;
+	color: #000;
 }
 
 #content {
