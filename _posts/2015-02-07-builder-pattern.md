@@ -2,6 +2,7 @@
 layout: post
 title: Builder Pattern 在 Objective-C 中的使用
 category: tech
+tag: 技术
 ---
 
 在说 Builder Pattern 之前，我们先来看看一个场景。假设我们要预定一个 iPhone 6，要 64G 的，金色的，用代码表述大概是这样

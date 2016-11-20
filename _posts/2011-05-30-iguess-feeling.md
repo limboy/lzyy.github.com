@@ -2,6 +2,7 @@
 layout: post
 title: 做完猜电影的一点感想
 category: essay
+tag: 随笔
 ---
 
 如果你认真，持续地去做了一件事，几乎不可能没有收获。<a href="http://iguess.me">猜电影</a>这个业余项目也断断续续进行了将近20天，从GAE到VPS，从python到PHP，反正就是各种折腾，现在成品基本上出来了，当然还有很多需要完善和改进的，<a href="http://iguess.me">欢迎访问</a> :)。以下是一些我的小感想

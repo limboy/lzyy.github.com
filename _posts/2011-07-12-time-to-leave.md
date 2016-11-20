@@ -2,6 +2,7 @@
 layout: post
 title: time to leave
 category: essay
+tag: 随笔
 ---
 
 五个月前，去豆瓣面试，结果由于自己的薪资要求偏高，与豆瓣失之交臂。

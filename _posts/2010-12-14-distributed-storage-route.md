@@ -2,6 +2,7 @@
 layout: post
 title: 浅谈分布式存储的路由设置
 category: tech
+tag: 技术
 ---
 
 p(date). 2010-12-14

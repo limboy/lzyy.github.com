@@ -2,6 +2,7 @@
 layout: post
 title: 使用github作为博客引擎
 category: tech
+tag: 技术
 ---
 
 在介绍之前，先普及一下基础知识，大鸟们直接跳过。

@@ -2,6 +2,7 @@
 layout: post
 title: 软件构建设计
 category: reading
+tag: 阅读
 ---
 
 p(date) 2010-11-20

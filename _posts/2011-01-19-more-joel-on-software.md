@@ -2,6 +2,7 @@
 layout: post
 title: 《软件随想录》小记
 category: reading
+tag: 阅读
 ---
 
 非常感谢<a href="http://www.ruanyifeng.com/blog/2009/12/chinese_version_of_mjos_is_on_sale.html">阮一峰老师</a>用心的翻译。读起来完全没有生硬感，专有名词翻译地也很到位，还有很多贴心的脚注。

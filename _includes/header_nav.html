@@ -2,10 +2,11 @@
 	<div class="wrapper">
 		<div id="logo"><a href="/"><img src="/image/logo.png" /></a></h1></div>
 		<ul>
-			<li id="category-all"><a href="/">全部</a></li>
-			<li id="category-tech"><a href="/category-tech.html">技术</a></li>
-			<li id="category-essay"><a href="/category-essay.html">随笔</a></li>
-			<li id="category-reading"><a href="/category-reading.html">阅读</a></li>
+			<li id="category-tech"><a href="/category/tech.html">技术</a></li>
+			<li id="category-essay"><a href="/category/essay.html">随笔</a></li>
+			<li id="category-reading"><a href="/category/reading.html">阅读</a></li>
+			<li id="category-design"><a href="/category/design.html">设计</a></li>
+			<li id="category-weekly-recommendation"><a href="/category/weekly-recommendation.html">周荐</a></li>
 			<li id="category-quotes"><a href="/quotes.html">引言</a></li>
 		</ul>
 	</div>
@@ -15,13 +16,18 @@
 var category = location.pathname;
 if (category == '/') {
 	document.getElementById('category-all').style.textDecoration = "underline";
-} else if (category == '/category-tech.html') {
+} else if (category == '/category/tech.html') {
 	document.getElementById('category-tech').style.textDecoration = "underline";
-} else if (category == '/category-essay.html') {
+} else if (category == '/category/design.html') {
+	document.getElementById('category-design').style.textDecoration = "underline";
+} else if (category == '/category/essay.html') {
 	document.getElementById('category-essay').style.textDecoration = "underline";
-} else if (category == '/category-reading.html') {
+} else if (category == '/category/reading.html') {
 	document.getElementById('category-reading').style.textDecoration = "underline";
 } else if (category == '/quotes.html') {
 	document.getElementById('category-quotes').style.textDecoration = "underline";
+} else if (category == '/category/weekly-recommendation.html') {
+	document.getElementById('weekly-recommendation').style.textDecoration = "underline";
 }
+
 </script>

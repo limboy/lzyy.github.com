@@ -2,6 +2,7 @@
 layout: post
 title: MVVM without ReactiveCocoa
 category: tech
+tag: 技术
 ---
 
 MVVM 是 MVC 模式的一种演进，它主要解决了 ViewController 过于臃肿带来的不易维护和测试的问题。其中 ViewModel 的主要职责是处理业务逻辑并提供 View 所需的数据，这样 VC 就不用关心业务，自然也就瘦了下来。ViewModel 只关心业务数据不关心 View，所以不会与 View 产生耦合，也就更方便进行单元测试。

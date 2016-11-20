@@ -2,6 +2,7 @@
 layout: post
 title: PHP特性小结
 category: tech
+tag: 技术
 ---
 
 其实就是总结了一下<a href="http://stackoverflow.com/questions/61401/hidden-features-of-php">这个帖子</a>

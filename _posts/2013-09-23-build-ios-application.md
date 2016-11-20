@@ -2,6 +2,7 @@
 layout: post
 title: iOS项目的目录结构和开发流程
 category: tech
+tag: 技术
 ---
 
 网上相关的资源不多，开源的且质量还不错的iOS项目也是少之又少，最近正好跟同事合作了一个iOS项目，来说说自己的一些想法。

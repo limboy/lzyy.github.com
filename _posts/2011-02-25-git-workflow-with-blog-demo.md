@@ -2,6 +2,7 @@
 layout: post
 title: git多人协作开发流程(以blog为例)
 category: tech
+tag: 技术
 ---
 
 时间仓促，能力有限，错误难免(代码没有经过实际验证，所以可能会有问题)，欢迎指正 :)

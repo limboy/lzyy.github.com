@@ -2,6 +2,7 @@
 layout: post
 title: 开发Once Touch的一些感想和经验小结
 category: tech
+tag: 技术
 ---
 
 Once Touch是我开发的第一款iOS应用，这也延续了我每换一家公司就换一门语言的「优良」传统：ActionScript(时光网)->PHP(凤凰网)->Python(知乎)->Objective-C(Legend33)。希望这次是最后的转型。

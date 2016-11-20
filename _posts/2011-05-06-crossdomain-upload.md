@@ -2,6 +2,7 @@
 layout: post
 title: iframe无刷新跨域上传文件并获取返回值
 category: tech
+tag: 技术
 ---
 
 通常我们会有一个统一的上传接口，这个接口会被其他的服务调用。如果出现不同域，还需要无刷新上传文件，并且获取返回值，这就有点麻烦了。比如，新浪微博启用了新域名www.weibo.com，但接口还是使用原来的域：picupload.t.sina.com.cn。

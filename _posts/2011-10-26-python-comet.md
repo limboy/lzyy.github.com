@@ -2,6 +2,7 @@
 layout: post
 title: 使用python和redis实现实时聊天室
 category: tech
+tag: 技术
 ---
 
 实时的实现一般有ajax long poll / iframe stream / websocket 这三种。websocket有浏览器的限制;iframe会使页面一直处于loading状态(如果没有这个限制，iframe stream相比long poll还是比较有优势的); ajax long poll因为它的跨浏览器特性，加上实现比较简单，所以不少的实时应用都选择了long poll, 这里也选择ajax long poll来实现

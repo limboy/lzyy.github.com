@@ -2,6 +2,7 @@
 layout: post
 title: 简单说说iOS的图形和动画
 category: tech
+tag: 技术
 ---
 
 ### Core Graphics

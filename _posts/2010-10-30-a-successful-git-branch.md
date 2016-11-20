@@ -2,6 +2,7 @@
 layout: post
 title: (译)Git开发管理之道
 category: tech
+tag: 技术
 ---
 
 Git的强大是众所周知的，本文要分享的是关于"使用Git的分支和合并功能来进行版本管理的开发模型"。以下是译文，<a href="http://nvie.com/posts/a-successful-git-branching-model/">原文地址</a>

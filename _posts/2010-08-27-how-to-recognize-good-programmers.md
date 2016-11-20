@@ -1,7 +1,8 @@
 ---
 layout: post
 title: (译)如何辨别优秀的程序员
-category: essay
+category: reading
+tag: 阅读
 ---
 
 <a href="http://www.inter-sections.net/2007/11/13/how-to-recognise-a-good-programmer/">原文</a>

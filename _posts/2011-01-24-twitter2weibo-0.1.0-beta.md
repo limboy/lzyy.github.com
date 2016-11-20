@@ -1,7 +1,8 @@
 ---
 layout: post
 title: twitter2weibo 0.1.0 beta release
-category: project
+category: tech
+tag: 技术
 ---
 
 经过1个多月断断续续的调试和优化，twitter2weibo终于迎来了0.1.0 beta版。此版本修正了不少bug，也添加了些新特性。感谢大家的反馈，因为此脚本而给您带来的麻烦，我表示非常抱歉。

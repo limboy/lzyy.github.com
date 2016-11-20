@@ -2,6 +2,7 @@
 layout: post
 title: ReactiveCocoa与Functional Reactive Programming
 category: tech
+tag: 技术
 ---
 
 ## 什么是Functional Reactive Programming

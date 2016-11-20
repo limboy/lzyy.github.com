@@ -2,6 +2,7 @@
 layout: post
 title: 关于创业的一点感悟
 category: essay
+tag: 随笔
 ---
 
 在<a href="http://news.ycombinator.com">HN</a>看到了<a href="http://news.ycombinator.com/item?id=1817883">这篇文章</a>，该文的作者辞掉了一份收入颇丰的工作，用了8个月的时间，开发完成了他的网站。但是在推广的时候却遇到了一些问题。他想到的第一个方法是给<a href="www.techcrunch.com">TC</a>写信，非常认真地写信，希望TC能给报道一下，无果。给另一家规模稍小的类似网站投稿依旧没有回音，也没有可能在HN和Reddit被报道，于是他的项目就搁浅了。只能眼睁睁看着其他类似的网站脱颖而出。最后他得出的结论是：需要一个绝好的想法，然后可以病毒式传播。

@@ -2,6 +2,7 @@
 layout: post
 title: 图解HTTPS
 category: tech
+tag: 技术
 ---
 
 我们都知道HTTPS能够加密信息，以免敏感信息被第三方获取。所以很多银行网站或电子邮箱等等安全级别较高的服务都会采用HTTPS协议。

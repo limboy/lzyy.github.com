@@ -2,6 +2,7 @@
 layout: post
 title: php程序员是否该学习python
 category: tech
+tag: 技术
 ---
 
 p(date). 2010-09-08

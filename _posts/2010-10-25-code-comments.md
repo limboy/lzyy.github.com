@@ -2,6 +2,7 @@
 layout: post
 title: 关于代码的注释
 category: tech
+tag: 技术
 ---
 
 怎样的注释才是合理的？关于这个问题，首先要回答的问题是：为什么要注释？

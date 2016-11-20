@@ -134,9 +134,18 @@ div.wrapper {
 #content .posts li a {
 	font-weight:normal;
 	text-overflow: ellipsis;
-	display: block;
+	/* display: block; */
 	overflow: hidden;
 	white-space: nowrap;
+}
+
+#content .posts li span.category {
+	background: #f4f4f4;
+	font-size: 12px;
+	padding: 4px 6px;
+	border-radius: 4px;
+	color: #666;
+	vertical-align: middle;
 }
 
 #content .posts li a:hover {

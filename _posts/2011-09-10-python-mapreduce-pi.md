@@ -2,6 +2,7 @@
 layout: post
 title: python的简单MapReduce实现：计算π
 category: tech
+tag: 技术
 ---
 
 MapReduce是Google提出的一个软件架构，一般用于大规模数据集的并行运算。核心概念就是"Map（映射）"和"Reduce（化简）"。

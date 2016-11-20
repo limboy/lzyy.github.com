@@ -2,6 +2,7 @@
 layout: post
 title: 我已经不在知乎了
 category: essay
+tag: 随笔
 ---
 
 忽然间来了心绪，加上<a target="_blank" href="http://twitter.com/gxxx" target="_blank">@gxxx</a>同学在推上日复一日的邀文，和抱着对广大关心我的同学们负责的心情，我觉得有必要阐述一个事实：我已经不在知乎了。

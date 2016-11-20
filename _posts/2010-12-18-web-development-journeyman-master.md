@@ -2,6 +2,7 @@
 layout: post
 title: web开发从小工到大家
 category: tech
+tag: 技术
 ---
 
 p(date). 2010-12-18

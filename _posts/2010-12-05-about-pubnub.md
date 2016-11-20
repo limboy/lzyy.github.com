@@ -2,6 +2,7 @@
 layout: post
 title: 说说pubnub
 category: tech
+tag: 技术
 ---
 
 <a href="http://www.pubnub.com/">pubnub</a>是一个云端即时消息服务，通过它我们可以很方便地创建自己的即时应用。

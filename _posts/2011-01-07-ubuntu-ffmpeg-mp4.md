@@ -2,6 +2,7 @@
 layout: post
 title: ubuntu下转换支持ipod/iphone格式的mp4视频文件
 category: tech
+tag: 技术
 ---
 
 本来ubuntu下有强大的ffmpeg，转换视频不是什么问题，但要转换成支持ipod/iphone格式的H.264视频就有问题了，因为由于版权原因，ffmpeg默认没有安装libfaac库，但没有这个库又不行，所以就有了以下曲折的过程。

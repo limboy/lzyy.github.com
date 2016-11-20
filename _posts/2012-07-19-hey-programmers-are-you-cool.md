@@ -2,6 +2,7 @@
 layout: post
 title: 程序员，你还酷吗？
 category: essay
+tag: 随笔
 ---
 
 <blockquote>

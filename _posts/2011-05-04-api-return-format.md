@@ -2,6 +2,7 @@
 layout: post
 title: API的返回值形式
 category: tech
+tag: 技术
 ---
 
 假设我们有一个rest服务，该rest服务会返回json格式的信息，以twitter为例：访问`http://api.twitter.com/1/users/show.json?user_id=12345`会得到如下结果：

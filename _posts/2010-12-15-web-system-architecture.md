@@ -2,6 +2,7 @@
 layout: post
 title: 我对web系统架构的一些思考
 category: tech
+tag: 技术
 ---
 
 p(date). 2010-12-15

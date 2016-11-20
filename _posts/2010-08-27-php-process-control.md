@@ -2,6 +2,7 @@
 layout: post
 title: php的多进程
 category: tech
+tag: 技术
 ---
 
 一般有两种方法，一种是使用PHP自带的pcntl_*函数(仅限linux)，另一种就是使用popen/proc_open，然后在php内部控制进程数量。

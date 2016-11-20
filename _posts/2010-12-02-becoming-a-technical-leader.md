@@ -2,6 +2,7 @@
 layout: post
 title: 成为技术领导者
 category: reading
+tag: 阅读
 ---
 久闻温伯格大名，此书对于想从技术路线转型到管理路线的童鞋会有不少收获。
 

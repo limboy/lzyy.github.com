@@ -2,6 +2,7 @@
 layout: post
 title: 《穷查理宝典》小记
 category: reading
+tag: 阅读
 ---
 
 查理·芒格比较低调，可能很多人并不是太了解他。他是美国投资家，沃伦·巴菲特的黄金搭档，伯克希尔·哈撒韦公司的副主席。想要了解更多的话，<a href="http://baike.baidu.com/view/1733776.htm">请点这里</a>

@@ -2,6 +2,7 @@
 layout: post
 title: 高性能MySQL小结
 category: reading
+tag: 阅读
 ---
 
 其实只看到了1/3，先记录一下，等以后有空了再补上。

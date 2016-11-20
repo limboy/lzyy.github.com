@@ -2,6 +2,7 @@
 layout: post
 title: 使用REST/flush(php)/Client Template实现数据结构分离并快速显示网页
 category: tech
+tag: 技术
 ---
 
 传统网站一般都是用户发出一个http请求，服务端接收到请求后开始业务逻辑的处理，然后把处理后的数据渲染到模板页，最后把内容输出到用户的浏览器。

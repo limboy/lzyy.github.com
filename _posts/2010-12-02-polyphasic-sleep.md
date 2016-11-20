@@ -2,6 +2,7 @@
 layout: post
 title: 尝试多项睡眠
 category: essay
+tag: 随笔
 ---
 
 p(date). 2010-12-02

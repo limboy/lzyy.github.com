@@ -2,6 +2,7 @@
 layout: post
 title: 蘑菇街 App 的组件化之路·续
 category: tech
+tag: 技术
 ---
 
 前几天在「移动学习分享群」分享了关于蘑菇街组件化方面的一点经验，由于时间和文字描述方面的限制，很多东西表述的不是很清楚，让一些同学产生了疑惑，casatwy老师也写了篇[文章](http://casatwy.com/iOS-Modulization.html)来纠正其中的一些实现，看完之后确实有不少启发。

@@ -2,6 +2,7 @@
 layout: post
 title: Github的扁平化管理与创新
 category: reading
+tag: 阅读
 ---
 
 fastcolabs带来的[Github专访](http://www.fastcolabs.com/3020181/open-company/inside-githubs-super-lean-management-strategy-and-how-it-drives-innovation)，里面谈到了很多Github内部的管理、沟通、创新，看完之后对这家公司又多了几分了解和敬仰，其中的一些理念对于「传统」的创业公司来说是很难相信和接受的。原文很长，这里简单的摘录几段。

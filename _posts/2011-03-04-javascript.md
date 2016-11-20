@@ -2,6 +2,7 @@
 layout: post
 title: javascript大杂烩
 category: tech
+tag: 技术
 ---
 
 花了点时间学习了下js基础，跟大家分享一下，有不到之处，欢迎指出 :)

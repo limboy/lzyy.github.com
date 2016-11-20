@@ -2,6 +2,7 @@
 layout: post
 title: 小心PHP的类定义顺序与继承的问题
 category: tech
+tag: 技术
 ---
 
 以下代码的运行环境均为PHP5.3.4

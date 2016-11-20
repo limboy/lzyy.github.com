@@ -2,6 +2,7 @@
 layout: post
 title: 通过iframe实现跨域通信
 category: tech
+tag: 技术
 ---
 
 iframe还是很强大的，不仅能实现同域通信，还可以跨域通信，甚至跨协议通信(如file/http)，如果再结合jsonp，那就有很多种玩法了。不过有几条原则需要记住：

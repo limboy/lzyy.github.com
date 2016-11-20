@@ -2,6 +2,7 @@
 layout: post
 title: 纪念L君
 category: essay
+tag: 随笔
 ---
 
 套用《纪念刘和珍君》的一段话：

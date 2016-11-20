@@ -1,7 +1,8 @@
 ---
 layout: post
 title: inotify-rsync实时同步脚本
-category: project
+category: tech
+tag: 技术
 ---
 
 ### 为什么要写这个脚本

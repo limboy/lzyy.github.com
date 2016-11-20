@@ -2,6 +2,7 @@
 layout: post
 title: 写了个基于SQLAlchemy的ORM
 category: tech
+tag: 技术
 ---
 
 看Rails时，觉得Rails的ORM用起来好方便，就想找找python有没有类似的，没发现太尽如人意的，就按照自己的意愿，基于SQLAlchemy Core重新写了个，取名为Thing，项目主页: "https://github.com/lzyy/thing":https://github.com/lzyy/thing

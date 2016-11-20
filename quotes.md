@@ -2,6 +2,9 @@
 layout: post
 ---
 
+### 16/11/06
+> The philosophy of small, composable, single-purpose tools never goes out of style.
+
 ### 16/09/05
 > Real reason we open sourced everything: it's easier to search the internet than it was to search our internal wiki
 > 

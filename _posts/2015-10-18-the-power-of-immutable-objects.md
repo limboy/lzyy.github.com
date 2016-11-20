@@ -2,6 +2,7 @@
 layout: post
 title: 不可变对象的魅力
 category: tech
+tag: 技术
 ---
 
 > 10x Engineer: a developer who incurs technical debt so fast he appears more productive than the 10 developers tasked w/ cleaning his mess up

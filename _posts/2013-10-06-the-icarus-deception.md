@@ -2,6 +2,7 @@
 layout: post
 title: The Icarus Deception (伊卡洛斯的骗局)
 category: reading
+tag: 阅读
 ---
 
 「[The Icarus Deception](http://www.amazon.com/The-Icarus-Deception-High-Will/dp/B00AECT2XK)」(伊卡洛斯的骗局)是Seth Godin在[KickStarter](http://www.kickstarter.com/projects/297519465/the-icarus-deception-why-make-art-new-from-seth-go)上发起的一个项目。或许大家对伊卡洛斯这个人物不是很熟悉，先简单说一下：

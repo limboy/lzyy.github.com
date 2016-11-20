@@ -1,7 +1,8 @@
 ---
 layout: post
 title: (译)不再查看简历
-category: essay
+category: reading
+tag: 阅读
 ---
 
 <a href="http://www.inc.com/magazine/20100601/never-read-another-resume_Printer_Friendly.html">原文</a>

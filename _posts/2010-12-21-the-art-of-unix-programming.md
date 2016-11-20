@@ -2,6 +2,7 @@
 layout: post
 title: Unix编程艺术——Unix哲学
 category: reading
+tag: 阅读
 ---
 
 p(date). 2010-12-21

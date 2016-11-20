@@ -2,6 +2,7 @@
 layout: post
 title: have you lost yourself?
 category: essay
+tag: 随笔
 ---
 
 * 期待周五，讨厌周一吗？

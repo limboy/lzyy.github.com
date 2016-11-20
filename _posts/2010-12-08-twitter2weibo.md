@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 同步twitter到新浪微博的php脚本(不需要twitter密码)
-category: project
+category: tech
+tag: 技术
 ---
 
 我不用新浪微博，有好友想要此功能，于是就上网看了下有没有现成的，果然有一个<a href="http://iamsure.org/archives/169">twitter2weibo的php脚本</a>，但打开一看还是基于Basic Auth的，自然不能用，只能自己写一个了。(发布新浪微博部分，借鉴了原先的twitter2weibo)

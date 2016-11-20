@@ -2,6 +2,7 @@
 layout: post
 title: (译)Objective-C的动态特性
 category: tech
+tag: 技术
 ---
 
 这是一篇译文，原文[在此](http://pilky.me/view/21)，上一篇文章就是受这篇文章启发，这次干脆都翻译过来。

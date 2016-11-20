@@ -2,6 +2,7 @@
 layout: post
 title: 漫谈互联网产品开发
 category: tech
+tag: 技术
 ---
 
 每个公司都有自己的产品开发规范，我自己也大概想了下，比较适合小团队。

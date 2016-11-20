@@ -2,6 +2,7 @@
 layout: post
 title: 用php5.3的namespace实现类的无痛继承
 category: tech
+tag: 技术
 ---
 
 标题有点怪异，先来说说正常的继承会有什么问题。假设你一个应用的Controller多次用到了View类，就像这样

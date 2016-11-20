@@ -2,6 +2,7 @@
 layout: post
 title: 学习如何学习
 category: essay
+tag: 随笔
 ---
 
 在「如何学习」这点上，一直觉得自己做的不够好，曾经想学吉他，坚持了两个礼拜就以「手指太短，不适合」终结了，后来想学数学，却终究连翻开书的勇气都没有，工作一忙更是顾不上这些了。所以在 Youtube 上看到 Barbara Oakley 的 [Learning How to Learn](https://www.youtube.com/watch?v=vd2dtkMINIw) 时，才发现自己在学习上的各种问题，收获颇多。如果有兴趣的话，建议直接看视频，讲解地很有条理且生动。
