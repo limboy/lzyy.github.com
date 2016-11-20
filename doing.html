@@ -1,0 +1,21 @@
+---
+layout: post
+title: Doing
+---
+
+<ul id="doing">
+    {% for item in site.data.doing %}
+    <li>
+        <div class="tail"></div>
+        <div class="head"></div>
+        <div class="content">
+            <h3>{{item.title}}</h3>
+            <ul class="item">
+                {% for subitem in item.content %}
+                <li>{{subitem}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </li>
+    {% endfor %}
+</ul>

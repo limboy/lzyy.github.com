@@ -744,3 +744,58 @@ pre a:last-of-type::before {
 pre a:only-of-type::before {
   padding: 10px;
 }
+
+#content ul#doing {
+	list-style: none;
+	padding-top: 30px;
+}
+
+#content ul#doing li {
+	padding: 0 0 30px;
+	list-style: none;
+	position: relative;
+	margin: 0;
+}
+
+#content ul#doing .tail {
+	position: absolute;
+	left: 5px;
+	top: 0;
+	height: 100%;
+	border-left: 2px solid #e9e9e9;
+}
+
+#content ul#doing .head {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+	border-radius: 100px;
+	border: 2px solid transparent;
+	border-color: #2db7f5;
+	color: #2db7f5;
+}
+
+#content ul#doing .content {
+	font-size: 14px;
+	padding-left: 32px;
+	position: relative;
+}
+
+#content ul#doing h3 {
+	font-size: 22px;
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content ul#doing ul.item {
+	margin: 13px 0;
+}
+
+#content ul#doing ul.item li{
+	margin: 0 0 8px 20px;
+	padding-left: 4px;
+	list-style: circle;
+	padding: 0;
+}
