@@ -29,6 +29,16 @@ q:before,q:after {
 abbr,acronym { border:0;
 }
 
+@media (max-width: 900px) {
+	#content .posts li span.category {
+		display: none;
+	}
+
+	#content .posts li a {
+		display: block;
+	}
+}
+
 
 html {
 	overflow-x:hidden;
