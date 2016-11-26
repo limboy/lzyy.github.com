@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 每周推荐
+title: 每周推荐 (2016/11/20)
 category: weekly-recommendation
 tags: 周荐
 ---
