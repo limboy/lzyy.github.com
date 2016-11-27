@@ -83,7 +83,7 @@ Kotlin 是一门基于 JVM 开发的，100% 兼容 JAVA 的编程语言，提供
 #### 地球脉动2
 BBC 在 10 年前拍摄了「地球脉动」，10 年后出了第二季，豆瓣和 IMDB 的评分都达到了恐怖的 9.9。通过 4K 摄像机和无人机的配合，效果非常棒，除此之外，里面的一个个小故事也是很吸引我的点。可以在[腾讯视频](https://v.qq.com/x/cover/0qcd5h3k537846y/q0022m7d26n.html)上观看。可以通过这个小短片感受下。
 
-<video poster="null" controls="controls" _v-654ff50c="" src="http://61.240.152.15/vlive.qqvideo.tc.qq.com/b00229gs2yl.mp4?vkey=5DA716F4AB7216C72C9B743A17A6EF784B3E7DA8437BB6D67ED4548F96F031946843346BF11E8B6E97C860F28C45CCBD3E1925A9C43DAC36C0290FF1770EFFB0481BBA05B010E8C2DA573B44854322E460C817A34020ED95"> </video>
+<video poster="null" style="max-width:670px" controls="controls" _v-654ff50c="" src="http://61.240.152.15/vlive.qqvideo.tc.qq.com/b00229gs2yl.mp4?vkey=5DA716F4AB7216C72C9B743A17A6EF784B3E7DA8437BB6D67ED4548F96F031946843346BF11E8B6E97C860F28C45CCBD3E1925A9C43DAC36C0290FF1770EFFB0481BBA05B010E8C2DA573B44854322E460C817A34020ED95"> </video>
 
 #### 控方证人
 这也是在电脑里躺了 3 个来月的一部片子，因为是黑白的，一直没有勇气打开看，后来想了下，如果真的是好的故事，跟年代不会有太大的关系，事实证明果真如此。
