@@ -733,3 +733,6 @@ Local Reasoning 的意思是对于数据的改动都发生在某一个特定的�
 ## 小结
 以上是我自己对「Right Architecture」的一些理解和实践，实际过程中肯定还有很多细节要调整，如果你有什么想法欢迎交流～
 
+## Update
+Demo 在这里：https://github.com/lzyy/ZhihuDailyDemo
+
