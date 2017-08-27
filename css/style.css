@@ -745,6 +745,15 @@ pre a:only-of-type::before {
   padding: 10px;
 }
 
+#content ul#doing li .tag{
+	background: #039BE5;
+	padding: 3px 6px;
+	display: inline-block;
+	margin-right: 3px;
+	border-radius: 6px;
+	color: rgba(255,255,255,0.8);
+}
+
 #content ul#doing {
 	list-style: none;
 	padding-top: 30px;
@@ -794,8 +803,8 @@ pre a:only-of-type::before {
 }
 
 #content ul#doing ul.item li{
-	margin: 0 0 8px 20px;
+	margin: 0 0 8px 0px;
 	padding-left: 4px;
-	list-style: circle;
+	/*list-style: circle;*/
 	padding: 0;
 }

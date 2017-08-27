@@ -1,26 +1,66 @@
 - title: 2017/08
   content:
-    - 看「黑帆」
-    - 排查图片相关的问题，学习 Android
-    - 琼林项目动工
+    - type: 电影
+      text: 你的名字
+    - type: 美剧
+      text: 黑帆
+    - type: 工作
+      text: 排查图片相关的问题，学习 Android
+    - type: 项目
+      text: 琼林项目动工，重拾 Coding 乐趣
 - title: 2017/02 - 2017/07
   content:
-    - 就这么过来了
+    - type: 阅读
+      text: 如何衡量你的人生
+    - type: 电影
+      text: Youth
+    - type: 电影
+      text: 黑客帝国
+    - type: 阅读
+      text: 三体
+    - type: 旅行
+      text: 参加 WWDC
+    - type: 项目
+      text: 做了个内部的文章发布系统(超 200 篇)
+    - type: 美剧
+      text: Banshee
+    - type: 游戏
+      text: 皇室战争(到 4000 杯)
+    - type: 电影
+      text: 摔跤吧，爸爸
+    - type: 英剧
+      text: 布莱克书店
+    - type: 阅读
+      text: 严歌苓 - 活得过瘾
+    - type: 阅读
+      text: 精进
 - title: 2017/01
   content:
-    - 阅读「人类简史」
-    - 阅读「Hooked」
-    - 阅读「编码」
-    - 阅读「优秀到不能被忽视」
+    - type: 阅读
+      text: 人类简史
+    - type: 阅读
+      text: Hooked
+    - type: 阅读
+      text: 编码
+    - type: 阅读
+      text: 优秀到不能被忽视
 - title: 2016/12
   content: 
-    - 阅读「Deep Work」
-    - 阅读「商业模式新生代」
-    - 给「香港医药局」做培训
-    - 开启微信公众号做「每周推荐」
-    - 公司内部分享「20小时学会任何技能」
-    - 使用 Trello 管理生活／工作的方方面面
+    - type: 阅读
+      text: Deep Work
+    - type: 阅读
+      text: 商业模式新生代
+    - type: 杂项
+      text: 给「香港医药局」做现场培训
+    - type: 杂项
+      text: 开启微信公众号做「每周推荐」
+    - type: 杂项
+      text: 公司内部分享「20小时学会任何技能」
+    - type: 尝试
+      text: 使用 Trello 管理生活／工作的方方面面
 - title: 2016/11
   content: 
-    - 研究 Functional Reactive Programming
-    - 学习 Swift
+    - type: 学习
+      text: 研究 Functional Reactive Programming
+    - type: 学习
+      text: 研究 Swift

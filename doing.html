@@ -12,7 +12,7 @@ title: Doing
             <h3>{{item.title}}</h3>
             <ul class="item">
                 {% for subitem in item.content %}
-                <li>{{subitem}}</li>
+                <li><span class="tag">{{subitem.type}}</span> {{subitem.text}}</li>
                 {% endfor %}
             </ul>
         </div>
