@@ -1,5 +1,7 @@
 - title: 2017/08
   content:
+    - type: 写作
+      text: 工作缺少劲头怎么办？
     - type: 电影
       text: 你的名字
     - type: 美剧
@@ -21,7 +23,7 @@
     - type: 旅行
       text: 参加 WWDC
     - type: 项目
-      text: 做了个内部的文章发布系统(超 200 篇)
+      text: 做了个内部的文章发布系统(超过 200 篇)
     - type: 美剧
       text: Banshee
     - type: 游戏
