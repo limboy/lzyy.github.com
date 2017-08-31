@@ -2,10 +2,22 @@
 layout: post
 ---
 
-### 16/11/06
+### 08/31/2017
+
+> Education is what, when, and why to do things. Training is how to do it.
+> 
+> In science, if you know what you are doing, you should not be doing it. In engineering, if you do not know what you are doing, you should not be doing it.
+> 
+> Richard Hamming - The Art of Doing Science and Engineering (1997)
+
+> We're kids of the Sixties and what did you want to do? You wanted to make the world better, and you wanted to make your mark on the world and improve things, and we did it. So by the mark of what we would measure ourselves by, we're very successful.
+>
+> Interview on Triumph of the Nerds
+
+### 11/06/2016
 > The philosophy of small, composable, single-purpose tools never goes out of style.
 
-### 16/09/05
+### 09/05/2016
 > Real reason we open sourced everything: it's easier to search the internet than it was to search our internal wiki
 > 
 > via [twitter](https://twitter.com/bcantrill/status/770728188573954048)
@@ -15,7 +27,7 @@ layout: post
 > via [twitter](https://twitter.com/peterseibel/status/512615519934230528)
 
 
-### 15/12/26
+### 12/26/2015
 > 也许选择自己想做的事，未必能得到你一开始想要得到的结果。
 > 但请永远珍惜能激发出你光和热的事物，因为他们才是你变优秀的源泉。
 
@@ -31,29 +43,29 @@ layout: post
 > 王小波 - 沉默的大多数
 
 
-### 15/11/06
+### 11/06/2015
 > 年轻的时候，如果不知道要做什么，又不想浪费时间的话，有两件事总是没错的。一，多赚钱，让物质更自由。二，多读书，让思想更自由。要想将来能过上自己想要的独立生活，这两者必不可少。所以，无论何时，多读书。
 
 
 
 > When I was a child I ate a lot of food. Most of it is long gone and forgotten, but certainly some of it became my very bones and flesh. Think of reading as the same thing for the mind.
 
-### 15/10/07
+### 10/07/2015
 > The most impressive people I know spent their time head down getting shit done for a long long time
 >
 > — Sam Altman
 
-### 15/09/15
+### 09/15/2015
 > when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.
 >
 > — Why The Lucky Stiff
 
-### 15/09/06
+### 09/06/2015
 > computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
 >
 > — Donald Knuth
 
-### 15/09/04
+### 09/04/2015
 > 远程工作的关键是：独处以进行深度地思考。
 >
 > 当然，远程办公也有很多挑战。即使独处，你也可能被来自其他方面的影响打断。如果在家，可能被电视机打断。如果在咖啡馆，可能被隔壁桌吵闹的讨论声打扰。但是关键是：这些因素是我们可以控制的。
@@ -229,7 +241,7 @@ layout: post
 >
 > — 创业的国度
 
-### 15/08/10
+### 08/10/2015
 > another very important aspect of sleep relates to neural synaptic growth. when you learn something and you go to sleep, that's when the new synaptic connections are forming. when you are learning something new, you don't want to cram at the last minute, you want to have many short learning periods, sleep, that's helping you build that neural scaffold that helps you learn so much better.
 >
 > there's two ways to allow these new neurons to grow and survive. One is you get exposed to new environments. That's why travel can be so good. That's where your learning can be effective. the other way of helping these neurons to survive that's just as powerful as learning is simply to exercise. Even simple walking can be very very effective.
@@ -246,7 +258,7 @@ layout: post
 >
 > — [Learning How to Learn](https://www.youtube.com/watch?v=vd2dtkMINIw)
 
-### 15/08/09
+### 08/09/2015
 > if you are only focusing, you are not making access or getting access to a lot of the different connections that are available for you. That's why going back and forth between modes can be so very important.
 >
 > Procrastination arises in a very interesting way. Studies have shown that if you look at something you don't like, the pain centers of your brain actually activate. So if you look at a book for a subject you don't like, you can actually feel a twinge, and we can see it in the brain. you have two different ways of handling it. The first way is you can work through it, like 20 minutes or so, and the pain will gradually disappear. But if you're like most people, what you'll do is you'll just kind of turn your attention away to something more pleasant, and guess what, you'll feel better immediately, right? so in some sense, procrastination can actually be a little bit like an addiction. you do it once, you do it twice, it's not that a big deal, you do it a lot of times, though, and it actually can be very very detrimental for your life.
@@ -257,7 +269,7 @@ layout: post
 >
 > — [Learning How to Learn](https://www.youtube.com/watch?v=vd2dtkMINIw)
 
-### 15/08/08
+### 08/08/2015
 > Do things with impact. Work with great people. Be ambitious. Don't get lost in bureaucracy. Don't waste time. Travel a lot.
 >
 > — dustin curtis
@@ -268,12 +280,12 @@ layout: post
 >
 > — Drew Houston
 
-### 15/07/27
+### 07/27/2015
 > The noblest pleasure is the joy of understanding.
 >
 > — Da Vinci
 
-### 15/07/17
+### 07/17/2015
 > 应该在何时进行重构：重复、非正交的设计、过时的知识、性能。
 >
 > 除了是程序员，Andy Hunt 还是一位木匠和音乐家，而 Dave Thomas 则喜欢驾驶单引擎飞机。编程是一种技艺，一种需要用心学习的技艺。“Hacker: Someone who loves to program and enjoys being clever about it.”
@@ -307,12 +319,12 @@ layout: post
 >
 > — 程序员修炼之道
 
-### 15/06/16
+### 06/16/2015
 > 我所做的每一件事都有赖于我们人类的其他成员，以及他们的贡献和成就。我们很多人都想回馈社会，在历史的长河中再添一笔。我们只能用这种大多数人都掌握的方式去表达——因为我们不会写鲍勃・迪伦的歌或汤姆・斯托帕德的戏剧。我们试图用我们仅有的天分去表达我们深层的感受，去表达我们对前人所有贡献的感激，去为历史长河加上一点儿什么。那就是推动我的力量。
 >
 > — 乔布斯传
 
-### 15/06/13
+### 06/13/2015
 
 > 最丰富、最开心和最有成效的生活的特点是有能力在迎接挑战的时候全方位投入,而且还要定期让自己适时退出以补充精力。
 >
@@ -336,7 +348,7 @@ layout: post
 >
 > — 精力管理
 
-### 15/05/31
+### 05/31/2015
 > She took subjects that would be interesting to the children and integrated real mathematics, science and art together for her curriculum.
 >
 > They need to go through many of the same processes of discovery in order to make new ideas their own.
@@ -357,7 +369,7 @@ layout: post
 >
 > Alan Kay - The Center of "Why?"
 
-### 15/05/30
+### 05/30/2015
 > Leonardo's practiced orientation, penetrating intelligence, curiosity and independent sprint led him to question much of the accepted theory and dogma of his time.
 >
 > In his studies of geology, Leonardo walked the hills of Lombardy and held fossils in his hands. when he wanted to learn anatomy, he dissected more than thirty human bodies and countless animal corpses.
@@ -392,13 +404,13 @@ layout: post
 >
 > — How to think like Leonardo da vinci
 
-### 15/05/27
+### 05/27/2015
 
 > There are only two kinds of programming languages: those people always bitch about and those nobody uses.
 >
 > — Bjarne Stroustrup
 
-### 15/05/26
+### 05/26/2015
 
 > 伯克希尔历史上最严重的错误是坐失良机的错误。这样的错误可以分为两类：1. 什么也不做，沃伦称之为“吮吸我的大拇指”；2. 有些股票本来应该买很多，但是只买了一点。
 >
@@ -410,7 +422,7 @@ layout: post
 >
 > — 《穷查理宝典》
 
-### 15/05/23
+### 05/23/2015
 
 > “Money is like gasoline during a road trip. You don’t want to run out of gas on your trip, but you’re not doing a tour of gas stations.”
 >
@@ -448,13 +460,13 @@ layout: post
 >
 > — 《穷查理宝典》
 
-### 15/05/16
+### 05/16/2015
 
 > Writing is nature’s way of letting you know how sloppy your thinking is
 >
 > — Guindon (cartoon)
 
-### 15/05/15
+### 05/15/2015
 
 > [22:36] but the reality is, these successful movies -- as with all successful products -- have got thousands of ideas. It's just all sorts of things necessary to make it be successful. And you have to get most of them right to do it. And that's why you need a team that works well together.
 >
@@ -472,7 +484,7 @@ layout: post
 >
 > — [Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)
 
-### 15/05/11
+### 05/15/2015
 
 > [6:30]we show it everyday when it's incomplete. if everybody does it every day. then you get over the embarrassment. And when you get over the embarrassment, you're more creative.
 >
@@ -495,7 +507,7 @@ layout: post
 >
 > — [How to learn fast (Feynman technique)](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)
 
-### Before 15/05/11
+### Before 05/15/2015
 
 > your effort to remain what you are is what limits you.
 >
