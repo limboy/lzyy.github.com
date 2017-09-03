@@ -2,6 +2,23 @@
 layout: post
 ---
 
+### 09/03/2017
+> 我自己只有极少的勇气，比你少得多，但我发现，每当我在长久的挣扎之后鼓起勇气做某事时，总是在事后感到自由得多、快乐得多。
+>
+> 维特根斯坦传
+
+> 在世人中间不愿渴死的人，必须学会从一切杯子里痛饮；在世人中间要保持清洁的人，必须懂得用脏水也可以洗身。
+>
+> 尼采 - 查拉图斯特拉如是说
+
+> “自己”这个东西是看不见的，撞上一些别的什么,反弹回来，才会了解“自己”。所以，跟很强的东西、可怕的东西、水准很高的东西相碰撞，然后才知道“自己”是什么，这才是自我。
+>
+> 山本耀司
+
+> I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. Just figure out what's next.
+>
+> Steve Jobs
+
 ### 08/31/2017
 
 > Education is what, when, and why to do things. Training is how to do it.
