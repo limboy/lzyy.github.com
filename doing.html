@@ -3,6 +3,12 @@ layout: post
 title: Doing
 ---
 
+<style>
+    #content ul#doing li span.error {
+        background: #D50000;
+    }
+</style>
+
 <ul id="doing">
     {% for item in site.data.doing %}
     <li>
@@ -12,7 +18,7 @@ title: Doing
             <h3>{{item.title}}</h3>
             <ul class="item">
                 {% for subitem in item.content %}
-                <li><span class="tag">{{subitem.type}}</span> {{subitem.text}}</li>
+                <li><span class="tag {{subitem.class}}">{{subitem.type}}</span> {{subitem.text}}</li>
                 {% endfor %}
             </ul>
         </div>

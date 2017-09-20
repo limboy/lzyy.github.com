@@ -1,5 +1,8 @@
 - title: 2017/09
   content:
+    - type: 其他
+      text: 驾考科目二挂了
+      class: error
     - type: 阅读
       text: 探索智慧·从达尔文到芒格
     - type: 技术
