@@ -1,6 +1,10 @@
 - title: 2017/09
   content:
     - type: 阅读
+      text: 未来简史
+    - type: 技术
+      text: JPEG 的内部实现以及哈夫曼编码的原理
+    - type: 阅读
       text: How we structure our work and teams at Basecamp
     - type: 阅读
       text: 堂吉诃德
