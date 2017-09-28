@@ -3,6 +3,12 @@ layout: post
 title: Quotes
 ---
 
+### 09/28/2017
+
+> launching a mediocre product as soon as possible, and then talking to customers and iterating, is much better than waiting to build the “perfect” product.
+>
+> YC’s Essential Startup Advice
+
 ### 09/04/2017
 
 > One bit of advice: it is important to view knowledge as sort of a semantic tree -- make sure you understand the fundamental principles, i.e. the trunk and big branches, before you get into the leaves/details or there is nothing for them to hang on to.
