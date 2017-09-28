@@ -5,6 +5,12 @@ title: Quotes
 
 ### 09/28/2017
 
+> We encourage every startup to measure their progress by weekly growth rate. If you have 100 users, you need to get 10 more next week to grow 10% a week. And while 110 may not seem much better than 100, if you keep growing at 10% a week you'll be surprised how big the numbers get. After a year you'll have 14,000 users, and after 2 years you'll have 2 million.
+>
+> Do Things That Don't Scale
+
+### 09/28/2017
+
 > launching a mediocre product as soon as possible, and then talking to customers and iterating, is much better than waiting to build the “perfect” product.
 >
 > YC’s Essential Startup Advice
