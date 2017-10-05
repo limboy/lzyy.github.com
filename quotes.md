@@ -4,6 +4,9 @@ title: Quotes
 ---
 
 ### 10/05/2017
+> 做你恐惧的事，你会发现不过如此。
+
+### 10/05/2017
 > Obviousness comes from conforming to people's existing mental models. Don't wast time reinventing common UI patterns or paradigms unless they are at least 2x better, or you have some critical brand reason to do so.
 >
 > Julie Zhuo
