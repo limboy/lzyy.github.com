@@ -4,6 +4,11 @@ title: Quotes
 ---
 
 ### 10/05/2017
+> The noblest pleasure is the joy of understanding.
+>
+> Da Vinci
+
+### 10/05/2017
 > 做你恐惧的事，你会发现不过如此。
 
 ### 10/05/2017
