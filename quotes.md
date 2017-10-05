@@ -3,17 +3,22 @@ layout: post
 title: Quotes
 ---
 
+### 10/05/2017
+> Find opportunities to introduce joy.
+>
+> [What I Learned at Slack](https://medium.com/what-i-learned-at-slack/what-i-learned-at-slack-b1522f318ae6)
+
 ### 09/28/2017
 
 > We encourage every startup to measure their progress by weekly growth rate. If you have 100 users, you need to get 10 more next week to grow 10% a week. And while 110 may not seem much better than 100, if you keep growing at 10% a week you'll be surprised how big the numbers get. After a year you'll have 14,000 users, and after 2 years you'll have 2 million.
 >
-> Do Things That Don't Scale
+> [Do Things That Don't Scale](http://paulgraham.com/ds.html)
 
 ### 09/28/2017
 
 > launching a mediocre product as soon as possible, and then talking to customers and iterating, is much better than waiting to build the “perfect” product.
 >
-> YC’s Essential Startup Advice
+> [YC’s Essential Startup Advice](https://blog.ycombinator.com/ycs-essential-startup-advice/)
 
 ### 09/04/2017
 
