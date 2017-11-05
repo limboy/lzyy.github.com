@@ -3,6 +3,11 @@ layout: post
 title: Quotes
 ---
 
+### 11/05/2017
+> 根本没有正确的选择，我们只能通过奋斗让当初的选择显得正确。
+>
+> Anonymous
+
 ### 10/05/2017
 > The noblest pleasure is the joy of understanding.
 >
