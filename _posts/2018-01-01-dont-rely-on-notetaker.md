@@ -15,7 +15,7 @@ tags: 随笔
 
 我的笔记软件是 Bear，有一段时间会把各种内容都往里面放，放完之后非常有安全感，还会想着每天晚上 Review 一遍来加深印象，但很少发生，因为当你拿起手机时，有那么多「好玩」的 App 等着你翻牌，实在没有理由临幸一段看过的内容。如果就笔记中的某个知识点进行提问的话，很可能答不上来，毕竟需要的时候搜一下就行了，为什么要记在大脑里呢。
 
-这跟 Derek Sivers 的一个 TED 视频阐述的观点有点类似：[Derek Sivers: Keep your goals to yourself | TED Talk](https://www.ted.com/talks/derek_sivers_keep_your_goals_to_yourself/discussion)，当你向身边的人描述某件你想做的事后，往往会带来副作用，让你觉得这件事好像已经做了；而那些选择不说的人，有可能为了让别人眼前一亮，而憋出个大招。比如买了一堆书来啃，啃之前先拍下来发个朋友圈，收到了各路朋友的赞后，好像阅读这件事已经做完了或不重要了。
+这跟 Derek Sivers 的一个 TED 视频阐述的观点有点类似：[Keep your goals to yourself](https://www.ted.com/talks/derek_sivers_keep_your_goals_to_yourself/discussion)，当你向身边的人描述某件你想做的事后，往往会带来副作用，让你觉得这件事好像已经做了；而那些选择不说的人，有可能为了让别人眼前一亮，而憋出个大招。比如买了一堆书来啃，啃之前先拍下来发个朋友圈，收到了各路朋友的赞后，好像阅读这件事已经做完了或不重要了。
 
 学习本就是个苦差事，笔记软件并没有解决学习中的痛点，甚至会有副作用。Elon Musk 作为一个学习狂人，他认为学习最重要的是要有主干（也就是 First Principle），其他的知识点都可以挂靠到这个主干上。
 
