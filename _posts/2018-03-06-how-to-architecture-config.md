@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何设计一个配置中心
+title: 如何设计一个配置中心的后端架构
 category: tech
 tags: 技术
 ---
