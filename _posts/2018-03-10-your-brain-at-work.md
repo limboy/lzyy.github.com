@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 脑海里的演员们
+title: 脑海里的演员们（Your Brain at Work）
 category: reading
 tags: 阅读
 ---
