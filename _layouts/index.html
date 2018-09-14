@@ -1,28 +1,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-	{% include header.html %}
-	<body>
-		{% include header_nav.html %}
-		<div class="wrapper main">
-			<blockquote id="intro">
-				<p>limboy, 一个程序员、设计师、创作者，钟爱精良的产品，闲暇时喜欢翻看各类书籍，偶尔也会写点文章。目前就职于蘑菇街，主要负责无线基础相关的事情。</p>
-				<br />
-				<p>
-					<a href="http://twitter.com/lzyy" target="_blank">Tweets</a> · 
-					<a href="http://github.com/lzyy" target="_blank">Github</a> · 
-					<a href="https://www.youtube.com/playlist?list=LLjXd0C_U7O2Y-rAMBfXHLdQ" target="_blank">YouTube</a> · 
-					<a href="https://www.instapaper.com/p/limboy" target="_blank">Instapaper</a> · 
-					<a href="https://www.instagram.com/limboy84/" target="_blank">Instagram</a>
-				</p>
-			</blockquote>
-		
-			<div id="content" class="index">
-				<div id="main">
-				{{ content }}
-				</div>
-			</div>
-			{% include footer.html %}
-		</div>
-	</body>
-</html>
+{% include header.html %}
 
+<body>
+	{% include header_nav.html %}
+	<div class="wrapper main">
+		<blockquote id="intro">
+			<p>limboy, 一个程序员、设计师、创作者，钟爱精良的产品，闲暇时喜欢翻看各类书籍，偶尔也会写点文章。<del>目前就职于蘑菇街，主要负责无线基础相关的事情。</del></p>
+			<br />
+			<p>
+				<a href="http://twitter.com/lzyy" target="_blank">Tweets</a> ·
+				<a href="http://github.com/lzyy" target="_blank">Github</a> ·
+				<a href="https://www.youtube.com/playlist?list=LLjXd0C_U7O2Y-rAMBfXHLdQ" target="_blank">YouTube</a>
+				<!--<a href="https://www.instapaper.com/p/limboy" target="_blank">Instapaper</a> · -->
+				<!--<a href="https://www.instagram.com/limboy84/" target="_blank">Instagram</a>-->
+			</p>
+		</blockquote>
+
+		<div id="content" class="index">
+			<div id="main">
+				{{ content }}
+			</div>
+		</div>
+		{% include footer.html %}
+	</div>
+</body>
+
+</html>

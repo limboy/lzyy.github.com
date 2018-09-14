@@ -1,33 +1,34 @@
 <div id="nav">
 	<div class="wrapper">
-		<div id="logo"><a href="/"><img src="/image/logo.png" /></a></h1></div>
+		<div id="logo"><a href="/"><img src="/image/logo.png" /></a></h1>
+		</div>
 		<ul>
 			<li id="category-tech"><a href="/category/tech.html">Tech</a></li>
 			<li id="category-essay"><a href="/category/essay.html">Essay</a></li>
 			<li id="category-reading"><a href="/category/reading.html">Reading</a></li>
 			<!--<li id="category-design"><a href="/category/design.html">设计</a></li>-->
 			<li id="category-quotes"><a href="/quotes.html">Quotes</a></li>
-			<li id="category-doing"><a href="https://trello.com/b/0LQ3Dyjg/life">Doing</a></li>
+			<!--<li id="category-doing"><a href="https://trello.com/b/0LQ3Dyjg/life">Doing</a></li>-->
 		</ul>
 	</div>
 </div>
 
 <script>
-var category = location.pathname;
-if (category == '/') {
-	// document.getElementById('category-all').style.textDecoration = "underline";
-} else if (category == '/category/tech.html') {
-	document.getElementById('category-tech').style.textDecoration = "underline";
-} else if (category == '/category/essay.html') {
-	document.getElementById('category-essay').style.textDecoration = "underline";
-} else if (category == '/category/reading.html') {
-	document.getElementById('category-reading').style.textDecoration = "underline";
-} else if (category == '/quotes.html') {
-	document.getElementById('category-quotes').style.textDecoration = "underline";
-} else if (category == '/doing.html') {
-	document.getElementById('category-doing').style.textDecoration = "underline";
-} else if (category == '/category/weekly-recommendation.html') {
-	document.getElementById('weekly-recommendation').style.textDecoration = "underline";
-}
+	var category = location.pathname;
+	if (category == '/') {
+		// document.getElementById('category-all').style.textDecoration = "underline";
+	} else if (category == '/category/tech.html') {
+		document.getElementById('category-tech').style.textDecoration = "underline";
+	} else if (category == '/category/essay.html') {
+		document.getElementById('category-essay').style.textDecoration = "underline";
+	} else if (category == '/category/reading.html') {
+		document.getElementById('category-reading').style.textDecoration = "underline";
+	} else if (category == '/quotes.html') {
+		document.getElementById('category-quotes').style.textDecoration = "underline";
+	} else if (category == '/doing.html') {
+		document.getElementById('category-doing').style.textDecoration = "underline";
+	} else if (category == '/category/weekly-recommendation.html') {
+		document.getElementById('weekly-recommendation').style.textDecoration = "underline";
+	}
 
 </script>
