@@ -475,4 +475,4 @@ PS: 这里的 Tabbar 是需要吸顶的，因此要用 `SliverPersistentHeader` 
 
 至于性能方面，debug 跟 release 模式还是会有些差距，因此如果在 debug 模式下发现不够流畅，可以切换到 release 模式再试下。
 
-我也是接触 Flutter 不久，如果有不对的地方欢迎指正，如果能给你带来写帮助，备感荣幸。
+我也是接触 Flutter 不久，如果有不对的地方欢迎指正，如果能给你带来帮助，备感荣幸。
