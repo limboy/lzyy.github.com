@@ -206,7 +206,7 @@ BLoC 差不多有了之后，接下来就可以进入布局阶段了。
 
 ![](/image/movie250-home-layout.png)
 
-Flutter 提供了两种列表布局方式: `ListView` 和 `GridView`，如果页面里除了列表还有其他元素（比如顶部的 SlideView 等），就需要用到 `CustomScrollView` 或者 `NestedScrollView`，首页除了列表没有其他元素，同时一行可能包含多个视图，因此我们选择 `[GridView](https://docs.flutter.io/flutter/widgets/GridView-class.html)`。
+Flutter 提供了两种列表布局方式: `ListView` 和 `GridView`，如果页面里除了列表还有其他元素（比如顶部的 SlideView 等），就需要用到 `CustomScrollView` 或者 `NestedScrollView`，首页除了列表没有其他元素，同时一行可能包含多个视图，因此我们选择 [GridView](https://docs.flutter.io/flutter/widgets/GridView-class.html)。
 
 GridView 的构建可以使用 `GridView.builder`, 它需要提供几个关键信息:
 
