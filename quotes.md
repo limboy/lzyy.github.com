@@ -3,25 +3,60 @@ layout: post
 title: Quotes
 ---
 
+### 12/18/2018
+
+> In programming, as in many fields, the hard part isn't solving problems, but deciding what problems to solve. Imagination is hard to measure, but in practice it dominates the kind of productivity that's measured in lines of code.
+
+### 12/18/2018
+
+> 无论是欣赏艺术，还是领悟科学，我们最终得到的将是美的享受和看待世界的全新角度。
+
+### 12/18/2018
+
+> people who were right a lot of the time were people who often changed their minds. He doesn’t think consistency of thought is a particularly positive trait. It’s perfectly healthy — encouraged, even — to have an idea tomorrow that contradicted your idea today.
+
+### 12/18/2018
+
+> 消费者和生产者之间的关系有点像厨师和吃货之间的关系，后者知道自己要解决饿的问题，但厨师可以决定怎么来解决这个问题，从这个层面上来说双方都有选择权，用户知道要什么（能填饱肚子的东西），也不知道要什么（具体是什么不一定清楚）。而米饭则是其中的经典。
+
+### 12/18/2018
+
+> Simplicity is complicated but the clarity is worth the fight
+
+### 12/18/2018
+
+> Too often, we assume we are getting better simply because we are gaining experience. In reality, we are merely reinforcing our current habits — not improving them.
+
+### 12/18/2018
+
+> 个体唯一能做的，就是保有自己的一份自由，就是这个世界怎么变，我自己有我自己的世界，这个你不能侵犯。
+>
+> 陈佩斯·事了拂衣去
+
 ### 11/05/2017
+
 > 根本没有正确的选择，我们只能通过奋斗让当初的选择显得正确。
 >
 > Anonymous
 
 ### 10/05/2017
+
 > The noblest pleasure is the joy of understanding.
 >
 > Da Vinci
 
 ### 10/05/2017
+
 > 做你恐惧的事，你会发现不过如此。
 
 ### 10/05/2017
+
 > Obviousness comes from conforming to people's existing mental models. Don't wast time reinventing common UI patterns or paradigms unless they are at least 2x better, or you have some critical brand reason to do so.
 >
 > Julie Zhuo
 
 ### 10/05/2017
+
 > Find opportunities to introduce joy.
 >
 > [What I Learned at Slack](https://medium.com/what-i-learned-at-slack/what-i-learned-at-slack-b1522f318ae6)
@@ -65,9 +100,9 @@ title: Quotes
 ### 08/31/2017
 
 > Education is what, when, and why to do things. Training is how to do it.
-> 
+>
 > In science, if you know what you are doing, you should not be doing it. In engineering, if you do not know what you are doing, you should not be doing it.
-> 
+>
 > Richard Hamming - The Art of Doing Science and Engineering (1997)
 
 > We're kids of the Sixties and what did you want to do? You wanted to make the world better, and you wanted to make your mark on the world and improve things, and we did it. So by the mark of what we would measure ourselves by, we're very successful.
@@ -75,57 +110,57 @@ title: Quotes
 > Interview on Triumph of the Nerds
 
 ### 11/06/2016
+
 > The philosophy of small, composable, single-purpose tools never goes out of style.
 
 ### 09/05/2016
+
 > Real reason we open sourced everything: it's easier to search the internet than it was to search our internal wiki
-> 
+>
 > via [twitter](https://twitter.com/bcantrill/status/770728188573954048)
 
 > How to be a 10x engineer: help ten other engineers be twice as good.
-> 
+>
 > via [twitter](https://twitter.com/peterseibel/status/512615519934230528)
 
-
 ### 12/26/2015
+
 > 也许选择自己想做的事，未必能得到你一开始想要得到的结果。
 > 但请永远珍惜能激发出你光和热的事物，因为他们才是你变优秀的源泉。
 
-
-
 > 想要变得更强更优秀，有些时候，就是在于抛开你的害怕，放下你的完美主义，收敛你的精明，而只是简简单单地「去做」罢了
-
-
 
 > 一个常常在进行着接近自己限度的斗争的人总是常常失败的，一个想探索自然奥秘的人也常常会失败，一个想改革社会的人更是常常失败。
 > 只有那些安于自己限度之内的生活的人才总是“胜利”，这种“胜利者”之所以长胜不败，只是因为他的对手是早已降伏的，或者说，他根本没有投入斗争。
 >
 > 王小波 - 沉默的大多数
 
-
 ### 11/06/2015
+
 > 年轻的时候，如果不知道要做什么，又不想浪费时间的话，有两件事总是没错的。一，多赚钱，让物质更自由。二，多读书，让思想更自由。要想将来能过上自己想要的独立生活，这两者必不可少。所以，无论何时，多读书。
-
-
 
 > When I was a child I ate a lot of food. Most of it is long gone and forgotten, but certainly some of it became my very bones and flesh. Think of reading as the same thing for the mind.
 
 ### 10/07/2015
+
 > The most impressive people I know spent their time head down getting shit done for a long long time
 >
 > — Sam Altman
 
 ### 09/15/2015
+
 > when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.
 >
 > — Why The Lucky Stiff
 
 ### 09/06/2015
+
 > computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
 >
 > — Donald Knuth
 
 ### 09/04/2015
+
 > 远程工作的关键是：独处以进行深度地思考。
 >
 > 当然，远程办公也有很多挑战。即使独处，你也可能被来自其他方面的影响打断。如果在家，可能被电视机打断。如果在咖啡馆，可能被隔壁桌吵闹的讨论声打扰。但是关键是：这些因素是我们可以控制的。
@@ -140,7 +175,7 @@ title: Quotes
 >
 > 大部分人不敢于尝试远程办公，原因在于缺乏信任。老板们会担忧：
 >
->  如果我不呆在员工身边的话，他们会认真工作吗？他们会不会整天上网聊天，或者溜出去玩视频游戏？
+> 如果我不呆在员工身边的话，他们会认真工作吗？他们会不会整天上网聊天，或者溜出去玩视频游戏？
 >
 > 然而实际情况是：如果你的员工真是要上网聊天或者玩游戏，那即使他们在自己办公室的座位上，也会偷偷这么做的。
 >
@@ -156,7 +191,7 @@ title: Quotes
 >
 > 一旦开始尝试远程办公，你会发现，结果本身成了衡量员工唯一的标准。
 >
-> 没有真正意义上的1个小时的会议。如果1个小时的会议有5个人参与，那么实际上，这是一个5小时（工作小时）的会议。
+> 没有真正意义上的 1 个小时的会议。如果 1 个小时的会议有 5 个人参与，那么实际上，这是一个 5 小时（工作小时）的会议。
 >
 > 即使是远程协作，你也能随时感觉到"周围的同事"。
 >
@@ -168,7 +203,7 @@ title: Quotes
 >
 > 情绪是会传染的，无论是好情绪或坏情绪。（破窗效应）
 >
-> 我们发现准确判断一个人的工作能力的方式，是直接给到一个小型的测试项目或问题给到应聘者去完成。一般整个过程会持续1-2个星期。另外，我们一般也会给到一定的回报，金额在1500美金左右。
+> 我们发现准确判断一个人的工作能力的方式，是直接给到一个小型的测试项目或问题给到应聘者去完成。一般整个过程会持续 1-2 个星期。另外，我们一般也会给到一定的回报，金额在 1500 美金左右。
 >
 > 从事智力工作，激情是非常重要的源动力。如果达到兴奋的工作状态，往往一天就能完成一周的工作量。
 >
@@ -176,20 +211,16 @@ title: Quotes
 >
 > — Rework
 
-
-
 > 只有一条真理决定了一个软件程序员的成功还是失败。由于坚持这个真理，一个资深的程序员能在一天的时间里学会一门新的编程语言，而由于不坚持这条真理，一个初级的程序员用十年时间也只能挣到一份糊口的钱、永远是来实现别人的设计、永远不够优秀而得不到晋升的机会。这条真理让你看清了差的程序员和好的程序员的不同之处，好的程序员和伟大的程序员的不同之处，伟大的程序员和能通过自己的技术创造出一个亿万美元价值的程序帝国的超级程序员的不同之处。
 >
 > 不是什么复杂的道理，不是什么难懂的理论。不是具有什么天赋或“编程超能力“才能做到的事情。最终成为的是一个优秀的程序员还是一个很烂的程序员，这跟你的出身一点关系都没有。
-而真正的原因只有一个，唯一的一个：
+> 而真正的原因只有一个，唯一的一个：
 >
 > 对所做的事情的理解越深，你就会做的越好。
 >
 > 超级程序员跟那些平庸的、一般的程序员比起来，对自己要做的事情的理解要深的多的多。这就是原因。
 >
 > — [The Singular Secret of the Rockstar Programmer](http://www.codesimplicity.com/post/the-singular-secret-of-the-rockstar-programmer/)
-
-
 
 > 培养幽默感，以建立更强大的隐喻。
 >
@@ -203,11 +234,11 @@ title: Quotes
 >
 > 大脑不是软件，软件不会老化，不会退化。但是大脑必须刷新，必须使用，否则就会丢失记忆。
 >
-> R型在存储输入方面非常卖力，事实上可能你的每次经历，无论多么平淡乏味，都会被存储。但是它不一定被索引。当你努力解决一个问题时，R型进程会搜索你的所有记忆以寻找解决方案。
+> R 型在存储输入方面非常卖力，事实上可能你的每次经历，无论多么平淡乏味，都会被存储。但是它不一定被索引。当你努力解决一个问题时，R 型进程会搜索你的所有记忆以寻找解决方案。
 >
-> L型处理语言、分析、符号、抽象、时间、推理、数字、逻辑、现象思维。
+> L 型处理语言、分析、符号、抽象、时间、推理、数字、逻辑、现象思维。
 >
-> R型处理直觉、综合、想象。
+> R 型处理直觉、综合、想象。
 >
 > 积极的情感对学习和创造性思维非常关键。当你充满了消极情绪时，你的大脑就开始停止提供多余的资源。
 >
@@ -217,7 +248,7 @@ title: Quotes
 >
 > 养成一种收集思维鹅卵石的习惯，一旦有了积累，造墙的过程就会很容易。
 >
-> 你是否注意到伟大的想法或者领悟可能会在最出乎意料的时候降临？比如洗澡、刷盘子或其他一些枯燥、琐碎的工作时。这是因为L型有点厌倦了这种常规任务，走了神，这才让R型得以自由地展示自己地发现。
+> 你是否注意到伟大的想法或者领悟可能会在最出乎意料的时候降临？比如洗澡、刷盘子或其他一些枯燥、琐碎的工作时。这是因为 L 型有点厌倦了这种常规任务，走了神，这才让 R 型得以自由地展示自己地发现。
 >
 > 改变解决问题的角度（角色扮演）。
 >
@@ -225,7 +256,7 @@ title: Quotes
 >
 > 大脑不是一个用于填充的容器，而是一束需要点燃的火焰。这不是别人可以帮你做的，而是一件你必须自己做的事情。
 >
-> 建立SMART任务实现你的目标。
+> 建立 SMART 任务实现你的目标。
 >
 > 所有的知识投资都有价值。即使你从来不会在工作中使用某项技术，它也会影响你思考和解决问题的方式。
 >
@@ -233,7 +264,7 @@ title: Quotes
 >
 > 当你种菜时，如果菜长的不好，你不会怪责菜，你会寻找其他理由。菜可能需要更多的肥料或者水，或者少晒太阳，你决不会怪责菜。
 >
-> SQ3R主动学习法(Survy, Question, Read, Recite, Review)。
+> SQ3R 主动学习法(Survy, Question, Read, Recite, Review)。
 >
 > 使用思维导图做笔记。
 >
@@ -241,11 +272,11 @@ title: Quotes
 >
 > 把事物分成大脑足以容纳的几部分。
 >
-> L型模式的CPU有一种「空闲循环」程序，如果没有更紧迫的事情值得你去注意，闲置程序将会停留在一些低等级的困扰或紧急的问题上，而这会干扰R型的处理。
+> L 型模式的 CPU 有一种「空闲循环」程序，如果没有更紧迫的事情值得你去注意，闲置程序将会停留在一些低等级的困扰或紧急的问题上，而这会干扰 R 型的处理。
 >
-> 大部分冥想、瑜伽以及类似的练习都是为了这个相同的目标：缓和大脑里L型嘈杂的声音所带来的痛苦，生活在此刻，不要将你的精力不必要的分散，因为内心中喋喋不休的事情会击倒我们。
+> 大部分冥想、瑜伽以及类似的练习都是为了这个相同的目标：缓和大脑里 L 型嘈杂的声音所带来的痛苦，生活在此刻，不要将你的精力不必要的分散，因为内心中喋喋不休的事情会击倒我们。
 >
-> 使用wiki来管理信息和知识。
+> 使用 wiki 来管理信息和知识。
 >
 > 「不作为」是敌人，「错误」不是。
 >
@@ -263,11 +294,9 @@ title: Quotes
 >
 > — 程序员思维修炼
 
-
-
 > 以色列是这个世界上唯一一个这样的国家，在这个国家里每个权力人物 -- 包括总理和军队政要，都有一个所有人都可以叫的绰号。包括普通老百姓在内，谁都可以用绰号称呼他们。用米德维的话说，这就是以色列式的不拘礼节。
 >
-> 以色列在美国Nasdaq的上市公司数量仅次于美国 这个国家只有700万人口。
+> 以色列在美国 Nasdaq 的上市公司数量仅次于美国 这个国家只有 700 万人口。
 >
 > 绝大多数的当地投资者认为，如果不能包容相当数量的失败，真正的创新也就不可能实现。要区分"精心策划的实验和盲目的轮盘赌"之间的差别。
 >
@@ -281,9 +310,9 @@ title: Quotes
 >
 > 在以色列军队，当局放权给底层的力度之大常常让人惊讶，甚至连以色列的领导人有时也会为此大吃一惊。
 >
-> 当一个出租车司机能指挥百万富翁，23岁的年轻人训练自己的叔叔时，等级制度就自然消失了。预备役制度从本质上强化了这一点，反等级的理念在以色列随处可见，从作战室到教室再到董事会会议室，它无处不在。
+> 当一个出租车司机能指挥百万富翁，23 岁的年轻人训练自己的叔叔时，等级制度就自然消失了。预备役制度从本质上强化了这一点，反等级的理念在以色列随处可见，从作战室到教室再到董事会会议室，它无处不在。
 >
-> 阿莫斯曾经全职服务于以色列突击队5年之久，之后的25年他一直在预备役部队。"在这三十年的时间里，我从没向任何人行过致敬礼。我甚至不是一名军官，而只是一名普通的士兵。"
+> 阿莫斯曾经全职服务于以色列突击队 5 年之久，之后的 25 年他一直在预备役部队。"在这三十年的时间里，我从没向任何人行过致敬礼。我甚至不是一名军官，而只是一名普通的士兵。"
 >
 > 在这里一切都是以你的表现为导向而不是地位。
 >
@@ -291,7 +320,7 @@ title: Quotes
 >
 > 他必须成为一名出色的将军，从根本上说，那就是要人们发自内心地跟随他。
 >
-> 以色列45%的公民都接受了大学教育，这个比例在世界范围内都位列最高水平。
+> 以色列 45%的公民都接受了大学教育，这个比例在世界范围内都位列最高水平。
 >
 > 一个人在冒险之前应该先积累经验的道理根本不存在，虽然这在生意场上还真有点用处。过多的时间和经验只能教给你察觉现存或即将发生的问题，不会教你创新和改革的能力。
 >
@@ -302,6 +331,7 @@ title: Quotes
 > — 创业的国度
 
 ### 08/10/2015
+
 > another very important aspect of sleep relates to neural synaptic growth. when you learn something and you go to sleep, that's when the new synaptic connections are forming. when you are learning something new, you don't want to cram at the last minute, you want to have many short learning periods, sleep, that's helping you build that neural scaffold that helps you learn so much better.
 >
 > there's two ways to allow these new neurons to grow and survive. One is you get exposed to new environments. That's why travel can be so good. That's where your learning can be effective. the other way of helping these neurons to survive that's just as powerful as learning is simply to exercise. Even simple walking can be very very effective.
@@ -319,6 +349,7 @@ title: Quotes
 > — [Learning How to Learn](https://www.youtube.com/watch?v=vd2dtkMINIw)
 
 ### 08/09/2015
+
 > if you are only focusing, you are not making access or getting access to a lot of the different connections that are available for you. That's why going back and forth between modes can be so very important.
 >
 > Procrastination arises in a very interesting way. Studies have shown that if you look at something you don't like, the pain centers of your brain actually activate. So if you look at a book for a subject you don't like, you can actually feel a twinge, and we can see it in the brain. you have two different ways of handling it. The first way is you can work through it, like 20 minutes or so, and the pain will gradually disappear. But if you're like most people, what you'll do is you'll just kind of turn your attention away to something more pleasant, and guess what, you'll feel better immediately, right? so in some sense, procrastination can actually be a little bit like an addiction. you do it once, you do it twice, it's not that a big deal, you do it a lot of times, though, and it actually can be very very detrimental for your life.
@@ -330,22 +361,23 @@ title: Quotes
 > — [Learning How to Learn](https://www.youtube.com/watch?v=vd2dtkMINIw)
 
 ### 08/08/2015
+
 > Do things with impact. Work with great people. Be ambitious. Don't get lost in bureaucracy. Don't waste time. Travel a lot.
 >
 > — dustin curtis
-
-
 
 > Surround yourself with people who inspire you is as important as being talented or working hard
 >
 > — Drew Houston
 
 ### 07/27/2015
+
 > The noblest pleasure is the joy of understanding.
 >
 > — Da Vinci
 
 ### 07/17/2015
+
 > 应该在何时进行重构：重复、非正交的设计、过时的知识、性能。
 >
 > 除了是程序员，Andy Hunt 还是一位木匠和音乐家，而 Dave Thomas 则喜欢驾驶单引擎飞机。编程是一种技艺，一种需要用心学习的技艺。“Hacker: Someone who loves to program and enjoys being clever about it.”
@@ -370,16 +402,17 @@ title: Quotes
 >
 > 解开谜题的关键在于确定加给你的各种约束，并确定你确实拥有的自由度，要找到盒子。
 >
->  * 有更容易的方法么？
->  * 你是在设法解决真正的问题，还是被外围的技术问题转移了注意力？
->  * 这件事情为什么是一个问题？
->  * 它必须以这种方式完成吗？
+> - 有更容易的方法么？
+> - 你是在设法解决真正的问题，还是被外围的技术问题转移了注意力？
+> - 这件事情为什么是一个问题？
+> - 它必须以这种方式完成吗？
 >
 > 在你的作品上签名，过去时代的手艺人为能在他们的作品上签名而自豪。
 >
 > — 程序员修炼之道
 
 ### 06/16/2015
+
 > 我所做的每一件事都有赖于我们人类的其他成员，以及他们的贡献和成就。我们很多人都想回馈社会，在历史的长河中再添一笔。我们只能用这种大多数人都掌握的方式去表达——因为我们不会写鲍勃・迪伦的歌或汤姆・斯托帕德的戏剧。我们试图用我们仅有的天分去表达我们深层的感受，去表达我们对前人所有贡献的感激，去为历史长河加上一点儿什么。那就是推动我的力量。
 >
 > — 乔布斯传
@@ -409,6 +442,7 @@ title: Quotes
 > — 精力管理
 
 ### 05/31/2015
+
 > She took subjects that would be interesting to the children and integrated real mathematics, science and art together for her curriculum.
 >
 > They need to go through many of the same processes of discovery in order to make new ideas their own.
@@ -430,6 +464,7 @@ title: Quotes
 > Alan Kay - The Center of "Why?"
 
 ### 05/30/2015
+
 > Leonardo's practiced orientation, penetrating intelligence, curiosity and independent sprint led him to question much of the accepted theory and dogma of his time.
 >
 > In his studies of geology, Leonardo walked the hills of Lombardy and held fossils in his hands. when he wanted to learn anatomy, he dissected more than thirty human bodies and countless animal corpses.
@@ -474,7 +509,7 @@ title: Quotes
 
 > 伯克希尔历史上最严重的错误是坐失良机的错误。这样的错误可以分为两类：1. 什么也不做，沃伦称之为“吮吸我的大拇指”；2. 有些股票本来应该买很多，但是只买了一点。
 >
-> 当年几乎所有人都在试图修正麦克斯韦的电磁定律，以便它能够符合牛顿的三大运动定律，然而爱因斯坦却转了个180度大弯，修正了牛顿的定律，让其符合麦克斯韦的定律，结果他发现了相对论。
+> 当年几乎所有人都在试图修正麦克斯韦的电磁定律，以便它能够符合牛顿的三大运动定律，然而爱因斯坦却转了个 180 度大弯，修正了牛顿的定律，让其符合麦克斯韦的定律，结果他发现了相对论。
 >
 > 如果你们只是记得一些孤立的事物，试图把它们硬凑起来，那么你们无法真正地理解任何东西。如果这些事物不在一个理论框架中相互联系，你们就无法把它们派上用场。
 >
@@ -487,8 +522,6 @@ title: Quotes
 > “Money is like gasoline during a road trip. You don’t want to run out of gas on your trip, but you’re not doing a tour of gas stations.”
 >
 > — Tim O'Reilly
-
-
 
 > 我这辈子遇到的聪明人（来自各行各业的聪明人）没有不每天阅读的——没有，一个都没有。沃伦读书之多，我读书之多，可能会让你感到吃惊。我的孩子们都笑话我。他们觉得我是一本长了两条腿的书。”
 >
@@ -508,7 +541,7 @@ title: Quotes
 >
 > “迅速歼灭不该做的事情，接着对该做的事情发起熟练的、跨学科的攻击，然后，当合适的机会来临——只有当合适的机会来临——就采取果断的行动。”
 >
-> 他把击打区划分为77个棒球那么大的格子。只有当球落在他的“最佳”格子时，他才会挥棒，即使他有可能因此而三振出局，因为挥棒去打那些“最差”格子会大大降低他的成功率。
+> 他把击打区划分为 77 个棒球那么大的格子。只有当球落在他的“最佳”格子时，他才会挥棒，即使他有可能因此而三振出局，因为挥棒去打那些“最差”格子会大大降低他的成功率。
 >
 > 他经常思考的因素包括“转换”——比如热力学的定律跟经济学的定律有何相似之处（例如纸张和石油如何变成一份投递到门口的报纸），心理倾向和激励因素。
 >
@@ -552,13 +585,9 @@ title: Quotes
 >
 > — [Ed Catmull, Pixar: Keep Your Crises Small](https://www.youtube.com/watch?v=k2h2lvhzMDc)
 
-
-
 > In life, the best way to learn a skill, is to make a lot of pots.
 >
 > — [What's the best way to learn something](http://www.quora.com/Whats-the-best-way-to-learn-something/answer/Eric-Scott-13)
-
-
 
 > 1. Choose the concept you want to understand.
 > 2. Pretend you're teaching the idea to someone else.
@@ -573,70 +602,40 @@ title: Quotes
 >
 > — Puppet Master
 
-
-
 > make everything as simple as possible, but not simpler.
 >
 > — Albert Einstein
-
-
 
 > know exactly what you want.
 >
 > — [Steve Pavlina](http://www.stevepavlina.com/articles/do-it-now.htm)
 
-
-
 > 许多事情，不是因为难以做到才让人们失去信心，而是人们失去了信心，事情才变得难以做到
 
-
-
 > 我们觉得不快乐，是因为往往我们追求的不是“幸福”，而是“比别人幸福”
-
-
 
 > 每个人从出生开始就呆在自己挖的一个洞穴里，我们所见的世界只不过是被阳光抛到洞穴墙壁上的影像，而我们这些洞穴的居民却把它当作是真实的世界，因为我们没有见到过其他的东西。而真实的世界却是在洞穴之外，在有太阳的地方
 >
 > — 柏拉图 洞穴理论
 
-
-
 > 大多数人误以为领袖就是那些「有很多追随者的人」，但真实世界的领袖根本不是那样，他们是一群坚持走自己的路，根本不理会後面有没有人跟随，甚至连头都懒得回的人。
 >
 > — John Holt
 
-
-
 > 在一个广场上，人挤人，你不知道方向在哪里，但如果你站得高一点，看得远一点，就知道周遭的种种拥挤对你来说其实毫无意义。
-
-
 
 > 一个人生命中最大的幸运，莫过于在他的人生中途，即在他年富力强的时候发现了自己的使命。
 >
 > — 斯蒂芬.茨威格
 
-
-
 > 不尝试着做些能力之外的事情，就永远无法成长。
-
-
 
 > 一些人会按你说的做，但更多人都会按你做的做。
 
-
-
 > 编程的乐趣：创造事物的乐趣；开发对他人有用的东西的快乐；将可以活动、相互啮合的零部件组装成类似迷宫的东西，这个过程体现出的令人神魂颠倒的魅力；面对不重复的任务，不断学习的乐趣；工作在如此易于驾驭的介质——纯粹的思维活动上的乐趣。
-
-
 
 > 如果你想要造一艘船，先不要雇人去收集木头，也不要分配任务，而是去激发他们对海洋的渴望。
 
-
-
 > 对所做的事理解越深，就会做得越好。
 
-
-
 > 上士闻道，勤能习之；中士闻道，若存若亡；下士闻道，大笑之。
-
-
