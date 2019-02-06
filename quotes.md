@@ -3,6 +3,12 @@ layout: post
 title: Quotes
 ---
 
+### 02/06/2019
+
+> We thought of life by analogy with a journey, a pilgrimage, which had a serious purpose at the end, and the thing was to get to that end, success or whatever it is, maybe heaven after you’re dead. But we missed the point the whole way along. It was a musical thing and you were supposed to sing or to dance while the music was being played.
+>
+> -- Alan Watts
+
 ### 12/18/2018
 
 > In programming, as in many fields, the hard part isn't solving problems, but deciding what problems to solve. Imagination is hard to measure, but in practice it dominates the kind of productivity that's measured in lines of code.
