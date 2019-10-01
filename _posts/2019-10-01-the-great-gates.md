@@ -11,27 +11,27 @@ tags: 随笔
 
 > His dream must have seemed so close that he could hardly fail to grasp it. He did not know that it was already behind him.
 
-![](/image/bill/bill-3-13-0004.png)
+![](/image/bill/bill-3-13-0004.jpg)
 
 影片中主要提到了盖茨在做的三件事：给非洲国家造厕所、消灭脊髓灰质炎（小儿麻痹症）、新能源（核能），每一件都困难重重，但对他来说又非常重要。
 
 ### 给非洲国家造厕所
 
-![](/image/bill/bill-1-1-0001.png)
+![](/image/bill/bill-1-1-0001.jpg)
 
 众所周知，盖茨喜欢看书，有一天他看到一篇文章里提到「在第三世界，水依旧是致命的」，这些水会让很多孩子死去。因为污水被混进了生活用水里（他们无法忍受使用坑式厕所因为气味难闻，经常溢出，没有下水系统，于是选择随地排便），而孩子们可能在这些水里玩耍，部分水甚至会被用来饮用。于是他就开始思考全球健康问题，以及能做些什么。最直接的方式就是铺设一套下水系统，但这个成本太大，而且需要很多能源和水源，可行性较低。他就开始思索重新设计厕所和污水处理系统，而解决方案也很简单：提出一项竞赛，发明一种厕所，可以在没有水、电力或化粪池的情况下让厕所能够运转。这个周期会比较长，他又请人帮他发明一种新的处理厂，不会浪费水，也不会消耗很多能源。18 个月后这个机器被造出来了，但要在非洲国家正常运行难度不小，需要规模化生产以及维护人员等。
 
-![](/image/bill/bill-1-13-0007.png)
+![](/image/bill/bill-1-13-0007.jpg)
 
-![](/image/bill/bill-1-2-0002.png)
+![](/image/bill/bill-1-2-0002.jpg)
 
-![](/image/bill/bill-1-2-0003.png)
+![](/image/bill/bill-1-2-0003.jpg)
 
-![](/image/bill/bill-1-12-0004.png)
+![](/image/bill/bill-1-12-0004.jpg)
 
-![](/image/bill/bill-1-12-0005.png)
+![](/image/bill/bill-1-12-0005.jpg)
 
-![](/image/bill/bill-1-12-0006.png)
+![](/image/bill/bill-1-12-0006.jpg)
 
 有一段主持人问他：你最难过的是哪一天？盖茨说：妈妈去世的那天。他从小就喜欢看书，又极其聪明，父母也提供了非常好的成长环境，跟巴菲特的第一次会面也是母亲促成的，虽然盖茨声称 90 分钟后要回来写软件，但跟巴菲特一聊就是好几个小时。
 
@@ -55,19 +55,19 @@ tags: 随笔
 
 > 我的一个关键优势是我的狂热，我会全力以赴，不分昼夜，完全专注于如何写出好的软件。我喜欢狂热，我很享受，我不相信什么周末，我不相信度假。
 
-![](/image/bill/bill-2-1-0008.png)
+![](/image/bill/bill-2-1-0008.jpg)
 
-![](/image/bill/bill-2-1-0009.png)
+![](/image/bill/bill-2-1-0009.jpg)
 
-![](/image/bill/bill-2-2-0011.png)
+![](/image/bill/bill-2-2-0011.jpg)
 
-![](/image/bill/bill-2-2-0012.png)
+![](/image/bill/bill-2-2-0012.jpg)
 
-![](/image/bill/bill-2-2-0013.png)
+![](/image/bill/bill-2-2-0013.jpg)
 
-![](/image/bill/bill-2-2-0014.png)
+![](/image/bill/bill-2-2-0014.jpg)
 
-![](/image/bill/bill-2-2-0015.png)
+![](/image/bill/bill-2-2-0015.jpg)
 
 这一集里也提到了盖茨的小伙伴们，上学时玩得最好的，到现在还能记得他家电话号码的小伙伴肯特，在一次登山中意外身亡；跟保罗一起经历微软的初创阶段，没日没夜地编程。可惜后来跟保罗之间出现了矛盾，直到保罗生命的尽头才算解开。
 
@@ -84,11 +84,11 @@ tags: 随笔
 
 > 我觉得，比尔有种感觉，觉得自己不年轻了，今后的时间不多了，也许是子女去上学了，也许是朋友病倒了，越来越意识到来日无多了。
 
-![](/image/bill/bill-3-13-0001.png)
+![](/image/bill/bill-3-13-0001.jpg)
 
-![](/image/bill/bill-3-13-0002.png)
+![](/image/bill/bill-3-13-0002.jpg)
 
-![](/image/bill/bill-3-13-0003.png)
+![](/image/bill/bill-3-13-0003.jpg)
 
 这一集里还提到，他被垄断案搞得焦头烂额，好在最终被证明是清白的。
 
